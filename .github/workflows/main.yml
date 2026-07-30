@@ -1,0 +1,104 @@
+name: Publication quotidienne
+
+on:
+  schedule:
+    - cron: "0 5 * * *"
+  workflow_dispatch:
+    inputs:
+      nombre:
+        description: "Nombre d'articles à publier"
+        required: false
+        default: "1"
+      mode:
+        description: "Mode de rédaction : api ou local"
+        required: false
+        default: "local"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: publication
+  cancel-in-progress: false
+
+jobs:
+  publier:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Récupérer le dépôt
+        uses: actions/checkout@v4
+
+      - name: Déballer le projet si un ZIP est présent
+        run: |
+          if ls *.zip >/dev/null 2>&1; then
+            echo "ZIP détecté, déballage du projet..."
+            unzip -o -q *.zip
+            if [ -d coiffeuse-pro ]; then
+              shopt -s dotglob
+              mv coiffeuse-pro/* .
+              rmdir coiffeuse-pro
+              shopt -u dotglob
+            fi
+            rm -f *.zip
+            echo "Projet déballé."
+          fi
+          if [ ! -f publier.py ]; then
+            echo "::error::publier.py introuvable."
+            exit 1
+          fi
+
+      - name: Installer Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Déterminer l'adresse du site
+        run: |
+          if [ -n "${{ vars.SITE_URL }}" ]; then
+            echo "SITE_URL=${{ vars.SITE_URL }}" >> "$GITHUB_ENV"
+          else
+            echo "SITE_URL=https://${{ github.repository_owner }}.github.io/${GITHUB_REPOSITORY#*/}" >> "$GITHUB_ENV"
+          fi
+
+      - name: Rédiger l'article du jour et reconstruire le site
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          AMAZON_TAG: ${{ secrets.AMAZON_TAG }}
+          MODE_REDACTION: ${{ github.event.inputs.mode || 'api' }}
+        run: |
+          echo "Site : $SITE_URL"
+          python publier.py --nombre "${{ github.event.inputs.nombre || 1 }}"
+          python publier.py --verifier
+
+      - name: Enregistrer le projet et le nouvel article
+        run: |
+          git config user.name  "Publication automatique"
+          git config user.email "actions@github.com"
+          git add -A
+          if git diff --staged --quiet; then
+            echo "Rien de nouveau à enregistrer."
+          else
+            git commit -m "Publication du $(date +%Y-%m-%d)"
+            git push
+          fi
+
+      - name: Préparer le déploiement Pages
+        uses: actions/configure-pages@v5
+
+      - name: Téléverser le site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deployer:
+    needs: publier
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploiement.outputs.page_url }}
+    steps:
+      - name: Mettre en ligne
+        id: deploiement
+        uses: actions/deploy-pages@v4
