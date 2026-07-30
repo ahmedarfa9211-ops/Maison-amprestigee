@@ -89,8 +89,14 @@
       "slug": "coiffeuse-avec-rangement",
       "date": "2026-07-30",
       "mots": 3176
+    },
+    {
+      "id": "monter-coiffeuse",
+      "slug": "monter-une-coiffeuse",
+      "date": "2026-07-30",
+      "mots": 3311
     }
   ],
-  "compteur": 15,
+  "compteur": 16,
   "derniere_publication": "2026-07-30"
 }
