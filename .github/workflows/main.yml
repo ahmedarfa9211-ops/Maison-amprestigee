@@ -34,12 +34,10 @@ jobs:
         run: |
           if ls *.zip >/dev/null 2>&1; then
             echo "ZIP détecté, déballage du projet..."
-            unzip -o -q *.zip
+            unzip -o -q *.zip -x 'coiffeuse-pro/.github/*'
             if [ -d coiffeuse-pro ]; then
-              shopt -s dotglob
-              mv coiffeuse-pro/* .
-              rmdir coiffeuse-pro
-              shopt -u dotglob
+              cp -R coiffeuse-pro/. .
+              rm -rf coiffeuse-pro
             fi
             rm -f *.zip
             echo "Projet déballé."
