@@ -1,0 +1,52 @@
+{
+  "site": {
+    "nom": "Maison AMPrestige",
+    "slogan": "L'art de choisir sa coiffeuse",
+    "url": "https://maisonamprestige.fr",
+    "langue": "fr-FR",
+    "auteur": "La rédaction Maison AMPrestige",
+    "email_contact": "contact@maisonamprestige.fr",
+    "description": "Comparatifs, guides d'achat et conseils d'experts pour choisir sa coiffeuse : dimensions, éclairage, rangement, styles et montage.",
+    "couleur_principale": "#3D2E33",
+    "couleur_secondaire": "#F7F1EA",
+    "couleur_accent": "#B48A5E"
+  },
+  "affiliation": {
+    "tag": "VOTRE-TAG-21",
+    "domaine": "www.amazon.fr",
+    "texte_cta": "Voir le prix sur Amazon",
+    "mention_courte": "Liens affiliés — en tant que Partenaire Amazon, je réalise un bénéfice sur les achats remplissant les conditions requises.",
+    "mention_longue": "Ce site participe au Programme Partenaires d'Amazon EU, un programme d'affiliation conçu pour permettre à des sites de percevoir une rémunération grâce à la création de liens vers Amazon.fr. En tant que Partenaire Amazon, je réalise un bénéfice sur les achats remplissant les conditions requises. Cela n'entraîne aucun surcoût pour vous et n'influence pas nos recommandations.",
+    "afficher_prix": false,
+    "_note_prix": "Laisser sur false : le contrat Amazon interdit d'afficher un prix qui ne provient pas de la Product Advertising API. Le système affiche donc toujours 'Voir le prix sur Amazon'."
+  },
+  "publication": {
+    "articles_par_jour": 1,
+    "objectif_mots": 2500,
+    "minimum_mots": 2400,
+    "fuseau_horaire": "Europe/Paris",
+    "heure_publication": "07:00",
+    "articles_lies": 4,
+    "produits_par_comparatif": 6
+  },
+  "redaction": {
+    "mode": "api",
+    "_modes_disponibles": [
+      "api",
+      "local"
+    ],
+    "modele": "claude-sonnet-4-6",
+    "temperature": 1.0,
+    "max_tokens": 16000,
+    "_note": "mode 'api' = rédaction unique par Claude (nécessite ANTHROPIC_API_KEY). mode 'local' = assemblage sans API, gratuit, utile pour tester ou dépanner."
+  },
+  "seo": {
+    "longueur_max_titre": 60,
+    "longueur_max_meta": 155,
+    "indexation": false,
+    "generer_sitemap": true,
+    "generer_rss": true,
+    "donnees_structurees": true,
+    "_note_indexation": "false pendant la phase de pré-lancement : le site est en ligne et consultable, mais invisible pour Google. Repasser à true le jour où le nom de domaine définitif est branché."
+  }
+}

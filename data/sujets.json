@@ -1,0 +1,803 @@
+{
+  "_mode_emploi": [
+    "Ce fichier alimente le calendrier éditorial. 'prioritaires' passe en premier, dans l'ordre.",
+    "Quand la liste prioritaire est épuisée, le moteur combine automatiquement axes x formats pour produire des centaines de sujets uniques supplémentaires.",
+    "Pour imposer un sujet un jour précis : python publier.py --sujet <id>"
+  ],
+  "categories": {
+    "comparatifs": "Comparatifs",
+    "guides-achat": "Guides d'achat",
+    "guides-complets": "Guides complets",
+    "amenagement": "Aménagement & déco",
+    "entretien": "Montage & entretien",
+    "questions": "Questions fréquentes"
+  },
+  "prioritaires": [
+    {
+      "id": "meilleure-coiffeuse",
+      "titre": "Meilleure coiffeuse : le comparatif complet",
+      "mot_cle": "meilleure coiffeuse",
+      "secondaires": [
+        "comparatif coiffeuse",
+        "quelle coiffeuse choisir",
+        "top coiffeuse"
+      ],
+      "type": "comparatif",
+      "categorie": "comparatifs",
+      "intention": "commerciale",
+      "filtres": [
+        "coiffeuse-complete"
+      ]
+    },
+    {
+      "id": "coiffeuse-avec-miroir",
+      "titre": "Coiffeuse avec miroir : comment bien choisir",
+      "mot_cle": "coiffeuse avec miroir",
+      "secondaires": [
+        "coiffeuse miroir intégré",
+        "table de maquillage avec miroir"
+      ],
+      "type": "guide-achat",
+      "categorie": "guides-achat",
+      "intention": "commerciale",
+      "filtres": [
+        "miroir"
+      ]
+    },
+    {
+      "id": "coiffeuse-led",
+      "titre": "Coiffeuse avec miroir LED : le comparatif",
+      "mot_cle": "coiffeuse LED",
+      "secondaires": [
+        "coiffeuse miroir lumineux",
+        "coiffeuse ampoules",
+        "coiffeuse éclairée"
+      ],
+      "type": "comparatif",
+      "categorie": "comparatifs",
+      "intention": "commerciale",
+      "filtres": [
+        "led"
+      ]
+    },
+    {
+      "id": "coiffeuse-pas-cher",
+      "titre": "Coiffeuse pas chère : les meilleurs modèles petit budget",
+      "mot_cle": "coiffeuse pas cher",
+      "secondaires": [
+        "coiffeuse petit prix",
+        "coiffeuse économique"
+      ],
+      "type": "comparatif",
+      "categorie": "comparatifs",
+      "intention": "transactionnelle",
+      "filtres": [
+        "budget"
+      ]
+    },
+    {
+      "id": "coiffeuse-petit-espace",
+      "titre": "Coiffeuse pour petit espace : les solutions qui marchent",
+      "mot_cle": "coiffeuse petit espace",
+      "secondaires": [
+        "coiffeuse gain de place",
+        "coiffeuse studio",
+        "petite coiffeuse"
+      ],
+      "type": "guide-complet",
+      "categorie": "guides-complets",
+      "intention": "commerciale",
+      "filtres": [
+        "petit-espace"
+      ]
+    },
+    {
+      "id": "coiffeuse-blanche",
+      "titre": "Coiffeuse blanche : le guide d'achat",
+      "mot_cle": "coiffeuse blanche",
+      "secondaires": [
+        "coiffeuse blanc laqué",
+        "coiffeuse blanche moderne"
+      ],
+      "type": "guide-achat",
+      "categorie": "guides-achat",
+      "intention": "commerciale",
+      "filtres": [
+        "blanc"
+      ]
+    },
+    {
+      "id": "coiffeuse-bois",
+      "titre": "Coiffeuse en bois : styles, essences et modèles",
+      "mot_cle": "coiffeuse bois",
+      "secondaires": [
+        "coiffeuse bois massif",
+        "coiffeuse chêne",
+        "coiffeuse scandinave"
+      ],
+      "type": "guide-achat",
+      "categorie": "guides-achat",
+      "intention": "commerciale",
+      "filtres": [
+        "bois"
+      ]
+    },
+    {
+      "id": "coiffeuse-angle",
+      "titre": "Coiffeuse d'angle : exploiter le coin perdu de la chambre",
+      "mot_cle": "coiffeuse d'angle",
+      "secondaires": [
+        "coiffeuse angle petite chambre",
+        "meuble maquillage angle"
+      ],
+      "type": "guide-complet",
+      "categorie": "guides-complets",
+      "intention": "commerciale",
+      "filtres": [
+        "angle"
+      ]
+    },
+    {
+      "id": "coiffeuse-ado",
+      "titre": "Coiffeuse pour ado : bien choisir sans se tromper",
+      "mot_cle": "coiffeuse ado",
+      "secondaires": [
+        "coiffeuse adolescente",
+        "coiffeuse chambre fille"
+      ],
+      "type": "guide-achat",
+      "categorie": "guides-achat",
+      "intention": "commerciale",
+      "filtres": [
+        "ado"
+      ]
+    },
+    {
+      "id": "coiffeuse-hauteur-dimensions",
+      "titre": "Dimensions d'une coiffeuse : hauteur, largeur et profondeur idéales",
+      "mot_cle": "dimensions coiffeuse",
+      "secondaires": [
+        "hauteur coiffeuse",
+        "taille coiffeuse standard",
+        "profondeur coiffeuse"
+      ],
+      "type": "guide-complet",
+      "categorie": "guides-complets",
+      "intention": "informationnelle",
+      "filtres": []
+    },
+    {
+      "id": "coiffeuse-murale",
+      "titre": "Coiffeuse murale et rabattable : le gain de place ultime",
+      "mot_cle": "coiffeuse murale",
+      "secondaires": [
+        "coiffeuse rabattable",
+        "coiffeuse suspendue"
+      ],
+      "type": "guide-complet",
+      "categorie": "guides-complets",
+      "intention": "commerciale",
+      "filtres": [
+        "murale"
+      ]
+    },
+    {
+      "id": "coiffeuse-ou-bureau",
+      "titre": "Coiffeuse ou bureau : quel meuble choisir pour se maquiller",
+      "mot_cle": "coiffeuse ou bureau",
+      "secondaires": [
+        "coiffeuse bureau 2 en 1",
+        "différence coiffeuse bureau"
+      ],
+      "type": "comparatif",
+      "categorie": "comparatifs",
+      "intention": "informationnelle",
+      "filtres": [
+        "bureau",
+        "2en1"
+      ]
+    },
+    {
+      "id": "eclairage-coiffeuse",
+      "titre": "Éclairage de coiffeuse : la lumière qui ne trahit pas le maquillage",
+      "mot_cle": "éclairage coiffeuse",
+      "secondaires": [
+        "lumière maquillage",
+        "ampoule miroir maquillage",
+        "température couleur maquillage"
+      ],
+      "type": "guide-complet",
+      "categorie": "guides-complets",
+      "intention": "informationnelle",
+      "filtres": [
+        "led",
+        "miroir"
+      ]
+    },
+    {
+      "id": "coiffeuse-noire",
+      "titre": "Coiffeuse noire : le guide pour l'intégrer sans assombrir la pièce",
+      "mot_cle": "coiffeuse noire",
+      "secondaires": [
+        "coiffeuse noir mat",
+        "coiffeuse industrielle"
+      ],
+      "type": "guide-achat",
+      "categorie": "guides-achat",
+      "intention": "commerciale",
+      "filtres": [
+        "noir"
+      ]
+    },
+    {
+      "id": "coiffeuse-rangement",
+      "titre": "Coiffeuse avec rangement : tiroirs, colonnes et organiseurs",
+      "mot_cle": "coiffeuse avec rangement",
+      "secondaires": [
+        "coiffeuse tiroirs",
+        "rangement maquillage coiffeuse"
+      ],
+      "type": "guide-achat",
+      "categorie": "guides-achat",
+      "intention": "commerciale",
+      "filtres": [
+        "tiroirs",
+        "grand-rangement"
+      ]
+    },
+    {
+      "id": "monter-coiffeuse",
+      "titre": "Monter une coiffeuse : le guide pas à pas sans se tromper",
+      "mot_cle": "monter une coiffeuse",
+      "secondaires": [
+        "montage coiffeuse",
+        "assembler coiffeuse",
+        "notice coiffeuse"
+      ],
+      "type": "guide-complet",
+      "categorie": "entretien",
+      "intention": "informationnelle",
+      "filtres": []
+    },
+    {
+      "id": "amenager-coin-maquillage",
+      "titre": "Aménager un coin maquillage : la méthode complète",
+      "mot_cle": "coin maquillage",
+      "secondaires": [
+        "espace maquillage chambre",
+        "aménager coiffeuse"
+      ],
+      "type": "guide-complet",
+      "categorie": "amenagement",
+      "intention": "informationnelle",
+      "filtres": []
+    },
+    {
+      "id": "coiffeuse-scandinave",
+      "titre": "Coiffeuse scandinave : le style qui traverse les modes",
+      "mot_cle": "coiffeuse scandinave",
+      "secondaires": [
+        "coiffeuse nordique",
+        "coiffeuse bois clair"
+      ],
+      "type": "guide-achat",
+      "categorie": "guides-achat",
+      "intention": "commerciale",
+      "filtres": [
+        "scandinave"
+      ]
+    },
+    {
+      "id": "coiffeuse-vintage",
+      "titre": "Coiffeuse vintage : chiner, restaurer ou acheter neuf",
+      "mot_cle": "coiffeuse vintage",
+      "secondaires": [
+        "coiffeuse ancienne",
+        "coiffeuse rétro",
+        "coiffeuse années 50"
+      ],
+      "type": "guide-complet",
+      "categorie": "guides-complets",
+      "intention": "informationnelle",
+      "filtres": [
+        "vintage",
+        "classique"
+      ]
+    },
+    {
+      "id": "tabouret-coiffeuse",
+      "titre": "Tabouret de coiffeuse : hauteur, confort et modèles",
+      "mot_cle": "tabouret coiffeuse",
+      "secondaires": [
+        "chaise coiffeuse",
+        "pouf coiffeuse",
+        "hauteur tabouret coiffeuse"
+      ],
+      "type": "guide-achat",
+      "categorie": "guides-achat",
+      "intention": "commerciale",
+      "filtres": [
+        "tabouret"
+      ]
+    },
+    {
+      "id": "miroir-coiffeuse",
+      "titre": "Miroir de coiffeuse : taille, forme et éclairage",
+      "mot_cle": "miroir coiffeuse",
+      "secondaires": [
+        "miroir maquillage",
+        "miroir lumineux",
+        "miroir grossissant"
+      ],
+      "type": "guide-achat",
+      "categorie": "guides-achat",
+      "intention": "commerciale",
+      "filtres": [
+        "miroir",
+        "led"
+      ]
+    },
+    {
+      "id": "coiffeuse-chambre-adulte",
+      "titre": "Coiffeuse pour chambre adulte : intégration et choix",
+      "mot_cle": "coiffeuse chambre adulte",
+      "secondaires": [
+        "coiffeuse chambre",
+        "meuble maquillage chambre"
+      ],
+      "type": "guide-complet",
+      "categorie": "amenagement",
+      "intention": "commerciale",
+      "filtres": [
+        "coiffeuse-complete"
+      ]
+    },
+    {
+      "id": "coiffeuse-glamour-hollywood",
+      "titre": "Coiffeuse style Hollywood : le poste de maquillage des pros",
+      "mot_cle": "coiffeuse hollywood",
+      "secondaires": [
+        "coiffeuse ampoules hollywood",
+        "coiffeuse glamour",
+        "coiffeuse youtubeuse"
+      ],
+      "type": "guide-achat",
+      "categorie": "guides-achat",
+      "intention": "commerciale",
+      "filtres": [
+        "hollywood",
+        "glamour"
+      ]
+    },
+    {
+      "id": "entretenir-coiffeuse",
+      "titre": "Entretenir sa coiffeuse : nettoyage, taches et durée de vie",
+      "mot_cle": "entretien coiffeuse",
+      "secondaires": [
+        "nettoyer coiffeuse",
+        "tache fond de teint meuble",
+        "rayure meuble laqué"
+      ],
+      "type": "guide-complet",
+      "categorie": "entretien",
+      "intention": "informationnelle",
+      "filtres": []
+    },
+    {
+      "id": "coiffeuse-2-en-1",
+      "titre": "Coiffeuse 2 en 1 : miroir relevable et double usage",
+      "mot_cle": "coiffeuse 2 en 1",
+      "secondaires": [
+        "coiffeuse miroir relevable",
+        "coiffeuse bureau"
+      ],
+      "type": "comparatif",
+      "categorie": "comparatifs",
+      "intention": "commerciale",
+      "filtres": [
+        "2en1",
+        "relevable"
+      ]
+    },
+    {
+      "id": "coiffeuse-velours",
+      "titre": "Coiffeuse et tabouret en velours : le duo glamour",
+      "mot_cle": "coiffeuse velours",
+      "secondaires": [
+        "tabouret velours",
+        "coiffeuse capitonnée"
+      ],
+      "type": "guide-achat",
+      "categorie": "guides-achat",
+      "intention": "commerciale",
+      "filtres": [
+        "velours"
+      ]
+    },
+    {
+      "id": "coiffeuse-enfant",
+      "titre": "Coiffeuse pour enfant : sécurité, hauteur et modèles",
+      "mot_cle": "coiffeuse enfant",
+      "secondaires": [
+        "coiffeuse petite fille",
+        "coiffeuse jouet bois"
+      ],
+      "type": "guide-achat",
+      "categorie": "guides-achat",
+      "intention": "commerciale",
+      "filtres": [
+        "enfant"
+      ]
+    },
+    {
+      "id": "erreurs-achat-coiffeuse",
+      "titre": "Les 10 erreurs à éviter en achetant une coiffeuse",
+      "mot_cle": "erreurs achat coiffeuse",
+      "secondaires": [
+        "mal choisir coiffeuse",
+        "regret achat coiffeuse"
+      ],
+      "type": "guide-complet",
+      "categorie": "guides-complets",
+      "intention": "informationnelle",
+      "filtres": []
+    },
+    {
+      "id": "coiffeuse-organisation-maquillage",
+      "titre": "Organiser son maquillage sur une coiffeuse : la méthode",
+      "mot_cle": "organiser maquillage coiffeuse",
+      "secondaires": [
+        "rangement maquillage",
+        "organiseur maquillage"
+      ],
+      "type": "guide-complet",
+      "categorie": "amenagement",
+      "intention": "informationnelle",
+      "filtres": [
+        "rangement",
+        "organiseur"
+      ]
+    },
+    {
+      "id": "coiffeuse-verre-dore",
+      "titre": "Coiffeuse en verre et métal doré : le style art déco",
+      "mot_cle": "coiffeuse verre",
+      "secondaires": [
+        "coiffeuse dorée",
+        "coiffeuse art déco",
+        "coiffeuse design"
+      ],
+      "type": "guide-achat",
+      "categorie": "guides-achat",
+      "intention": "commerciale",
+      "filtres": [
+        "verre",
+        "dore"
+      ]
+    }
+  ],
+  "axes": {
+    "attributs": [
+      {
+        "cle": "avec miroir LED",
+        "slug": "miroir-led",
+        "filtres": [
+          "led"
+        ]
+      },
+      {
+        "cle": "blanche",
+        "slug": "blanche",
+        "filtres": [
+          "blanc"
+        ]
+      },
+      {
+        "cle": "en bois",
+        "slug": "bois",
+        "filtres": [
+          "bois"
+        ]
+      },
+      {
+        "cle": "noire",
+        "slug": "noire",
+        "filtres": [
+          "noir"
+        ]
+      },
+      {
+        "cle": "rose",
+        "slug": "rose",
+        "filtres": [
+          "rose"
+        ]
+      },
+      {
+        "cle": "grise",
+        "slug": "grise",
+        "filtres": [
+          "gris"
+        ]
+      },
+      {
+        "cle": "d'angle",
+        "slug": "angle",
+        "filtres": [
+          "angle"
+        ]
+      },
+      {
+        "cle": "murale",
+        "slug": "murale",
+        "filtres": [
+          "murale"
+        ]
+      },
+      {
+        "cle": "avec tiroirs",
+        "slug": "tiroirs",
+        "filtres": [
+          "tiroirs"
+        ]
+      },
+      {
+        "cle": "avec tabouret",
+        "slug": "tabouret",
+        "filtres": [
+          "tabouret"
+        ]
+      },
+      {
+        "cle": "pas chère",
+        "slug": "pas-chere",
+        "filtres": [
+          "budget"
+        ]
+      },
+      {
+        "cle": "haut de gamme",
+        "slug": "haut-de-gamme",
+        "filtres": [
+          "premium"
+        ]
+      },
+      {
+        "cle": "compacte",
+        "slug": "compacte",
+        "filtres": [
+          "petit-espace"
+        ]
+      },
+      {
+        "cle": "scandinave",
+        "slug": "scandinave",
+        "filtres": [
+          "scandinave"
+        ]
+      },
+      {
+        "cle": "industrielle",
+        "slug": "industrielle",
+        "filtres": [
+          "industriel"
+        ]
+      },
+      {
+        "cle": "vintage",
+        "slug": "vintage",
+        "filtres": [
+          "vintage"
+        ]
+      },
+      {
+        "cle": "glamour",
+        "slug": "glamour",
+        "filtres": [
+          "glamour"
+        ]
+      },
+      {
+        "cle": "moderne",
+        "slug": "moderne",
+        "filtres": [
+          "moderne"
+        ]
+      },
+      {
+        "cle": "en velours",
+        "slug": "velours",
+        "filtres": [
+          "velours"
+        ]
+      },
+      {
+        "cle": "avec grand miroir",
+        "slug": "grand-miroir",
+        "filtres": [
+          "grand-miroir"
+        ]
+      },
+      {
+        "cle": "à miroir relevable",
+        "slug": "miroir-relevable",
+        "filtres": [
+          "relevable"
+        ]
+      },
+      {
+        "cle": "avec penderie",
+        "slug": "penderie",
+        "filtres": [
+          "penderie"
+        ]
+      },
+      {
+        "cle": "étroite",
+        "slug": "etroite",
+        "filtres": [
+          "etroite"
+        ]
+      },
+      {
+        "cle": "design",
+        "slug": "design",
+        "filtres": [
+          "design"
+        ]
+      }
+    ],
+    "contextes": [
+      {
+        "cle": "pour petite chambre",
+        "slug": "petite-chambre",
+        "filtres": [
+          "petit-espace"
+        ]
+      },
+      {
+        "cle": "pour studio",
+        "slug": "studio",
+        "filtres": [
+          "petit-espace"
+        ]
+      },
+      {
+        "cle": "pour ado",
+        "slug": "ado",
+        "filtres": [
+          "ado"
+        ]
+      },
+      {
+        "cle": "pour enfant",
+        "slug": "enfant",
+        "filtres": [
+          "enfant"
+        ]
+      },
+      {
+        "cle": "pour grande chambre",
+        "slug": "grande-chambre",
+        "filtres": [
+          "premium"
+        ]
+      },
+      {
+        "cle": "pour salle de bain",
+        "slug": "salle-de-bain",
+        "filtres": []
+      },
+      {
+        "cle": "pour dressing",
+        "slug": "dressing",
+        "filtres": [
+          "penderie"
+        ]
+      },
+      {
+        "cle": "pour maquillage professionnel",
+        "slug": "pro",
+        "filtres": [
+          "professionnel",
+          "hollywood"
+        ]
+      },
+      {
+        "cle": "pour créatrice de contenu",
+        "slug": "creatrice",
+        "filtres": [
+          "led",
+          "hollywood"
+        ]
+      },
+      {
+        "cle": "pour location meublée",
+        "slug": "location",
+        "filtres": [
+          "budget"
+        ]
+      },
+      {
+        "cle": "pour chambre d'amis",
+        "slug": "chambre-amis",
+        "filtres": [
+          "2en1"
+        ]
+      },
+      {
+        "cle": "pour petit budget",
+        "slug": "petit-budget",
+        "filtres": [
+          "budget"
+        ]
+      }
+    ],
+    "formats": [
+      {
+        "prefixe": "Comparatif",
+        "gabarit": "{attribut} : le comparatif {annee}",
+        "type": "comparatif",
+        "categorie": "comparatifs",
+        "intention": "commerciale"
+      },
+      {
+        "prefixe": "Guide d'achat",
+        "gabarit": "Guide d'achat : {attribut}",
+        "type": "guide-achat",
+        "categorie": "guides-achat",
+        "intention": "commerciale"
+      },
+      {
+        "prefixe": "Top",
+        "gabarit": "Top des coiffeuses {attribut}",
+        "type": "comparatif",
+        "categorie": "comparatifs",
+        "intention": "transactionnelle"
+      },
+      {
+        "prefixe": "Guide complet",
+        "gabarit": "Tout savoir sur la coiffeuse {attribut}",
+        "type": "guide-complet",
+        "categorie": "guides-complets",
+        "intention": "informationnelle"
+      },
+      {
+        "prefixe": "Choisir",
+        "gabarit": "Comment choisir une coiffeuse {attribut}",
+        "type": "guide-achat",
+        "categorie": "guides-achat",
+        "intention": "commerciale"
+      },
+      {
+        "prefixe": "Aménagement",
+        "gabarit": "Intégrer une coiffeuse {attribut} dans sa décoration",
+        "type": "guide-complet",
+        "categorie": "amenagement",
+        "intention": "informationnelle"
+      }
+    ]
+  },
+  "questions_frequentes": [
+    "Quelle est la hauteur idéale d'une coiffeuse ?",
+    "Quelle largeur minimum prévoir pour une coiffeuse ?",
+    "Une coiffeuse peut-elle servir de bureau ?",
+    "Quel éclairage choisir pour se maquiller sans se tromper de teinte ?",
+    "Faut-il fixer une coiffeuse au mur ?",
+    "Quelle profondeur de coiffeuse pour une petite chambre ?",
+    "Coiffeuse avec ou sans tabouret : que choisir ?",
+    "Comment ranger son maquillage sur une coiffeuse ?",
+    "Quel matériau dure le plus longtemps pour une coiffeuse ?",
+    "Comment enlever une tache de fond de teint sur un meuble ?",
+    "Quelle distance laisser entre le lit et la coiffeuse ?",
+    "Peut-on mettre une coiffeuse dans une salle de bain ?",
+    "Combien de temps faut-il pour monter une coiffeuse ?",
+    "Quelle taille de miroir pour une coiffeuse ?",
+    "Comment éviter que la coiffeuse bascule ?",
+    "Quelle couleur de coiffeuse pour agrandir une pièce ?",
+    "Coiffeuse d'angle ou coiffeuse murale pour un studio ?",
+    "Comment éclairer une coiffeuse sans prise à proximité ?",
+    "Quel est le bon écart entre le miroir et le visage ?",
+    "Comment protéger le plateau d'une coiffeuse ?"
+  ]
+}

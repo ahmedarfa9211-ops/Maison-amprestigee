@@ -1,0 +1,96 @@
+{
+  "publies": [
+    {
+      "id": "meilleure-coiffeuse",
+      "slug": "meilleure-coiffeuse",
+      "date": "2026-07-15",
+      "mots": 3161
+    },
+    {
+      "id": "coiffeuse-avec-miroir",
+      "slug": "coiffeuse-avec-miroir",
+      "date": "2026-07-16",
+      "mots": 3144
+    },
+    {
+      "id": "coiffeuse-led",
+      "slug": "coiffeuse-led",
+      "date": "2026-07-17",
+      "mots": 3145
+    },
+    {
+      "id": "coiffeuse-pas-cher",
+      "slug": "coiffeuse-pas-cher",
+      "date": "2026-07-18",
+      "mots": 2892
+    },
+    {
+      "id": "coiffeuse-petit-espace",
+      "slug": "coiffeuse-petit-espace",
+      "date": "2026-07-19",
+      "mots": 2850
+    },
+    {
+      "id": "coiffeuse-blanche",
+      "slug": "coiffeuse-blanche",
+      "date": "2026-07-20",
+      "mots": 3208
+    },
+    {
+      "id": "coiffeuse-bois",
+      "slug": "coiffeuse-bois",
+      "date": "2026-07-21",
+      "mots": 3021
+    },
+    {
+      "id": "coiffeuse-angle",
+      "slug": "coiffeuse-d-angle",
+      "date": "2026-07-22",
+      "mots": 3022
+    },
+    {
+      "id": "coiffeuse-ado",
+      "slug": "coiffeuse-ado",
+      "date": "2026-07-23",
+      "mots": 2958
+    },
+    {
+      "id": "coiffeuse-hauteur-dimensions",
+      "slug": "dimensions-coiffeuse",
+      "date": "2026-07-24",
+      "mots": 3235
+    },
+    {
+      "id": "coiffeuse-murale",
+      "slug": "coiffeuse-murale",
+      "date": "2026-07-25",
+      "mots": 2907
+    },
+    {
+      "id": "coiffeuse-ou-bureau",
+      "slug": "coiffeuse-ou-bureau",
+      "date": "2026-07-26",
+      "mots": 2985
+    },
+    {
+      "id": "eclairage-coiffeuse",
+      "slug": "eclairage-coiffeuse",
+      "date": "2026-07-27",
+      "mots": 3157
+    },
+    {
+      "id": "coiffeuse-noire",
+      "slug": "coiffeuse-noire",
+      "date": "2026-07-28",
+      "mots": 2876
+    },
+    {
+      "id": "coiffeuse-rangement",
+      "slug": "coiffeuse-avec-rangement",
+      "date": "2026-07-30",
+      "mots": 3176
+    }
+  ],
+  "compteur": 15,
+  "derniere_publication": "2026-07-30"
+}

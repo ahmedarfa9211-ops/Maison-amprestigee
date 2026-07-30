@@ -1,0 +1,1292 @@
+{
+  "_mode_emploi": [
+    "Chaque produit est un ARCHÉTYPE : tant que 'asin' vaut null, le lien pointe vers une recherche Amazon.fr filtrée (100% valide et rémunérée).",
+    "Dès que vous collez un vrai ASIN (les 10 caractères dans l'URL Amazon après /dp/), le lien devient un lien produit direct.",
+    "Commande utile : python publier.py --produits   (liste les produits et leur état)",
+    "N'INSCRIVEZ JAMAIS DE PRIX ICI : le contrat Amazon Partenaires l'interdit hors Product Advertising API.",
+    "Champ 'exclut' : liste de filtres de sujet pour lesquels ce produit ne doit JAMAIS être sélectionné (ex. un meuble de 60 kg exclu des comparatifs « petit-espace »). C'est votre garde-fou éditorial : un produit hors sujet décrédibilise tout le comparatif.",
+    "Champ 'brouillon': true — le produit est enregistré (l'ASIN n'est pas perdu) mais EXCLU de toute sélection tant qu'il n'est pas documenté. Retirez le champ une fois la fiche remplie."
+  ],
+  "produits": [
+    {
+      "id": "coiffeuse-blanche-led",
+      "nom": "Coiffeuse LED 11 tiroirs avec prises intégrées et tabouret",
+      "asin": "B0FK4ZJCX8",
+      "requete": "coiffeuse led 11 tiroirs prise usb tabouret",
+      "categorie": "coiffeuse-complete",
+      "gamme": "premium",
+      "style": [
+        "moderne",
+        "hollywood",
+        "glamour"
+      ],
+      "couleur": [
+        "blanc"
+      ],
+      "tags": [
+        "led",
+        "miroir",
+        "tiroirs",
+        "grand-rangement",
+        "tabouret",
+        "ensemble",
+        "usb",
+        "prise",
+        "hollywood",
+        "professionnel",
+        "chambre",
+        "blanc"
+      ],
+      "pour_qui": "celles qui disposent d'un vrai pan de mur libre et qui veulent un poste complet, lumineux et branché, installé une fois pour toutes",
+      "points_forts": [
+        "Profondeur de 40 cm, exactement le point d'équilibre : on pose une trousse ouverte et on travaille à deux mains sans que rien ne tombe, sans pour autant bloquer la circulation",
+        "Plateau de 105 cm de large, soit 25 cm de plus que le seuil de confort de 80 cm : la zone de travail reste dégagée même avec le miroir et les produits du quotidien posés",
+        "60 kg pour ce format, c'est le signe de panneaux épais et non d'un montage en 12 mm : à dimensions égales, le poids reste le meilleur indicateur de solidité",
+        "Finition blanche : elle renvoie la lumière du bandeau LED au lieu de l'absorber, ce qu'un modèle noir ne fait pas, et elle allège visuellement un meuble de cette taille",
+        "Trois températures de lumière réglables : le blanc neutre permet de juger une teinte de fond de teint, ce qu'un éclairage chaud fixe ne permet pas",
+        "Onze tiroirs, soit largement de quoi trier par famille d'usage et garder le plateau dégagé en permanence",
+        "Deux prises et deux ports USB intégrés au meuble : plus de rallonge qui traverse la chambre pour le lisseur ou le téléphone",
+        "Support sèche-cheveux prévu d'origine, ce qui évite de le poser brûlant sur le plateau",
+        "Tabouret rembourré fourni et assorti, qui se glisse entièrement sous le plateau"
+      ],
+      "points_faibles": [
+        "105 cm de large et 140 cm de haut : il faut un vrai pan de mur libre, ce modèle ne se glisse pas dans une chambre déjà saturée",
+        "60 kg à réceptionner et à monter : prévoyez d'être deux, la manutention seule est réellement difficile",
+        "À cette hauteur et ce poids, la fixation antibasculement au mur n'est pas une option, surtout en présence d'enfants",
+        "Comme toute surface blanche à côté d'une trousse de maquillage, le plateau montre les projections de poudre et les traces de fond de teint : un coup de microfibre le soir s'impose",
+        "Le raccordement des prises intégrées suppose une prise murale accessible derrière le meuble",
+        "Meuble à installer une fois pour toutes : ce n'est pas un modèle que l'on déplace au gré des réaménagements"
+      ],
+      "notes": {
+        "rapport_qualite_prix": 4.5,
+        "finition": 4.5,
+        "rangement": 5.0,
+        "montage": 3.0,
+        "eclairage": 5.0
+      },
+      "_verifie": "ASIN, caractéristiques, dimensions et coloris fournis par Ahmed le 2026-07-28. Fiche complète.",
+      "specs": {
+        "Dimensions": "105 cm de large × 40 cm de profondeur × 140 cm de hauteur totale (miroir compris)",
+        "Coloris": "blanc",
+        "Emprise réelle": "105 × 110 cm en comptant les 70 cm de dégagement pour s'asseoir",
+        "Poids": "60 kg",
+        "Éclairage": "12 LED, 3 températures de couleur (chaud, neutre, froid), luminosité réglable",
+        "Miroir": "miroir HD intégré au bandeau lumineux",
+        "Rangement": "11 tiroirs",
+        "Électricité": "2 prises secteur + 2 ports USB intégrés",
+        "Coiffage": "support pour sèche-cheveux",
+        "Assise": "tabouret rembourré en mousse ignifuge, se range sous le plateau"
+      },
+      "exclut": [
+        "petit-espace",
+        "angle",
+        "murale",
+        "etroite",
+        "enfant",
+        "ado",
+        "budget",
+        "2en1",
+        "bureau",
+        "relevable"
+      ]
+    },
+    {
+      "id": "coiffeuse-bois-scandinave",
+      "nom": "Coiffeuse en bois style scandinave avec pieds fuseau",
+      "asin": null,
+      "requete": "coiffeuse bois scandinave pieds fuseau miroir",
+      "categorie": "coiffeuse-complete",
+      "gamme": "milieu",
+      "style": [
+        "scandinave",
+        "naturel",
+        "vintage"
+      ],
+      "couleur": [
+        "bois",
+        "chene",
+        "blanc"
+      ],
+      "tags": [
+        "bois",
+        "miroir",
+        "tiroirs",
+        "chambre",
+        "intemporel"
+      ],
+      "pour_qui": "les intérieurs chaleureux où le meuble doit se fondre dans la décoration existante",
+      "points_forts": [
+        "Le bois clair vieillit mieux que le laqué : les micro-rayures se voient beaucoup moins",
+        "Les pieds fuseau dégagent le sol et facilitent le passage de l'aspirateur",
+        "Silhouette intemporelle qui ne se démodera pas au prochain changement de déco",
+        "Assez léger pour être déplacé seule lors d'un réaménagement"
+      ],
+      "points_faibles": [
+        "Rangement souvent limité à un ou deux tiroirs peu profonds",
+        "Aucun éclairage : il faut prévoir une lampe ou un miroir lumineux à part"
+      ],
+      "notes": {
+        "rapport_qualite_prix": 4.0,
+        "finition": 4.5,
+        "rangement": 3.0,
+        "montage": 4.0,
+        "eclairage": 1.0
+      }
+    },
+    {
+      "id": "coiffeuse-angle",
+      "nom": "Coiffeuse d'angle compacte",
+      "asin": null,
+      "requete": "coiffeuse d'angle compacte miroir rangement",
+      "categorie": "petit-espace",
+      "gamme": "milieu",
+      "style": [
+        "moderne",
+        "gain-de-place"
+      ],
+      "couleur": [
+        "blanc",
+        "gris",
+        "bois"
+      ],
+      "tags": [
+        "angle",
+        "petit-espace",
+        "studio",
+        "gain-de-place"
+      ],
+      "pour_qui": "les studios et petites chambres où aucun mur n'est libre sur toute sa longueur",
+      "points_forts": [
+        "Exploite un angle mort qui ne sert généralement à rien d'autre",
+        "Emprise au sol très réduite, souvent moins de 60 cm sur chaque mur",
+        "Le miroir en angle renvoie la lumière de la fenêtre dans toute la pièce",
+        "Se glisse dans une chambre d'ado sans bloquer le passage"
+      ],
+      "points_faibles": [
+        "Plateau restreint : il faut trier sa collection de maquillage",
+        "L'assise doit être un tabouret sans dossier pour se ranger dessous"
+      ],
+      "notes": {
+        "rapport_qualite_prix": 4.5,
+        "finition": 3.5,
+        "rangement": 3.0,
+        "montage": 4.0,
+        "eclairage": 1.0
+      }
+    },
+    {
+      "id": "coiffeuse-murale-rabattable",
+      "nom": "Coiffeuse murale rabattable avec miroir",
+      "asin": null,
+      "requete": "coiffeuse murale rabattable miroir gain de place",
+      "categorie": "petit-espace",
+      "gamme": "milieu",
+      "style": [
+        "moderne",
+        "gain-de-place",
+        "minimaliste"
+      ],
+      "couleur": [
+        "blanc",
+        "bois",
+        "noir"
+      ],
+      "tags": [
+        "murale",
+        "rabattable",
+        "petit-espace",
+        "sans-pieds"
+      ],
+      "pour_qui": "les très petites surfaces et les locations où chaque centimètre au sol compte",
+      "points_forts": [
+        "Se referme en quelques secondes et disparaît comme une simple étagère murale",
+        "Zéro emprise au sol : on garde le passage libre en journée",
+        "Hauteur de plan de travail choisie librement lors de la pose",
+        "Le miroir est souvent intégré dans l'abattant, sans accessoire à acheter"
+      ],
+      "points_faibles": [
+        "Fixation murale obligatoire : à proscrire sur cloison en plaque de plâtre sans chevilles adaptées",
+        "Charge admissible limitée, donc pas de gros appareils lourds posés dessus"
+      ],
+      "notes": {
+        "rapport_qualite_prix": 4.0,
+        "finition": 4.0,
+        "rangement": 2.5,
+        "montage": 2.5,
+        "eclairage": 1.0
+      },
+      "exclut": [
+        "grand-rangement",
+        "penderie",
+        "premium"
+      ]
+    },
+    {
+      "id": "coiffeuse-hollywood-premium",
+      "nom": "Coiffeuse style Hollywood avec ampoules et grand miroir",
+      "asin": null,
+      "requete": "coiffeuse hollywood miroir ampoules grand plateau",
+      "categorie": "coiffeuse-complete",
+      "gamme": "premium",
+      "style": [
+        "glamour",
+        "hollywood",
+        "moderne"
+      ],
+      "couleur": [
+        "blanc",
+        "noir",
+        "rose"
+      ],
+      "tags": [
+        "led",
+        "ampoules",
+        "grand-miroir",
+        "glamour",
+        "professionnel"
+      ],
+      "pour_qui": "les passionnées de maquillage et les créatrices de contenu qui filment leurs routines",
+      "points_forts": [
+        "Lumière frontale homogène qui supprime les ombres sous les yeux et sous le menton",
+        "Grand miroir permettant de contrôler le rendu à distance, pas seulement de près",
+        "Plateau généreux capable d'accueillir palettes, pinceaux et coiffant en même temps",
+        "Rendu photo et vidéo nettement plus flatteur qu'un plafonnier classique"
+      ],
+      "points_faibles": [
+        "Encombrement réel important : à mesurer avant commande",
+        "Les ampoules consomment et chauffent si le modèle n'est pas en LED"
+      ],
+      "notes": {
+        "rapport_qualite_prix": 3.5,
+        "finition": 4.5,
+        "rangement": 4.0,
+        "montage": 3.0,
+        "eclairage": 5.0
+      },
+      "exclut": [
+        "petit-espace",
+        "angle",
+        "murale",
+        "etroite",
+        "enfant",
+        "budget",
+        "ado"
+      ]
+    },
+    {
+      "id": "coiffeuse-noire-industrielle",
+      "nom": "Coiffeuse noire style industriel métal et bois",
+      "asin": null,
+      "requete": "coiffeuse noire industrielle metal bois miroir",
+      "categorie": "coiffeuse-complete",
+      "gamme": "milieu",
+      "style": [
+        "industriel",
+        "moderne",
+        "masculin"
+      ],
+      "couleur": [
+        "noir",
+        "bois"
+      ],
+      "tags": [
+        "metal",
+        "industriel",
+        "robuste",
+        "loft"
+      ],
+      "pour_qui": "les intérieurs loft, industriels ou aux teintes sombres",
+      "points_forts": [
+        "Structure métallique nettement plus rigide que les piètements en panneau",
+        "Le noir mat ne renvoie pas les reflets parasites quand on se maquille",
+        "Se détourne facilement en bureau ou en console d'entrée",
+        "Les traces de doigts se voient moins que sur un laqué blanc"
+      ],
+      "points_faibles": [
+        "Le noir avale la lumière : un éclairage d'appoint devient indispensable",
+        "Souvent peu ou pas de tiroirs, au profit d'étagères ouvertes"
+      ],
+      "notes": {
+        "rapport_qualite_prix": 4.0,
+        "finition": 4.0,
+        "rangement": 3.0,
+        "montage": 3.5,
+        "eclairage": 1.0
+      }
+    },
+    {
+      "id": "coiffeuse-ado-rose",
+      "nom": "Coiffeuse pour ado avec miroir et tabouret assorti",
+      "asin": null,
+      "requete": "coiffeuse ado rose miroir tabouret ensemble",
+      "categorie": "coiffeuse-complete",
+      "gamme": "budget",
+      "style": [
+        "romantique",
+        "moderne"
+      ],
+      "couleur": [
+        "rose",
+        "blanc"
+      ],
+      "tags": [
+        "ado",
+        "enfant",
+        "tabouret",
+        "budget",
+        "ensemble"
+      ],
+      "pour_qui": "une chambre d'adolescente, en premier meuble de maquillage",
+      "points_forts": [
+        "Ensemble complet livré avec le tabouret : rien d'autre à acheter",
+        "Hauteur adaptée à une morphologie encore en croissance",
+        "Budget contenu, ce qui limite le regret si les goûts changent dans deux ans",
+        "Format compact qui laisse de la place pour un bureau dans la même chambre"
+      ],
+      "points_faibles": [
+        "Panneaux fins : le meuble supporte mal les déménagements répétés",
+        "Miroir parfois simplement posé, à sécuriser si la chambre est très fréquentée"
+      ],
+      "notes": {
+        "rapport_qualite_prix": 4.5,
+        "finition": 3.0,
+        "rangement": 3.0,
+        "montage": 4.0,
+        "eclairage": 1.0
+      },
+      "exclut": [
+        "premium",
+        "professionnel",
+        "hollywood",
+        "grand-rangement"
+      ]
+    },
+    {
+      "id": "coiffeuse-miroir-relevable",
+      "nom": "Coiffeuse avec miroir relevable et rangement caché",
+      "asin": null,
+      "requete": "coiffeuse miroir relevable rangement cache bureau",
+      "categorie": "polyvalente",
+      "gamme": "milieu",
+      "style": [
+        "moderne",
+        "minimaliste",
+        "gain-de-place"
+      ],
+      "couleur": [
+        "blanc",
+        "bois",
+        "gris"
+      ],
+      "tags": [
+        "relevable",
+        "2en1",
+        "bureau",
+        "discret",
+        "petit-espace"
+      ],
+      "pour_qui": "celles qui veulent un meuble qui serve aussi de bureau ou de console",
+      "points_forts": [
+        "Miroir escamoté sous le plateau : le meuble redevient un bureau en une seconde",
+        "Le compartiment sous le plateau protège les produits de la poussière et du soleil",
+        "Idéal en chambre d'amis ou dans un salon où un miroir permanent jurerait",
+        "Un seul meuble pour deux usages, donc un mètre carré économisé"
+      ],
+      "points_faibles": [
+        "Il faut vider le plateau avant de relever le miroir",
+        "Le vérin ou la charnière est la pièce d'usure à surveiller"
+      ],
+      "notes": {
+        "rapport_qualite_prix": 4.5,
+        "finition": 4.0,
+        "rangement": 4.5,
+        "montage": 3.5,
+        "eclairage": 1.0
+      }
+    },
+    {
+      "id": "coiffeuse-pas-cher",
+      "nom": "Coiffeuse premier prix avec miroir et tiroir",
+      "asin": null,
+      "requete": "coiffeuse pas cher miroir tiroir",
+      "categorie": "coiffeuse-complete",
+      "gamme": "budget",
+      "style": [
+        "moderne",
+        "simple"
+      ],
+      "couleur": [
+        "blanc",
+        "bois",
+        "gris"
+      ],
+      "tags": [
+        "budget",
+        "petit-prix",
+        "etudiant",
+        "premier-achat"
+      ],
+      "pour_qui": "un premier achat, un studio étudiant ou une location temporaire",
+      "points_forts": [
+        "Le ticket d'entrée le plus bas de la catégorie",
+        "Poids réduit, facile à monter seule et à déménager",
+        "Suffit largement pour une routine maquillage simple",
+        "Faible risque financier si l'usage réel s'avère occasionnel"
+      ],
+      "points_faibles": [
+        "Panneaux de particules fins, chants fragiles au moindre choc",
+        "Un seul tiroir : le plateau se retrouve vite encombré"
+      ],
+      "notes": {
+        "rapport_qualite_prix": 4.5,
+        "finition": 2.5,
+        "rangement": 2.5,
+        "montage": 4.5,
+        "eclairage": 1.0
+      },
+      "exclut": [
+        "premium",
+        "professionnel",
+        "hollywood",
+        "grand-rangement"
+      ]
+    },
+    {
+      "id": "coiffeuse-grande-3-miroirs",
+      "nom": "Coiffeuse avec miroir triptyque et nombreux tiroirs",
+      "asin": null,
+      "requete": "coiffeuse miroir triptyque 3 volets tiroirs",
+      "categorie": "coiffeuse-complete",
+      "gamme": "premium",
+      "style": [
+        "classique",
+        "vintage",
+        "glamour"
+      ],
+      "couleur": [
+        "blanc",
+        "bois",
+        "gris"
+      ],
+      "tags": [
+        "triptyque",
+        "3-miroirs",
+        "grand-rangement",
+        "classique"
+      ],
+      "pour_qui": "les grandes chambres et les collections de maquillage conséquentes",
+      "points_forts": [
+        "Les volets latéraux permettent de voir son profil et l'arrière d'une coiffure",
+        "Capacité de rangement la plus élevée de la sélection",
+        "Le triptyque se referme pour protéger le miroir et masquer le poste",
+        "Assez imposante pour structurer un mur nu sans autre meuble"
+      ],
+      "points_faibles": [
+        "Encombrement et poids élevés, montage à deux fortement conseillé",
+        "Les charnières des volets se dérèglent si on force en les manipulant"
+      ],
+      "notes": {
+        "rapport_qualite_prix": 3.5,
+        "finition": 4.5,
+        "rangement": 5.0,
+        "montage": 2.5,
+        "eclairage": 1.0
+      },
+      "exclut": [
+        "petit-espace",
+        "angle",
+        "murale",
+        "etroite",
+        "enfant",
+        "budget",
+        "ado"
+      ]
+    },
+    {
+      "id": "coiffeuse-velours-glam",
+      "nom": "Coiffeuse capitonnée avec tabouret en velours",
+      "asin": null,
+      "requete": "coiffeuse velours capitonnee tabouret glamour",
+      "categorie": "coiffeuse-complete",
+      "gamme": "premium",
+      "style": [
+        "glamour",
+        "romantique",
+        "art-deco"
+      ],
+      "couleur": [
+        "rose",
+        "vert",
+        "bleu",
+        "beige"
+      ],
+      "tags": [
+        "velours",
+        "capitonne",
+        "glamour",
+        "tabouret",
+        "ensemble"
+      ],
+      "pour_qui": "une chambre traitée comme une pièce de réception, très décorative",
+      "points_forts": [
+        "Effet visuel immédiat : le meuble devient la pièce forte de la chambre",
+        "Tabouret rembourré réellement confortable sur une longue séance",
+        "Le velours masque bien les micro-défauts d'assemblage",
+        "Palette de couleurs plus riche que le blanc laqué standard"
+      ],
+      "points_faibles": [
+        "Le velours attrape la poussière, les poudres et les poils d'animaux",
+        "Nettoyage plus délicat : brosse douce obligatoire, pas d'éponge humide"
+      ],
+      "notes": {
+        "rapport_qualite_prix": 3.5,
+        "finition": 4.5,
+        "rangement": 3.5,
+        "montage": 3.5,
+        "eclairage": 1.0
+      },
+      "exclut": [
+        "petit-espace",
+        "budget",
+        "enfant",
+        "ado"
+      ]
+    },
+    {
+      "id": "coiffeuse-2en1-bureau",
+      "nom": "Coiffeuse bureau 2 en 1 avec caisson",
+      "asin": null,
+      "requete": "coiffeuse bureau 2 en 1 caisson tiroirs",
+      "categorie": "polyvalente",
+      "gamme": "milieu",
+      "style": [
+        "moderne",
+        "minimaliste"
+      ],
+      "couleur": [
+        "blanc",
+        "bois",
+        "noir"
+      ],
+      "tags": [
+        "bureau",
+        "2en1",
+        "teletravail",
+        "etudiant",
+        "polyvalent"
+      ],
+      "pour_qui": "les studios et chambres d'étudiant où le même plan sert au travail et au maquillage",
+      "points_forts": [
+        "Profondeur suffisante pour un ordinateur portable et une trousse ouverte",
+        "Caisson mobile que l'on déplace selon l'usage de la journée",
+        "Amortit son prix sur deux fonctions au lieu d'une",
+        "Passe-câble souvent prévu, ce qui évite les fils qui pendent"
+      ],
+      "points_faibles": [
+        "Compromis assumé : moins glamour qu'une vraie coiffeuse",
+        "Le miroir est rarement inclus, il faut le budgéter à part"
+      ],
+      "notes": {
+        "rapport_qualite_prix": 4.5,
+        "finition": 3.5,
+        "rangement": 4.0,
+        "montage": 3.5,
+        "eclairage": 1.0
+      }
+    },
+    {
+      "id": "miroir-lumineux-poser",
+      "nom": "Miroir de maquillage lumineux à poser",
+      "asin": null,
+      "requete": "miroir maquillage lumineux LED a poser grossissant",
+      "categorie": "accessoire",
+      "gamme": "budget",
+      "style": [
+        "moderne",
+        "hollywood"
+      ],
+      "couleur": [
+        "blanc",
+        "noir",
+        "rose",
+        "dore"
+      ],
+      "tags": [
+        "miroir",
+        "led",
+        "accessoire",
+        "grossissant"
+      ],
+      "pour_qui": "compléter une coiffeuse sans éclairage intégré",
+      "points_forts": [
+        "Transforme n'importe quelle table en poste de maquillage correctement éclairé",
+        "Température de lumière souvent réglable du blanc froid au blanc chaud",
+        "Zone grossissante utile pour les sourcils et le trait de liner",
+        "Se transporte facilement en week-end ou en déplacement"
+      ],
+      "points_faibles": [
+        "Occupe une partie du plateau déjà limité",
+        "Les modèles à piles s'affaiblissent progressivement au lieu de s'éteindre nettement"
+      ],
+      "notes": {
+        "rapport_qualite_prix": 5.0,
+        "finition": 3.5,
+        "rangement": 1.0,
+        "montage": 5.0,
+        "eclairage": 4.5
+      },
+      "exclut": [
+        "grand-rangement",
+        "penderie",
+        "tiroirs"
+      ]
+    },
+    {
+      "id": "tabouret-coiffeuse",
+      "nom": "Tabouret de coiffeuse rembourré",
+      "asin": null,
+      "requete": "tabouret coiffeuse rembourre pieds bois",
+      "categorie": "accessoire",
+      "gamme": "budget",
+      "style": [
+        "scandinave",
+        "glamour",
+        "moderne"
+      ],
+      "couleur": [
+        "blanc",
+        "rose",
+        "gris",
+        "vert"
+      ],
+      "tags": [
+        "tabouret",
+        "assise",
+        "accessoire",
+        "confort"
+      ],
+      "pour_qui": "remplacer une chaise de bureau qui ne se range pas sous le plateau",
+      "points_forts": [
+        "Se glisse entièrement sous la coiffeuse et libère le passage",
+        "Assise rembourrée bien plus confortable qu'un tabouret nu",
+        "Sans dossier : on tourne librement pour se coiffer de profil",
+        "Certains modèles cachent un coffre de rangement sous l'assise"
+      ],
+      "points_faibles": [
+        "Sans dossier, il ne convient pas à de très longues séances",
+        "La hauteur doit être vérifiée par rapport au plateau, sous peine de mal se tenir"
+      ],
+      "notes": {
+        "rapport_qualite_prix": 4.5,
+        "finition": 4.0,
+        "rangement": 2.0,
+        "montage": 4.5,
+        "eclairage": 1.0
+      },
+      "exclut": [
+        "grand-rangement",
+        "penderie",
+        "led",
+        "miroir"
+      ]
+    },
+    {
+      "id": "organiseur-maquillage",
+      "nom": "Organiseur de maquillage transparent à tiroirs",
+      "asin": null,
+      "requete": "organiseur maquillage acrylique transparent tiroirs",
+      "categorie": "accessoire",
+      "gamme": "budget",
+      "style": [
+        "moderne",
+        "minimaliste"
+      ],
+      "couleur": [
+        "transparent",
+        "blanc",
+        "noir"
+      ],
+      "tags": [
+        "rangement",
+        "organiseur",
+        "accessoire",
+        "acrylique"
+      ],
+      "pour_qui": "structurer un plateau qui déborde",
+      "points_forts": [
+        "On voit le contenu sans ouvrir : plus de produits oubliés et périmés",
+        "Compartiments dimensionnés pour les formats courants de rouges et pinceaux",
+        "Se nettoie d'un coup d'éponge, contrairement au tissu",
+        "S'empile pour gagner de la hauteur sur un plateau étroit"
+      ],
+      "points_faibles": [
+        "L'acrylique se raye et jaunit au soleil direct",
+        "Ne remplace pas un vrai tiroir pour les gros formats"
+      ],
+      "notes": {
+        "rapport_qualite_prix": 5.0,
+        "finition": 3.5,
+        "rangement": 4.5,
+        "montage": 5.0,
+        "eclairage": 1.0
+      },
+      "exclut": [
+        "grand-rangement",
+        "penderie",
+        "led",
+        "miroir",
+        "tabouret"
+      ]
+    },
+    {
+      "id": "coiffeuse-blanche-classique",
+      "nom": "Coiffeuse blanche classique avec moulures",
+      "asin": null,
+      "requete": "coiffeuse blanche classique moulures miroir ovale",
+      "categorie": "coiffeuse-complete",
+      "gamme": "milieu",
+      "style": [
+        "classique",
+        "romantique",
+        "shabby"
+      ],
+      "couleur": [
+        "blanc",
+        "ivoire"
+      ],
+      "tags": [
+        "classique",
+        "moulures",
+        "romantique",
+        "miroir-ovale"
+      ],
+      "pour_qui": "les chambres à la décoration classique, romantique ou campagne chic",
+      "points_forts": [
+        "Style qui s'accorde avec un mobilier ancien déjà présent",
+        "Le miroir ovale adoucit une pièce très anguleuse",
+        "Poignées souvent remplaçables pour personnaliser à moindre coût",
+        "Se repeint facilement le jour où la déco change"
+      ],
+      "points_faibles": [
+        "Les moulures retiennent la poussière et demandent un dépoussiérage régulier",
+        "Le blanc ivoire jaunit avec les années près d'une fenêtre plein sud"
+      ],
+      "notes": {
+        "rapport_qualite_prix": 4.0,
+        "finition": 4.0,
+        "rangement": 3.5,
+        "montage": 3.5,
+        "eclairage": 1.0
+      }
+    },
+    {
+      "id": "coiffeuse-avec-penderie",
+      "nom": "Coiffeuse avec colonne de rangement et penderie",
+      "asin": null,
+      "requete": "coiffeuse avec colonne rangement penderie miroir",
+      "categorie": "grand-rangement",
+      "gamme": "premium",
+      "style": [
+        "moderne",
+        "fonctionnel"
+      ],
+      "couleur": [
+        "blanc",
+        "bois",
+        "gris"
+      ],
+      "tags": [
+        "penderie",
+        "colonne",
+        "grand-rangement",
+        "dressing"
+      ],
+      "pour_qui": "créer un vrai coin dressing quand la chambre n'a pas de placard",
+      "points_forts": [
+        "Regroupe maquillage, bijoux et vêtements sur un seul mur",
+        "Évite d'acheter plusieurs meubles dépareillés",
+        "Le miroir en pied sert aussi à vérifier la tenue complète",
+        "Hauteur exploitée jusqu'au plafond, surface au sol constante"
+      ],
+      "points_faibles": [
+        "Meuble haut : la fixation antibasculement au mur est indispensable",
+        "Montage long, souvent plus de deux heures à deux personnes"
+      ],
+      "notes": {
+        "rapport_qualite_prix": 4.0,
+        "finition": 4.0,
+        "rangement": 5.0,
+        "montage": 2.0,
+        "eclairage": 1.0
+      },
+      "exclut": [
+        "petit-espace",
+        "angle",
+        "murale",
+        "etroite",
+        "enfant",
+        "budget",
+        "ado"
+      ]
+    },
+    {
+      "id": "coiffeuse-verre-dore",
+      "nom": "Coiffeuse plateau verre et piètement doré",
+      "asin": null,
+      "requete": "coiffeuse verre pietement dore miroir art deco",
+      "categorie": "coiffeuse-complete",
+      "gamme": "premium",
+      "style": [
+        "art-deco",
+        "glamour",
+        "moderne"
+      ],
+      "couleur": [
+        "dore",
+        "transparent",
+        "noir"
+      ],
+      "tags": [
+        "verre",
+        "dore",
+        "art-deco",
+        "design"
+      ],
+      "pour_qui": "une chambre pensée comme un décor, avec un vrai parti pris esthétique",
+      "points_forts": [
+        "Le plateau en verre allège visuellement la pièce et ne cache pas le sol",
+        "Le doré réchauffe une palette de gris et de blancs",
+        "Surface non poreuse : un fond de teint renversé s'essuie sans tache",
+        "Piètement métal généralement plus stable qu'un panneau vissé"
+      ],
+      "points_faibles": [
+        "Le verre montre chaque trace de doigt et chaque grain de poudre",
+        "Rangement quasi inexistant sur les modèles les plus graphiques"
+      ],
+      "notes": {
+        "rapport_qualite_prix": 3.5,
+        "finition": 4.5,
+        "rangement": 2.0,
+        "montage": 4.0,
+        "eclairage": 1.0
+      },
+      "exclut": [
+        "grand-rangement",
+        "tiroirs",
+        "budget",
+        "enfant",
+        "ado"
+      ]
+    },
+    {
+      "id": "coiffeuse-enfant",
+      "nom": "Coiffeuse pour enfant à hauteur adaptée",
+      "asin": null,
+      "requete": "coiffeuse enfant hauteur adaptee miroir securise",
+      "categorie": "coiffeuse-complete",
+      "gamme": "budget",
+      "style": [
+        "ludique",
+        "moderne"
+      ],
+      "couleur": [
+        "blanc",
+        "rose",
+        "bois"
+      ],
+      "tags": [
+        "enfant",
+        "petite-taille",
+        "securite",
+        "ludique"
+      ],
+      "pour_qui": "une chambre d'enfant, en meuble d'imitation et de rangement",
+      "points_forts": [
+        "Hauteur pensée pour un enfant assis, sans rehausseur",
+        "Miroir généralement en acrylique ou en verre de sécurité",
+        "Angles arrondis sur la plupart des modèles sérieux",
+        "Sert de rangement à petits objets bien au-delà du maquillage"
+      ],
+      "points_faibles": [
+        "Devient trop bas dès la préadolescence",
+        "Vérifier impérativement la conformité et la fixation murale"
+      ],
+      "notes": {
+        "rapport_qualite_prix": 4.0,
+        "finition": 3.0,
+        "rangement": 3.0,
+        "montage": 4.0,
+        "eclairage": 1.0
+      },
+      "exclut": [
+        "premium",
+        "professionnel",
+        "hollywood",
+        "grand-rangement"
+      ]
+    },
+    {
+      "id": "coiffeuse-gain-place-etroite",
+      "nom": "Coiffeuse étroite profondeur réduite",
+      "asin": null,
+      "requete": "coiffeuse etroite profondeur reduite 30 cm",
+      "categorie": "petit-espace",
+      "gamme": "milieu",
+      "style": [
+        "moderne",
+        "minimaliste",
+        "gain-de-place"
+      ],
+      "couleur": [
+        "blanc",
+        "bois",
+        "noir"
+      ],
+      "tags": [
+        "etroite",
+        "faible-profondeur",
+        "couloir",
+        "petit-espace"
+      ],
+      "pour_qui": "un couloir, un pied de lit ou une chambre où l'on ne peut pas perdre 45 cm de passage",
+      "points_forts": [
+        "Faible profondeur : on circule encore devant sans se contorsionner",
+        "Se pose aussi en console d'entrée sans avoir l'air d'un meuble détourné",
+        "Souvent livrée avec fixation murale antibasculement",
+        "Longueur de plateau correcte malgré la faible profondeur"
+      ],
+      "points_faibles": [
+        "Impossible d'y poser un grand miroir sur pied sans le faire dépasser",
+        "Tiroirs peu profonds, inadaptés aux flacons hauts"
+      ],
+      "notes": {
+        "rapport_qualite_prix": 4.5,
+        "finition": 3.5,
+        "rangement": 3.0,
+        "montage": 4.0,
+        "eclairage": 1.0
+      }
+    },
+    {
+      "id": "coiffeuse-led-rgb-verre",
+      "nom": "Coiffeuse LED et RGB à plateau verre, 11 tiroirs et 6 étagères",
+      "asin": "B0GZ44TV9Y",
+      "requete": "coiffeuse led rgb plateau verre 11 tiroirs 6 etageres",
+      "categorie": "coiffeuse-complete",
+      "gamme": "milieu",
+      "style": [
+        "moderne",
+        "glamour",
+        "design"
+      ],
+      "couleur": [
+        "blanc"
+      ],
+      "tags": [
+        "led",
+        "rgb",
+        "miroir",
+        "tiroirs",
+        "grand-rangement",
+        "verre",
+        "prise",
+        "usb",
+        "blanc",
+        "chambre",
+        "design",
+        "moderne"
+      ],
+      "pour_qui": "celles qui cherchent beaucoup de rangement et une ambiance lumineuse modulable, et qui acceptent un montage long en échange",
+      "specs": {
+        "Dimensions": "110 cm de large × 40 cm de profondeur × 140 cm de hauteur totale",
+        "Emprise réelle": "110 × 110 cm en comptant les 70 cm de dégagement pour s'asseoir",
+        "Coloris": "blanc",
+        "Matériau": "bois d'ingénierie, plan de travail en verre trempé sans cadre",
+        "Éclairage": "miroir HD + bande LED, 3 modes (blanc froid, blanc chaud, jaune chaud), luminosité réglable",
+        "Ambiance": "rétroéclairage RGB piloté par télécommande ou application, modes minuteur et musique",
+        "Rangement": "11 tiroirs avec séparateurs, 6 étagères ouvertes, 3 plateaux à maquillage",
+        "Électricité": "2 prises secteur + 2 ports USB",
+        "Livraison": "2 colis distincts, pouvant arriver à des dates différentes"
+      },
+      "points_forts": [
+        "Le rangement le plus abouti du comparatif : 11 tiroirs avec séparateurs d'origine, 6 étagères et 3 plateaux à maquillage, soit de quoi trier par famille sans rien acheter en plus",
+        "Trois modes de lumière blanche réglables en intensité : le blanc froid est celui qui permet de juger une teinte de fond de teint, les deux autres servent au confort",
+        "Plateau en verre trempé sans cadre : un fond de teint renversé s'essuie sans laisser d'auréole, là où un chant de panneau finit par boire",
+        "Deux prises et deux ports USB : sèche-cheveux et fer à boucler se branchent sur le meuble, sans rallonge qui traverse la chambre",
+        "110 cm de large pour 40 cm de profondeur : la largeur est généreuse et la profondeur tombe pile sur le point d'équilibre"
+      ],
+      "points_faibles": [
+        "Le montage est le vrai point noir : il est régulièrement décrit comme long, et des cas de perçages mal positionnés sont rapportés — prévoyez une demi-journée et vérifiez chaque pièce avant de visser",
+        "Livraison en deux colis séparés qui peuvent arriver à des jours d'écart : n'ouvrez rien et ne commencez le montage qu'une fois les deux reçus",
+        "La régularité de finition est inégale d'un exemplaire à l'autre : chants abîmés, marques sur le bois et éléments de verre fêlés au transport reviennent dans les retours d'acheteurs",
+        "Les tiroirs sont nombreux mais peu profonds : parfaits pour les petits formats, insuffisants pour des flacons hauts que l'on veut ranger debout",
+        "Le RGB est décoratif, pas fonctionnel : se maquiller sous une lumière colorée fausse complètement le jugement d'une teinte, il faut repasser en blanc",
+        "Six étagères ouvertes, c'est six surfaces qui prennent la poussière et exposent les cosmétiques à la lumière"
+      ],
+      "notes": {
+        "rapport_qualite_prix": 3.5,
+        "finition": 2.5,
+        "rangement": 4.5,
+        "montage": 2.0,
+        "eclairage": 4.5
+      },
+      "exclut": [
+        "petit-espace",
+        "angle",
+        "murale",
+        "etroite",
+        "enfant",
+        "ado",
+        "budget",
+        "2en1",
+        "bureau",
+        "relevable",
+        "bois",
+        "scandinave",
+        "vintage"
+      ],
+      "_verifie": "ASIN + fiche complète fournis par Ahmed le 2026-07-28 (BEWISHOME EFST57W). Notes de montage et de finition établies d'après les retours d'acheteurs. Aucun prix ni note Amazon repris sur le site."
+    },
+    {
+      "id": "coiffeuse-led-reglable-9-tiroirs",
+      "nom": "Coiffeuse LED à grand miroir, plateau verre et 9 tiroirs à séparateurs",
+      "asin": "B0FHKR4HLY",
+      "requete": "coiffeuse led grand miroir plateau verre 9 tiroirs separateurs",
+      "categorie": "coiffeuse-complete",
+      "gamme": "premium",
+      "style": [
+        "moderne",
+        "minimaliste",
+        "design"
+      ],
+      "couleur": [
+        "blanc"
+      ],
+      "tags": [
+        "led",
+        "miroir",
+        "grand-miroir",
+        "tiroirs",
+        "grand-rangement",
+        "verre",
+        "prise",
+        "usb",
+        "blanc",
+        "chambre",
+        "design",
+        "moderne",
+        "professionnel"
+      ],
+      "pour_qui": "celles qui veulent voir leur coiffure et leur tenue en entier, et organiser leurs tiroirs à leur façon plutôt qu'à celle du fabricant",
+      "specs": {
+        "Dimensions": "110 cm de large × 40 cm de profondeur × 142 cm de hauteur totale",
+        "Emprise réelle": "110 × 110 cm en comptant les 70 cm de dégagement pour s'asseoir",
+        "Coloris": "blanc",
+        "Matériau": "bois d'ingénierie, plateau en verre trempé transparent",
+        "Miroir": "80 × 60 cm",
+        "Éclairage": "bande LED 3 modes, luminosité réglable par interrupteur",
+        "Rangement": "9 tiroirs à séparateurs amovibles et repositionnables",
+        "Électricité": "2 prises secteur + 2 ports USB",
+        "Coiffage": "support pour sèche-cheveux",
+        "Livraison": "2 colis distincts, pouvant arriver à des dates différentes"
+      },
+      "points_forts": [
+        "Miroir de 80 × 60 cm, le plus grand du comparatif : on contrôle sa coiffure et le haut de sa tenue en entier, pas seulement son visage de près",
+        "Séparateurs de tiroirs amovibles et repositionnables : on adapte les compartiments à sa propre collection, et on peut les retirer pour libérer un grand volume",
+        "Plateau en verre trempé transparent : le contenu du tiroir supérieur reste visible sans l'ouvrir, ce qui fait gagner un temps réel au quotidien",
+        "Deux prises, deux ports USB et un support sèche-cheveux : maquillage et coiffage se font au même endroit sans rallonge ni appareil brûlant posé sur le plateau",
+        "La stabilité et la précision d'ajustement des tiroirs reviennent positivement dans les retours d'acheteurs, tout comme la qualité du miroir"
+      ],
+      "points_faibles": [
+        "Défaut de conception signalé : les casiers situés au fond, sous la vitre, ne sont accessibles qu'en retirant complètement le tiroir — à réserver à ce qu'on sort rarement",
+        "Livraison en deux colis séparés, avec des cas de commande incomplète rapportés : vérifiez d'avoir reçu le bas ET le haut avant de commencer le montage",
+        "Le bois est décrit comme correct mais moins qualitatif que ne le laissent penser les photos : c'est du panneau d'ingénierie, pas du massif",
+        "Aucun tabouret fourni : à prévoir en plus, avec environ 30 cm d'écart sous le plateau",
+        "142 cm de haut et 110 cm de large : il faut un pan de mur réellement dégagé"
+      ],
+      "notes": {
+        "rapport_qualite_prix": 4.0,
+        "finition": 3.5,
+        "rangement": 4.5,
+        "montage": 3.5,
+        "eclairage": 4.5
+      },
+      "exclut": [
+        "petit-espace",
+        "angle",
+        "murale",
+        "etroite",
+        "enfant",
+        "ado",
+        "budget",
+        "2en1",
+        "bureau",
+        "relevable",
+        "bois",
+        "scandinave",
+        "vintage"
+      ],
+      "_verifie": "ASIN + fiche complète fournis par Ahmed le 2026-07-28 (YITAHOME). Notes établies d'après les caractéristiques et les retours d'acheteurs. Aucun prix ni note Amazon repris sur le site."
+    },
+    {
+      "id": "coiffeuse-rgb-11-tiroirs-crochets",
+      "nom": "Coiffeuse LED et RGB à plateau verre, 11 tiroirs, 4 étagères et 5 crochets",
+      "asin": "B0HBJQ8DBR",
+      "requete": "coiffeuse led rgb plateau verre 11 tiroirs crochets",
+      "categorie": "coiffeuse-complete",
+      "gamme": "milieu",
+      "style": [
+        "moderne",
+        "glamour",
+        "design"
+      ],
+      "couleur": [
+        "blanc"
+      ],
+      "tags": [
+        "led",
+        "rgb",
+        "miroir",
+        "tiroirs",
+        "grand-rangement",
+        "verre",
+        "prise",
+        "usb",
+        "blanc",
+        "chambre",
+        "moderne",
+        "design",
+        "ado"
+      ],
+      "pour_qui": "celles qui veulent choisir leur niveau de rangement, et un poste lumineux qui sert aussi d'ambiance le soir",
+      "specs": {
+        "Dimensions": "107 cm de large × 40 cm de profondeur × 140 cm de hauteur totale",
+        "Emprise réelle": "107 × 110 cm en comptant les 70 cm de dégagement pour s'asseoir",
+        "Coloris": "blanc",
+        "Déclinaisons": "4, 7, 9 ou 11 tiroirs selon la version choisie",
+        "Plateau": "verre trempé transparent, traité anti-taches et anti-rayures",
+        "Éclairage": "10 LED, 3 températures (chaud, lumière du jour, froid), gradation continue",
+        "Ambiance": "ruban RGB, plus de 6000 couleurs, télécommande ou application, mode musique",
+        "Rangement": "11 tiroirs, 4 étagères ouvertes, 5 crochets",
+        "Électricité": "2 prises secteur + 2 ports USB",
+        "Montage": "pièces numérotées, guide illustré, aucun outil supplémentaire nécessaire",
+        "Livraison": "2 colis distincts, pouvant arriver à des dates différentes"
+      },
+      "points_forts": [
+        "Quatre versions du même meuble — 4, 7, 9 ou 11 tiroirs — ce qui permet d'ajuster le rangement et le budget à sa collection réelle plutôt que de payer pour des tiroirs vides",
+        "Gradation continue de la lumière, et non trois paliers figés : on ajuste précisément entre la lumière douce du matin et l'éclat d'un miroir professionnel",
+        "Les cinq crochets règlent le problème que personne ne traite : colliers, élastiques et serre-têtes cessent de traîner sur le plateau",
+        "Plateau en verre trempé traité anti-taches : le fond de teint renversé n'imprègne pas, et le contenu du tiroir supérieur reste visible sans l'ouvrir",
+        "Montage annoncé sans outil supplémentaire, avec pièces numérotées — un acheteur décrit un assemblage fait à deux avec son enfant"
+      ],
+      "points_faibles": [
+        "Très peu de retours d'acheteurs à ce jour, et ils portent sur une version à 7 tiroirs : impossible d'en tirer une conclusion sur la régularité de fabrication de la version 11 tiroirs",
+        "Le RGB et son mode musique sont de l'ambiance : pour juger une teinte de fond de teint il faut impérativement revenir en lumière blanche",
+        "Livraison en deux colis séparés pouvant arriver à des jours d'écart : n'entamez le montage qu'une fois les deux reçus",
+        "Quatre étagères ouvertes exposent les cosmétiques à la lumière et à la poussière",
+        "Aucun tabouret fourni : à prévoir en plus, avec environ 30 cm d'écart sous le plateau"
+      ],
+      "notes": {
+        "rapport_qualite_prix": 4.5,
+        "finition": 3.0,
+        "rangement": 4.5,
+        "montage": 4.0,
+        "eclairage": 4.5
+      },
+      "exclut": [
+        "petit-espace",
+        "angle",
+        "murale",
+        "etroite",
+        "enfant",
+        "2en1",
+        "bureau",
+        "relevable",
+        "bois",
+        "scandinave",
+        "vintage"
+      ],
+      "_verifie": "ASIN présumé B0HBJQ8DBR (à confirmer) ; fiche fournie par Ahmed le 2026-07-28 (SLINEMO). Note de finition volontairement prudente : trop peu d'avis. Aucun prix ni note Amazon repris sur le site."
+    },
+    {
+      "id": "coiffeuse-placard-reversible",
+      "nom": "Coiffeuse 120 cm à placard latéral réversible et tabouret coffre",
+      "asin": "B0H9S2V1MV",
+      "requete": "coiffeuse 120 cm placard lateral miroir led tabouret coffre",
+      "categorie": "grand-rangement",
+      "gamme": "milieu",
+      "style": [
+        "moderne",
+        "fonctionnel"
+      ],
+      "couleur": [
+        "blanc"
+      ],
+      "tags": [
+        "led",
+        "miroir",
+        "tiroirs",
+        "grand-rangement",
+        "penderie",
+        "colonne",
+        "tabouret",
+        "ensemble",
+        "prise",
+        "usb",
+        "blanc",
+        "chambre",
+        "dressing",
+        "moderne",
+        "ado"
+      ],
+      "pour_qui": "celles qui n'ont pas de placard dans la chambre et veulent regrouper maquillage, bijoux et accessoires sur un seul mur",
+      "specs": {
+        "Dimensions": "120 cm de large × 43,5 cm de profondeur × 142 cm de hauteur totale",
+        "Emprise réelle": "120 × 113 cm en comptant les 70 cm de dégagement pour s'asseoir",
+        "Coloris": "blanc",
+        "Matériau": "panneaux mélaminés de 15 mm, chants en PVC",
+        "Éclairage": "commande tactile, 3 températures : 3000 K chaud, 4500 K naturel, 6000 K froid",
+        "Rangement": "4 tiroirs, 8 étagères, étagères latérales réglables par pas de 5 cm",
+        "Placard": "colonne latérale de 26 cm de profondeur, 2 tablettes réglables sur 12 cm et amovibles, barre en bois massif et 2 crochets sur la porte",
+        "Réversibilité": "placard montable à gauche ou à droite",
+        "Électricité": "2 prises secteur + 2 ports USB, support sèche-cheveux en acier inoxydable",
+        "Assise": "tabouret rembourré à assise relevable, coffre de rangement intégré"
+      },
+      "points_forts": [
+        "Le placard se monte à gauche ou à droite : c'est le seul modèle du comparatif qui s'adapte à la position de votre lit, de votre porte ou de votre fenêtre au lieu de vous l'imposer",
+        "Les températures d'éclairage sont annoncées en kelvins — 3000 K, 4500 K, 6000 K — ce qui est rare et permet de savoir précisément quel mode utiliser : le 4500 K est celui qui ne fausse pas une teinte de fond de teint",
+        "Colonne latérale de 26 cm avec barre et crochets : bijoux, foulards et petits sacs quittent enfin le plateau et les poignées de porte",
+        "Étagères réglables par pas de 5 cm de chaque côté du miroir : les grands flacons de parfum et de sérum trouvent leur place au lieu d'être couchés",
+        "Tabouret à assise relevable avec coffre : le rangement d'appoint est inclus dans l'assise, sans encombrement supplémentaire",
+        "43,5 cm de profondeur : de quoi poser une trousse ouverte et un ordinateur portable si le meuble sert aussi de bureau"
+      ],
+      "points_faibles": [
+        "Quatre tiroirs seulement : c'est peu pour une collection de maquillage, la logique du meuble repose sur les étagères ouvertes et le placard",
+        "Panneaux de 15 mm, soit juste en dessous des 16 mm qui marquent une construction sérieuse — correct, sans plus",
+        "Modèle récent sans retour d'acheteur : ni sa fabrication ni son montage ne sont encore éprouvés",
+        "Le placard n'accepte pas de cintres standard placés en largeur : c'est une colonne à tablettes, pas une penderie",
+        "120 cm de large et 142 cm de haut : il faut un mur entièrement libre, et la fixation antibasculement s'impose"
+      ],
+      "notes": {
+        "rapport_qualite_prix": 4.0,
+        "finition": 3.0,
+        "rangement": 4.5,
+        "montage": 3.0,
+        "eclairage": 5.0
+      },
+      "exclut": [
+        "petit-espace",
+        "angle",
+        "murale",
+        "etroite",
+        "enfant",
+        "budget",
+        "relevable",
+        "bois",
+        "scandinave",
+        "vintage"
+      ],
+      "_verifie": "ASIN présumé B0H9S2V1MV (à confirmer) ; fiche fournie par Ahmed le 2026-07-28 (GOKHOMX). Aucun avis client disponible : notes prudentes sur finition et montage. Aucun prix repris sur le site."
+    }
+  ]
+}
