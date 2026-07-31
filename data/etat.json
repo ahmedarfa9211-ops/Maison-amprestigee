@@ -101,8 +101,14 @@
       "slug": "coin-maquillage",
       "date": "2026-07-31",
       "mots": 3124
+    },
+    {
+      "id": "coiffeuse-scandinave",
+      "slug": "coiffeuse-scandinave",
+      "date": "2026-07-31",
+      "mots": 3254
     }
   ],
-  "compteur": 17,
+  "compteur": 18,
   "derniere_publication": "2026-07-31"
 }
