@@ -119,8 +119,14 @@
       "slug": "tabouret-coiffeuse",
       "date": "2026-07-31",
       "mots": 3250
+    },
+    {
+      "id": "miroir-coiffeuse",
+      "slug": "miroir-coiffeuse",
+      "date": "2026-07-31",
+      "mots": 3151
     }
   ],
-  "compteur": 20,
+  "compteur": 21,
   "derniere_publication": "2026-07-31"
 }
