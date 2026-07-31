@@ -113,8 +113,14 @@
       "slug": "coiffeuse-vintage",
       "date": "2026-07-31",
       "mots": 2974
+    },
+    {
+      "id": "tabouret-coiffeuse",
+      "slug": "tabouret-coiffeuse",
+      "date": "2026-07-31",
+      "mots": 3250
     }
   ],
-  "compteur": 19,
+  "compteur": 20,
   "derniere_publication": "2026-07-31"
 }
