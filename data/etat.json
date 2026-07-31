@@ -107,8 +107,14 @@
       "slug": "coiffeuse-scandinave",
       "date": "2026-07-31",
       "mots": 3254
+    },
+    {
+      "id": "coiffeuse-vintage",
+      "slug": "coiffeuse-vintage",
+      "date": "2026-07-31",
+      "mots": 2974
     }
   ],
-  "compteur": 18,
+  "compteur": 19,
   "derniere_publication": "2026-07-31"
 }
