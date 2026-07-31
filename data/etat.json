@@ -95,8 +95,14 @@
       "slug": "monter-une-coiffeuse",
       "date": "2026-07-30",
       "mots": 3311
+    },
+    {
+      "id": "amenager-coin-maquillage",
+      "slug": "coin-maquillage",
+      "date": "2026-07-31",
+      "mots": 3124
     }
   ],
-  "compteur": 16,
-  "derniere_publication": "2026-07-30"
+  "compteur": 17,
+  "derniere_publication": "2026-07-31"
 }
