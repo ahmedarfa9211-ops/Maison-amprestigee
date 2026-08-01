@@ -249,6 +249,16 @@ def rendre_tous(articles: list[dict[str, Any]], config: dict[str, Any]) -> list[
     produits_par_id = {p["id"]: p for p in charger_produits()}
     articles_par_slug = {a["slug"]: a for a in articles}
     for article in articles:
+        # Conformité Amazon : aucun montant en euros ne doit atteindre une page.
+        # Le nettoyage a lieu à CHAQUE build, donc il rattrape aussi les
+        # articles rédigés avant l'ajout de ce garde-fou.
+        for champ in ("titre_h1", "titre_seo", "titre_page", "meta"):
+            if article.get(champ):
+                article[champ] = seo.retirer_montants(article[champ])
+        if "contenu" in article:
+            article["contenu"] = seo.retirer_montants(article["contenu"])
+            article["faq"] = article["contenu"].get("faq", article.get("faq", []))
+            article["mots"] = seo.compter_mots(article["contenu"])
         if "contenu" in article:
             article["html"] = html_de_larticle(article, config, produits_par_id, articles_par_slug)
         else:  # article d'une ancienne version : on se contente de retaguer

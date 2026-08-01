@@ -137,8 +137,14 @@
       "slug": "coiffeuse-hollywood",
       "date": "2026-08-01",
       "mots": 3266
+    },
+    {
+      "id": "entretenir-coiffeuse",
+      "slug": "entretien-coiffeuse",
+      "date": "2026-08-01",
+      "mots": 3280
     }
   ],
-  "compteur": 23,
+  "compteur": 24,
   "derniere_publication": "2026-08-01"
 }

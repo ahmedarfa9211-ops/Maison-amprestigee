@@ -9,6 +9,92 @@ from typing import Any
 
 MOTIF_BALISE = re.compile(r"<[^>]+>")
 
+# ------------------------------------------------- conformité Amazon : prix
+#
+# Le contrat Partenaires interdit d'afficher un prix qui ne provient pas de la
+# Product Advertising API. Le prompt l'interdit déjà au rédacteur, mais un
+# modèle peut glisser un montant malgré tout : on nettoie donc le contenu à
+# chaque construction du site, avant publication. Aucun montant ne peut ainsi
+# atteindre une page en ligne, même dans un article rédigé il y a des semaines.
+
+_CHIFFRES = r"\d[\d\s.,]*"
+_DEVISE = r"(?:€|EUR\b|euros?\b)"
+
+# Locutions qui introduisent un montant : on les emporte avec lui, sinon la
+# phrase reste bancale (« un budget de suffit largement »).
+_AMORCE = (
+    r"(?:\b(?:à partir de|aux alentours de|aux environs de|au-delà de|autour de|"
+    r"sous la barre des|sous les|moins de|plus de|près de|jusqu'à|jusqu’à|"
+    r"environ|compter|coûte|coûtent|vaut|valent|à|de|des|du|pour|dès|entre|vers)\s+)*"
+)
+
+MOTIF_MONTANT = re.compile(
+    rf"{_AMORCE}{_CHIFFRES}\s*(?:et|à)\s*{_CHIFFRES}\s*{_DEVISE}"  # fourchette
+    rf"|{_AMORCE}{_CHIFFRES}\s*{_DEVISE}"                          # montant simple
+    rf"|(?:€|EUR)\s*{_CHIFFRES}\d",                                # symbole en tête
+    re.IGNORECASE,
+)
+
+# Connecteur resté orphelin devant une ponctuation ou une fin de chaîne.
+_ORPHELIN = re.compile(
+    r"\s*\b(?:à partir|aux alentours|aux environs|au-delà|autour|sous|moins|plus|près|"
+    r"jusqu|environ|entre|dès|vers|et|à|de|des|du|pour|d['’])"
+    r"(?:\s+(?:de|à|des|les|qu['’]à|la barre des))?\s*(?=[,;:.…!?]|$)",
+    re.IGNORECASE,
+)
+
+MOTIF_PHRASE = re.compile(r"(?<=[.!?…])\s+")
+MOTIF_CLAUSE = re.compile(r"(?<=[,;:.!?…])\s+")
+
+
+def _resserrer(texte: str) -> str:
+    for _ in range(4):
+        avant = texte
+        texte = _ORPHELIN.sub("", texte)
+        if texte == avant:
+            break
+    texte = re.sub(r"\(\s*\)|\[\s*\]", "", texte)
+    texte = re.sub(r"[,;:]\s*([.!?…])", r"\1", texte)
+    texte = re.sub(r"([,;:])\s*\1+", r"\1", texte)
+    texte = re.sub(r"\s+([,.…])", r"\1", texte)
+    # Typographie française : espace insécable avant les ponctuations doubles.
+    texte = re.sub(r"\s*([;:!?])", " \\1", texte)
+    texte = re.sub(r"\s{2,}", " ", texte)
+    return texte.strip("  ,;:-–—\t\n")
+
+
+def _nettoyer_chaine(texte: str) -> str:
+    """Retire tout montant en euros en préservant un français correct.
+
+    Trois filets successifs, du moins destructeur au plus sûr : on retire la
+    phrase porteuse du montant ; sinon la proposition ; sinon le montant seul
+    avec la locution qui l'introduisait.
+    """
+    if not texte or not MOTIF_MONTANT.search(texte):
+        return texte
+
+    for decoupe in (MOTIF_PHRASE, MOTIF_CLAUSE):
+        morceaux = decoupe.split(texte)
+        if len(morceaux) > 1:
+            gardes = [m for m in morceaux if not MOTIF_MONTANT.search(m)]
+            if gardes:
+                return _resserrer(" ".join(gardes))
+
+    return _resserrer(MOTIF_MONTANT.sub(" ", texte))
+
+
+def retirer_montants(valeur: Any) -> Any:
+    """Nettoie récursivement toute structure (dict, liste, chaîne)."""
+    if isinstance(valeur, str):
+        return _nettoyer_chaine(valeur)
+    if isinstance(valeur, list):
+        nettoyes = [retirer_montants(v) for v in valeur]
+        # Une puce vidée de sa substance est retirée plutôt que laissée vide.
+        return [v for v in nettoyes if not (isinstance(v, str) and not v.strip())]
+    if isinstance(valeur, dict):
+        return {cle: retirer_montants(v) for cle, v in valeur.items()}
+    return valeur
+
 
 def texte_brut(html_source: str) -> str:
     return MOTIF_BALISE.sub(" ", html_source)

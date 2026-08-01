@@ -72,6 +72,10 @@ def publier_un(
 
     contenu = redacteur.rediger(sujet, produits, lies, config)
 
+    # Conformité Amazon : on retire les montants AVANT de compter les mots,
+    # pour que le plancher de longueur porte sur le texte réellement publié.
+    contenu = seo.retirer_montants(contenu)
+
     mots = seo.compter_mots(contenu)
     contenu = redacteur.completer_si_trop_court(contenu, mots, sujet, produits, config)
     mots = seo.compter_mots(contenu)
@@ -173,6 +177,7 @@ def regenerer(config: dict, calendrier: Calendrier, produit_id: str) -> int:
 
         print(f"→ {article['titre_h1']}")
         contenu = redacteur.rediger(sujet, produits, lies, config)
+        contenu = seo.retirer_montants(contenu)
         mots = seo.compter_mots(contenu)
         contenu = redacteur.completer_si_trop_court(contenu, mots, sujet, produits, config)
         mots = seo.compter_mots(contenu)
@@ -227,8 +232,16 @@ def afficher_produits(config: dict) -> None:
             print("              → en attente du titre et des puces descriptives")
 
 
-def verifier(config: dict) -> int:
-    """Contrôle qualité : longueur, liens, balises, données structurées."""
+def verifier(config: dict, strict: bool = False) -> int:
+    """Contrôle qualité : longueur, liens, balises, données structurées.
+
+    Par défaut ce contrôle est un RAPPORT, pas un barrage : il signale les
+    points à corriger et rend la main avec un code de succès. Une simple
+    remarque de rédaction ne doit jamais empêcher la publication du jour
+    ni la mise en ligne du site — sinon un détail de style bloque toute la
+    chaîne. Avec --strict, les avertissements redeviennent bloquants (utile
+    en local, avant de valider une modification).
+    """
     articles = site.rendre_tous(articles_publies(), config)
     if not articles:
         print("Aucun article publié.")
@@ -281,7 +294,14 @@ def verifier(config: dict) -> int:
         print(f"\n⚠ {len(problemes)} point(s) à corriger :")
         for p in problemes[:40]:
             print(f"  - {p}")
-        return 1
+        # Remontée dans l'encadré « Annotations » de GitHub Actions : visible
+        # d'un coup d'œil depuis un téléphone, sans ouvrir les journaux.
+        print(f"::warning title=Contrôle qualité::{len(problemes)} point(s) à corriger — "
+              f"{problemes[0]}")
+        if strict:
+            return 1
+        print("  (avertissements non bloquants : le site est publié malgré tout)")
+        return 0
     print("\n✓ Tous les contrôles passent.")
     return 0
 
@@ -298,6 +318,9 @@ def main() -> int:
     ap.add_argument("--sujets", nargs="?", type=int, const=20, help="afficher la file de sujets")
     ap.add_argument("--produits", action="store_true", help="état du catalogue produits")
     ap.add_argument("--verifier", action="store_true", help="contrôle qualité")
+    ap.add_argument(
+        "--strict", action="store_true", help="rend les avertissements bloquants"
+    )
     ap.add_argument(
         "--regenerer",
         metavar="PRODUIT_ID",
@@ -336,7 +359,7 @@ def main() -> int:
         return regenerer(config, calendrier, args.regenerer)
 
     if args.verifier:
-        return verifier(config)
+        return verifier(config, strict=args.strict)
 
     if args.site:
         site.construire()
@@ -346,12 +369,24 @@ def main() -> int:
         print("⚠ Tag d'affiliation non configuré : les liens fonctionneront mais ne")
         print("  rapporteront rien. Renseignez config.json → affiliation.tag\n")
 
+    # Un article qui échoue ne doit pas emporter toute la publication : on
+    # signale, on continue, et on reconstruit le site avec ce qui existe.
+    # Le site déjà en ligne reste ainsi toujours à jour et déployable.
+    echecs = 0
     for i in range(args.nombre):
         jour = _date_du_jour(args.antidater - i if args.antidater else 0)
-        publier_un(config, calendrier, args.sujet if i == 0 else None, jour)
+        try:
+            publier_un(config, calendrier, args.sujet if i == 0 else None, jour)
+        except Exception as erreur:  # noqa: BLE001
+            echecs += 1
+            print(f"  ! Article non publié : {type(erreur).__name__} — {erreur}")
+            print(f"::warning title=Article non publié::{type(erreur).__name__} — {erreur}")
         print()
 
     site.construire()
+    if echecs:
+        print(f"⚠ {echecs} article(s) sur {args.nombre} n'ont pas pu être rédigés.")
+        print("  Le site a tout de même été reconstruit et sera mis en ligne.")
     return 0
 
 
