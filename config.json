@@ -40,6 +40,10 @@
     "max_tokens": 16000,
     "_note": "mode 'api' = rédaction unique par Claude (nécessite ANTHROPIC_API_KEY). mode 'local' = assemblage sans API, gratuit, utile pour tester ou dépanner."
   },
+  "verifications": {
+    "pinterest": "5a1870aca8a34000871403657a2ec8bb",
+    "_note": "Balise p:domain_verify fournie par Pinterest lors de la revendication du site. Laisser en place : Pinterest revérifie le domaine de temps à autre."
+  },
   "seo": {
     "longueur_max_titre": 60,
     "longueur_max_meta": 155,

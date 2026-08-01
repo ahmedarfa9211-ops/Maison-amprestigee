@@ -149,8 +149,14 @@
       "slug": "coiffeuse-2-en-1",
       "date": "2026-08-01",
       "mots": 3023
+    },
+    {
+      "id": "coiffeuse-velours",
+      "slug": "coiffeuse-velours",
+      "date": "2026-08-01",
+      "mots": 3258
     }
   ],
-  "compteur": 25,
+  "compteur": 26,
   "derniere_publication": "2026-08-01"
 }

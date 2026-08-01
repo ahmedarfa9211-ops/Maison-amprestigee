@@ -293,6 +293,15 @@ def balises_tete(
         if image
         else ""
     )
+    # Preuves de propriété du domaine (Pinterest, et tout service qui
+    # fonctionne sur le même principe). Elles vivent dans config.json pour
+    # qu'on n'ait jamais à toucher au code pour en ajouter une.
+    verifications = ""
+    for nom, valeur in (config.get("verifications") or {}).items():
+        if nom.startswith("_") or not valeur:
+            continue
+        balise = {"pinterest": "p:domain_verify", "google": "google-site-verification"}.get(nom, nom)
+        verifications += f'\n<meta name="{e(balise)}" content="{e(str(valeur))}">'
     return f"""<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{e(titre)}</title>
@@ -308,5 +317,5 @@ def balises_tete(
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{e(titre)}">
 <meta name="twitter:description" content="{e(description)}">
-<meta name="theme-color" content="{e(site['couleur_principale'])}">{balises_image}
+<meta name="theme-color" content="{e(site['couleur_principale'])}">{verifications}{balises_image}
 <link rel="alternate" type="application/rss+xml" title="{e(site['nom'])}" href="{e(site['url'])}/rss.xml">"""
