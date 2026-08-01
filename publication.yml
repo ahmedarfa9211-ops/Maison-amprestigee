@@ -1,0 +1,53 @@
+name: Publication
+
+on:
+  schedule:
+    - cron: "15 5 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: publication
+
+jobs:
+  publier:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Publier
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          AMAZON_TAG: maisonamprest-21
+          SITE_URL: https://maisonamprestige.fr
+          MODE_REDACTION: api
+        run: |
+          ls *.zip >/dev/null 2>&1 && unzip -o -q *.zip -x 'coiffeuse-pro/.github/*' && cp -R coiffeuse-pro/. . && rm -rf coiffeuse-pro *.zip || true
+          python publier.py --nombre 1 || echo "::warning::Article du jour non ecrit"
+          python publier.py --site
+          python publier.py --verifier || true
+      - name: Enregistrer
+        run: |
+          git config user.name "Publication automatique"
+          git config user.email "actions@github.com"
+          git add -A
+          git diff --staged --quiet || git commit -m "Publication du $(date +%F)"
+          git push || true
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deployer:
+    needs: publier
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+    steps:
+      - uses: actions/deploy-pages@v4
