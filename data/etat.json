@@ -125,8 +125,14 @@
       "slug": "miroir-coiffeuse",
       "date": "2026-07-31",
       "mots": 3151
+    },
+    {
+      "id": "coiffeuse-chambre-adulte",
+      "slug": "coiffeuse-chambre-adulte",
+      "date": "2026-08-01",
+      "mots": 3185
     }
   ],
-  "compteur": 21,
-  "derniere_publication": "2026-07-31"
+  "compteur": 22,
+  "derniere_publication": "2026-08-01"
 }
