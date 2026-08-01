@@ -278,10 +278,21 @@ def balises_tete(
     url_canonique: str,
     config: dict[str, Any],
     type_og: str = "article",
+    image: str = "",
 ) -> str:
     site = config["site"]
     indexation = "index, follow" if config["seo"].get("indexation", True) else "noindex, nofollow"
     e = lambda t: html.escape(t, quote=True)  # noqa: E731
+    # L'image sociale sert au partage, mais aussi au bouton « Enregistrer »
+    # de Pinterest : sans elle, aucune épingle n'est possible depuis la page.
+    balises_image = (
+        f'\n<meta property="og:image" content="{e(image)}">'
+        f'\n<meta property="og:image:width" content="1000">'
+        f'\n<meta property="og:image:height" content="1500">'
+        f'\n<meta name="twitter:image" content="{e(image)}">'
+        if image
+        else ""
+    )
     return f"""<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{e(titre)}</title>
@@ -297,5 +308,5 @@ def balises_tete(
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{e(titre)}">
 <meta name="twitter:description" content="{e(description)}">
-<meta name="theme-color" content="{e(site['couleur_principale'])}">
+<meta name="theme-color" content="{e(site['couleur_principale'])}">{balises_image}
 <link rel="alternate" type="application/rss+xml" title="{e(site['nom'])}" href="{e(site['url'])}/rss.xml">"""

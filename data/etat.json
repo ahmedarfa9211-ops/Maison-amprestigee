@@ -143,8 +143,14 @@
       "slug": "entretien-coiffeuse",
       "date": "2026-08-01",
       "mots": 3280
+    },
+    {
+      "id": "coiffeuse-2-en-1",
+      "slug": "coiffeuse-2-en-1",
+      "date": "2026-08-01",
+      "mots": 3023
     }
   ],
-  "compteur": 24,
+  "compteur": 25,
   "derniere_publication": "2026-08-01"
 }

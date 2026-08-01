@@ -9,7 +9,7 @@ from email.utils import format_datetime
 from pathlib import Path
 from typing import Any
 
-from . import gabarits, seo
+from . import gabarits, seo, visuels
 from .rendu import html_de_larticle
 from .reglages import (
     DOSSIER_SITE,
@@ -32,6 +32,32 @@ def _nom_categorie(cle: str, categories: dict[str, str]) -> str:
     return categories.get(cle, cle.replace("-", " ").capitalize())
 
 
+# --------------------------------------------------------------- épingles
+
+
+DOSSIER_EPINGLES = "epingles"
+
+
+def chemin_epingle(article: dict[str, Any]) -> Path:
+    return DOSSIER_SITE / DOSSIER_EPINGLES / f"{article['slug']}.png"
+
+
+def url_epingle(article: dict[str, Any], config: dict[str, Any]) -> str:
+    return f"{config['site']['url']}/{DOSSIER_EPINGLES}/{article['slug']}.png"
+
+
+def ecrire_epingles(articles: list[dict[str, Any]], config: dict[str, Any]) -> int:
+    """Un visuel vertical par article : c'est ce que Pinterest publiera."""
+    faits = 0
+    for article in articles:
+        try:
+            visuels.generer(article, config, chemin_epingle(article))
+            faits += 1
+        except Exception as erreur:  # noqa: BLE001
+            print(f"  ! Visuel impossible pour {article['slug']} : {erreur}")
+    return faits
+
+
 # ------------------------------------------------------------------ pages
 
 
@@ -40,7 +66,9 @@ def page_article(article: dict[str, Any], config: dict[str, Any], categories: di
     nom_cat = _nom_categorie(article["categorie"], categories)
     article["categorie_nom"] = nom_cat
 
-    tete = seo.balises_tete(article["titre_page"], article["meta"], url, config, "article")
+    tete = seo.balises_tete(
+        article["titre_page"], article["meta"], url, config, "article", url_epingle(article, config)
+    )
     jsonld = "".join(
         [
             seo.schema_article(article, config),
@@ -150,6 +178,9 @@ def rss(config: dict[str, Any], articles: list[dict[str, Any]]) -> str:
     s = config["site"]
     maintenant = format_datetime(datetime.now(timezone.utc))
     items = []
+    # Deux épingles qui portent le même texte se concurrencent dans la
+    # recherche Pinterest : on garantit ici que chacune a le sien.
+    descriptions_vues: set[str] = set()
     for a in articles[:30]:
         try:
             publie = format_datetime(
@@ -158,15 +189,35 @@ def rss(config: dict[str, Any], articles: list[dict[str, Any]]) -> str:
         except ValueError:
             publie = maintenant
         lien = f"{s['url']}/{a['slug']}/"
+        # Pinterest n'accepte une entrée que si elle porte une image : on
+        # déclare le visuel en <enclosure> ET en <media:content>, les deux
+        # formes qu'il sait lire.
+        image = ""
+        fichier = chemin_epingle(a)
+        if fichier.exists():
+            url_image = e(url_epingle(a, config))
+            image = (
+                f'<enclosure url="{url_image}" length="{fichier.stat().st_size}" '
+                f'type="image/png"/>'
+                f'<media:content url="{url_image}" medium="image" type="image/png" '
+                f'width="1000" height="1500"/>'
+            )
+        description = visuels.accroche(a)
+        if description in descriptions_vues:
+            description = seo.tronquer(f"{a['titre_h1']} — {description}", 300)
+        descriptions_vues.add(description)
+
         items.append(
             f"<item><title>{e(a['titre_h1'])}</title><link>{e(lien)}</link>"
             f"<guid isPermaLink=\"true\">{e(lien)}</guid>"
-            f"<description>{e(a.get('meta', ''))}</description>"
+            f"<description>{e(description)}</description>"
+            f"{image}"
             f"<pubDate>{publie}</pubDate></item>"
         )
     return (
         '<?xml version="1.0" encoding="UTF-8"?>'
-        '<rss version="2.0"><channel>'
+        '<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">'
+        "<channel>"
         f"<title>{e(s['nom'])}</title><link>{e(s['url'])}/</link>"
         f"<description>{e(s['description'])}</description>"
         f"<language>fr-fr</language><lastBuildDate>{maintenant}</lastBuildDate>"
@@ -285,6 +336,12 @@ def construire(verbeux: bool = True) -> dict[str, int]:
         shutil.rmtree(DOSSIER_SITE)
     DOSSIER_SITE.mkdir(parents=True, exist_ok=True)
 
+    # Visuels d'épingle d'abord : chaque page déclare le sien en og:image, et
+    # le flux RSS a besoin du poids exact du fichier pour Pinterest.
+    for article in articles:
+        article["categorie_nom"] = _nom_categorie(article["categorie"], categories)
+    epingles = ecrire_epingles(articles, config)
+
     # Articles
     for article in articles:
         article["titre_page"] = article.get("titre_page") or seo.titre_page(
@@ -389,6 +446,14 @@ def construire(verbeux: bool = True) -> dict[str, int]:
     _ecrire(DOSSIER_SITE / ".nojekyll", "")
 
     if verbeux:
-        print(f"  ✓ Site reconstruit : {len(articles)} article(s), {total_pages} page(s) d'accueil.")
+        print(
+            f"  ✓ Site reconstruit : {len(articles)} article(s), "
+            f"{total_pages} page(s) d'accueil, {epingles} visuel(s) d'épingle."
+        )
 
-    return {"articles": len(articles), "pages": total_pages, "categories": len(categories)}
+    return {
+        "articles": len(articles),
+        "pages": total_pages,
+        "categories": len(categories),
+        "epingles": epingles,
+    }
