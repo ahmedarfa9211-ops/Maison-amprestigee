@@ -260,6 +260,13 @@ def rendre_tous(articles: list[dict[str, Any]], config: dict[str, Any]) -> list[
 
 def construire(verbeux: bool = True) -> dict[str, int]:
     config = charger_config()
+
+    # Garde-fou de pré-lancement : tant que le site tourne sur l'adresse
+    # provisoire github.io, on interdit l'indexation quoi que dise la config.
+    # Dès qu'un vrai domaine est en place, l'indexation s'active toute seule.
+    if ".github.io" in config["site"]["url"]:
+        config["seo"]["indexation"] = False
+
     categories = charger_sujets()["categories"]
     articles = articles_publies()
     articles = rendre_tous(articles, config)
@@ -355,6 +362,13 @@ def construire(verbeux: bool = True) -> dict[str, int]:
             '<a href="/tous-les-guides/">voir tous les guides</a>.</p>',
         ),
     )
+
+    # Domaine personnalisé : GitHub Pages a besoin d'un fichier CNAME à la
+    # racine du site publié. Comme ce dossier est reconstruit à chaque fois,
+    # on le régénère ici à partir de l'adresse configurée.
+    hote = config["site"]["url"].split("//", 1)[-1].split("/", 1)[0]
+    if hote and not hote.endswith(".github.io"):
+        _ecrire(DOSSIER_SITE / "CNAME", hote + "\n")
 
     # Fichiers techniques
     if config["seo"].get("generer_sitemap", True):

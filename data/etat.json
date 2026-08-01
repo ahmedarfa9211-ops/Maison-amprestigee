@@ -131,8 +131,14 @@
       "slug": "coiffeuse-chambre-adulte",
       "date": "2026-08-01",
       "mots": 3185
+    },
+    {
+      "id": "coiffeuse-glamour-hollywood",
+      "slug": "coiffeuse-hollywood",
+      "date": "2026-08-01",
+      "mots": 3266
     }
   ],
-  "compteur": 22,
+  "compteur": 23,
   "derniere_publication": "2026-08-01"
 }

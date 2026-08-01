@@ -43,10 +43,10 @@
   "seo": {
     "longueur_max_titre": 60,
     "longueur_max_meta": 155,
-    "indexation": false,
+    "indexation": true,
     "generer_sitemap": true,
     "generer_rss": true,
     "donnees_structurees": true,
-    "_note_indexation": "false pendant la phase de pré-lancement : le site est en ligne et consultable, mais invisible pour Google. Repasser à true le jour où le nom de domaine définitif est branché."
+    "_note_indexation": "L'indexation ne s'applique jamais sur une adresse *.github.io : elle s'active automatiquement dès que site.url (ou la variable SITE_URL) pointe vers un vrai domaine."
   }
 }
