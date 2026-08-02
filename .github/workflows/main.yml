@@ -2,7 +2,7 @@ name: Publication quotidienne
 
 on:
   schedule:
-    - cron: "0 5 * * *"
+    - cron: "170 5 * * *"
   workflow_dispatch:
     inputs:
       nombre:
