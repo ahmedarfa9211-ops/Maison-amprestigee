@@ -223,8 +223,8 @@
     },
     {
       "id": "coiffeuse-hollywood-premium",
-      "nom": "Coiffeuse style Hollywood avec ampoules et grand miroir",
-      "asin": null,
+      "nom": "Coiffeuse Hollywood à miroir triptyque et 11 ampoules",
+      "asin": "B0FM2P9HNJ",
       "requete": "coiffeuse hollywood miroir ampoules grand plateau",
       "categorie": "coiffeuse-complete",
       "gamme": "premium",
@@ -247,14 +247,15 @@
       ],
       "pour_qui": "les passionnées de maquillage et les créatrices de contenu qui filment leurs routines",
       "points_forts": [
-        "Lumière frontale homogène qui supprime les ombres sous les yeux et sous le menton",
-        "Grand miroir permettant de contrôler le rendu à distance, pas seulement de près",
-        "Plateau généreux capable d'accueillir palettes, pinceaux et coiffant en même temps",
-        "Rendu photo et vidéo nettement plus flatteur qu'un plafonnier classique"
+        "Les trois volets permettent de se voir de profil, ce qu'un miroir plat ne montre jamais",
+        "Onze ampoules réparties sur le pourtour : la lumière arrive de face, pas du plafond",
+        "Trois températures de couleur pour vérifier un maquillage en lumière du jour comme en soirée",
+        "Multiprise intégrée au plateau : le sèche-cheveux et le lisseur se branchent sans rallonge",
+        "Neuf tiroirs, de quoi ranger une collection conséquente sans empiler"
       ],
       "points_faibles": [
-        "Encombrement réel important : à mesurer avant commande",
-        "Les ampoules consomment et chauffent si le modèle n'est pas en LED"
+        "Le blanc laqué marque les traces de doigts autour des poignées",
+        "Un meuble de cette largeur demande un vrai pan de mur libre"
       ],
       "notes": {
         "rapport_qualite_prix": 3.5,
@@ -271,7 +272,16 @@
         "enfant",
         "budget",
         "ado"
-      ]
+      ],
+      "specs": {
+        "Miroir": "triptyque, 3 volets pliables",
+        "Éclairage": "11 ampoules, 3 températures de couleur",
+        "Rangement": "9 tiroirs",
+        "Électricité": "multiprise intégrée au plateau",
+        "Montage": "installation des rails sans outils",
+        "Coloris": "blanc nuage"
+      },
+      "_verifie": "Fiche Amazon.fr vérifiée le 2 août 2026 (capture d'écran) : VASAGLE KAILYN RDT146WB01, marque VASAGLE, Choix d'Amazon. Caractéristiques relevées sur la fiche."
     },
     {
       "id": "coiffeuse-noire-industrielle",
@@ -363,11 +373,11 @@
     },
     {
       "id": "coiffeuse-miroir-relevable",
-      "nom": "Coiffeuse avec miroir relevable et rangement caché",
-      "asin": null,
+      "nom": "Coiffeuse compacte à miroir relevable et tabouret-coffre",
+      "asin": "B0GHZ1RK6J",
       "requete": "coiffeuse miroir relevable rangement cache bureau",
       "categorie": "polyvalente",
-      "gamme": "milieu",
+      "gamme": "entree",
       "style": [
         "moderne",
         "minimaliste",
@@ -387,14 +397,15 @@
       ],
       "pour_qui": "celles qui veulent un meuble qui serve aussi de bureau ou de console",
       "points_forts": [
-        "Miroir escamoté sous le plateau : le meuble redevient un bureau en une seconde",
-        "Le compartiment sous le plateau protège les produits de la poussière et du soleil",
-        "Idéal en chambre d'amis ou dans un salon où un miroir permanent jurerait",
-        "Un seul meuble pour deux usages, donc un mètre carré économisé"
+        "Le miroir sert de couvercle : relevé on se maquille, rabattu le meuble redevient un plan de travail",
+        "Tout le maquillage se range sous le plateau, à l'abri de la poussière et de la lumière",
+        "Les roulettes permettent de l'amener près d'une fenêtre puis de le remiser",
+        "Le tabouret fait aussi coffre : rien ne traîne dans une petite pièce",
+        "Format compact : il passe là où une coiffeuse classique ne rentre pas"
       ],
       "points_faibles": [
-        "Il faut vider le plateau avant de relever le miroir",
-        "Le vérin ou la charnière est la pièce d'usure à surveiller"
+        "Un plateau de 50 cm de large reste étroit si l'on possède beaucoup de produits",
+        "Il faut dégager le plateau avant de relever le miroir"
       ],
       "notes": {
         "rapport_qualite_prix": 4.5,
@@ -402,7 +413,15 @@
         "rangement": 4.5,
         "montage": 3.5,
         "eclairage": 1.0
-      }
+      },
+      "specs": {
+        "Miroir": "relevable, intégré au plateau, éclairage LED à luminosité réglable",
+        "Dimensions": "50,5 × 40,5 × 85 cm",
+        "Rangement": "compartiment sous le plateau, tiroir, et tabouret-coffre",
+        "Mobilité": "montée sur roulettes",
+        "Assise": "tabouret de rangement inclus"
+      },
+      "_verifie": "Fiche Amazon.fr vérifiée le 2 août 2026 (capture d'écran) : COSTWAY, miroir relevable confirmé sur la photo produit. Peu d'avis à ce jour — à remplacer si un modèle mieux noté du même type apparaît."
     },
     {
       "id": "coiffeuse-pas-cher",
