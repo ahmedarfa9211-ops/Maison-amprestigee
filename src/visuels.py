@@ -13,6 +13,7 @@ fond dégradée — moins belle, mais valide, et le flux ne casse jamais.
 from __future__ import annotations
 
 import hashlib
+import re
 import struct
 import zlib
 from pathlib import Path
@@ -38,6 +39,16 @@ POLICES_SERIF = [
     "/usr/share/fonts/truetype/liberation2/LiberationSerif-Bold.ttf",
     "/usr/share/fonts/truetype/freefont/FreeSerifBold.ttf",
 ]
+# Mots sur lesquels une phrase tronquée ne doit jamais s'arrêter.
+MOTS_OUTILS = {
+    "avec", "sans", "et", "ou", "mais", "donc", "car", "de", "du", "des", "d",
+    "le", "la", "les", "un", "une", "au", "aux", "à", "en", "dans", "sur",
+    "sous", "pour", "par", "que", "qui", "quoi", "dont", "où", "ce", "cet",
+    "cette", "ces", "son", "sa", "ses", "leur", "leurs", "on", "il", "elle",
+    "vous", "nous", "plus", "moins", "très", "trop", "puis", "entre", "vers",
+    "chez", "dès", "selon", "comme", "si", "ne", "n", "l", "s", "c", "j",
+}
+
 POLICES_SANS = [
     "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
     "/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf",
@@ -57,6 +68,10 @@ def accroche(article: dict[str, Any], limite: int = 300) -> str:
     contenu = article.get("contenu") or {}
     source = (contenu.get("chapeau") or "").strip() or article.get("meta", "")
     source = " ".join(source.split())
+    # Les sigles repris tels quels d'un mot-clé arrivent en minuscules
+    # (« coiffeuse led ») : sur une épingle, ça fait tout de suite bâclé.
+    for sigle in ("LED", "USB", "MDF", "IKEA", "RGB", "PVC"):
+        source = re.sub(rf"\b{sigle}\b", sigle, source, flags=re.IGNORECASE)
     if len(source) <= limite:
         return source
     coupe = source[:limite]
@@ -194,8 +209,28 @@ def _rendre_pillow(article: dict[str, Any], config: dict[str, Any]) -> bytes:
     hauteur_ligne = int(taille * 1.30)
     police_promesse = _police(POLICES_SANS, 34)
     lignes_p = _decouper(
-        dessin, accroche(article, 170), police_promesse, LARGEUR - 2 * marge - 60
-    )[:3]
+        dessin, accroche(article, 150), police_promesse, LARGEUR - 2 * marge - 60
+    )
+    # Jamais de phrase tranchée en plein milieu : si le texte déborde de trois
+    # lignes, on coupe au dernier mot entier et on ferme par des points de
+    # suspension. Une épingle qui finit sur « avec » fait négligé.
+    if len(lignes_p) > 3:
+        lignes_p = lignes_p[:3]
+        derniere = lignes_p[2]
+        largeur_utile_p = LARGEUR - 2 * marge - 60
+        while derniere:
+            derniere = derniere.rstrip(" ,;:")
+            # Un texte qui s'arrête sur « avec » ou « et » fait inachevé :
+            # on remonte jusqu'au dernier mot qui porte du sens.
+            dernier_mot = derniere.rsplit(" ", 1)[-1].lower().strip("'’")
+            trop_long = dessin.textlength(derniere + "…", font=police_promesse) > largeur_utile_p
+            if trop_long or dernier_mot in MOTS_OUTILS:
+                if " " not in derniere:
+                    break
+                derniere = derniere.rsplit(" ", 1)[0]
+                continue
+            break
+        lignes_p[2] = derniere + "…"
 
     # On mesure l'ensemble avant de le poser : le bloc est centré dans la zone
     # libre, jamais tassé en haut avec un grand vide en dessous.

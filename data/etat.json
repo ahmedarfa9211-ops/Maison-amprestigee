@@ -161,8 +161,14 @@
       "slug": "coiffeuse-enfant",
       "date": "2026-08-02",
       "mots": 3096
+    },
+    {
+      "id": "erreurs-achat-coiffeuse",
+      "slug": "erreurs-achat-coiffeuse",
+      "date": "2026-08-03",
+      "mots": 3303
     }
   ],
-  "compteur": 27,
-  "derniere_publication": "2026-08-02"
+  "compteur": 28,
+  "derniere_publication": "2026-08-03"
 }

@@ -135,8 +135,8 @@
     },
     {
       "id": "coiffeuse-angle",
-      "nom": "Coiffeuse d'angle compacte",
-      "asin": null,
+      "nom": "Coiffeuse d'angle en L à miroir LED et rangements latéraux",
+      "asin": "B0FVDX8KLF",
       "requete": "coiffeuse d'angle compacte miroir rangement",
       "categorie": "petit-espace",
       "gamme": "milieu",
@@ -157,14 +157,15 @@
       ],
       "pour_qui": "les studios et petites chambres où aucun mur n'est libre sur toute sa longueur",
       "points_forts": [
-        "Exploite un angle mort qui ne sert généralement à rien d'autre",
-        "Emprise au sol très réduite, souvent moins de 60 cm sur chaque mur",
-        "Le miroir en angle renvoie la lumière de la fenêtre dans toute la pièce",
-        "Se glisse dans une chambre d'ado sans bloquer le passage"
+        "Exploite l'angle de la pièce, l'endroit le plus souvent perdu d'une chambre",
+        "Le plan en L offre deux zones : une pour se maquiller, une pour poser ses affaires",
+        "Trois modes de couleur pour vérifier son maquillage en lumière chaude comme en lumière froide",
+        "Prise intégrée : le lisseur se branche sans rallonge en travers de la pièce",
+        "Étagères ouvertes en plus des tiroirs, pour ce qu'on utilise tous les jours"
       ],
       "points_faibles": [
-        "Plateau restreint : il faut trier sa collection de maquillage",
-        "L'assise doit être un tabouret sans dossier pour se ranger dessous"
+        "Un plan en L demande un angle vraiment dégagé, sans plinthe épaisse ni radiateur",
+        "Les étagères ouvertes prennent la poussière plus vite qu'un tiroir fermé"
       ],
       "notes": {
         "rapport_qualite_prix": 4.5,
@@ -172,7 +173,15 @@
         "rangement": 3.0,
         "montage": 4.0,
         "eclairage": 1.0
-      }
+      },
+      "specs": {
+        "Forme": "plan en L, conçu pour occuper un angle de pièce",
+        "Miroir": "LED, 3 modes de couleur, luminosité réglable",
+        "Rangement": "5 tiroirs, 3 étagères ouvertes, rangement latéral",
+        "Électricité": "prise intégrée",
+        "Coloris": "blanc"
+      },
+      "_verifie": "Fiche Amazon.fr vérifiée le 2 août 2026 (capture d'écran) : TEENFON, forme en L confirmée sur la photo produit."
     },
     {
       "id": "coiffeuse-murale-rabattable",
@@ -1306,6 +1315,61 @@
         "vintage"
       ],
       "_verifie": "ASIN présumé B0H9S2V1MV (à confirmer) ; fiche fournie par Ahmed le 2026-07-28 (GOKHOMX). Aucun avis client disponible : notes prudentes sur finition et montage. Aucun prix repris sur le site."
+    },
+    {
+      "id": "coiffeuse-campagne-bois",
+      "nom": "Coiffeuse style campagne en bois deux tons à miroir coulissant",
+      "asin": "B0F1FVP866",
+      "requete": "coiffeuse style campagne bois miroir coulissant rangement bijoux",
+      "categorie": "coiffeuse-complete",
+      "gamme": "milieu",
+      "style": [
+        "campagne",
+        "rustique",
+        "vintage",
+        "naturel"
+      ],
+      "couleur": [
+        "blanc",
+        "bois",
+        "miel"
+      ],
+      "tags": [
+        "bois",
+        "campagne",
+        "rangement-bijoux",
+        "tabouret-inclus",
+        "multiprise",
+        "miroir-coulissant",
+        "eclairage"
+      ],
+      "pour_qui": "les chambres chaleureuses où le meuble doit avoir du caractère sans faire lourd",
+      "points_forts": [
+        "Le miroir coulisse sur son rail et découvre un rangement à bijoux : tout reste à portée sans rien laisser traîner",
+        "Le contraste bois miel et blanc patiné réchauffe une pièce là où le laqué la rend froide",
+        "Multiprise intégrée : le lisseur et le téléphone se branchent sans rallonge",
+        "Tabouret assorti fourni, ce qui évite la chasse au siège à la bonne hauteur",
+        "Le caisson latéral à porte de grange ferme complètement, contrairement aux étagères ouvertes"
+      ],
+      "points_faibles": [
+        "Le style campagne s'accorde mal avec un intérieur très contemporain",
+        "Deux tiroirs seulement : l'essentiel du rangement passe par le caisson et les niches"
+      ],
+      "notes": {
+        "rapport_qualite_prix": 4.5,
+        "finition": 4.5,
+        "rangement": 4.0,
+        "montage": 3.5,
+        "eclairage": 4.0
+      },
+      "specs": {
+        "Style": "campagne, bois deux tons blanc patiné et brun miel",
+        "Miroir": "coulissant sur rail, avec éclairage intégré",
+        "Rangement": "2 tiroirs, rangement à bijoux derrière le miroir, caisson latéral à porte",
+        "Électricité": "multiprise intégrée",
+        "Assise": "tabouret assorti inclus"
+      },
+      "_verifie": "Fiche Amazon.fr vérifiée le 2 août 2026 (capture d'écran) : VASAGLE LIRY RDT136W01, style campagne confirmé sur la photo produit."
     }
   ]
 }
