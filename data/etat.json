@@ -167,8 +167,14 @@
       "slug": "erreurs-achat-coiffeuse",
       "date": "2026-08-03",
       "mots": 3303
+    },
+    {
+      "id": "coiffeuse-organisation-maquillage",
+      "slug": "organiser-maquillage-coiffeuse",
+      "date": "2026-08-04",
+      "mots": 2982
     }
   ],
-  "compteur": 28,
-  "derniere_publication": "2026-08-03"
+  "compteur": 29,
+  "derniere_publication": "2026-08-04"
 }
