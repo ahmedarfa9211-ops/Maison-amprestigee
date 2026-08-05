@@ -173,8 +173,14 @@
       "slug": "organiser-maquillage-coiffeuse",
       "date": "2026-08-04",
       "mots": 2982
+    },
+    {
+      "id": "coiffeuse-verre-dore",
+      "slug": "coiffeuse-verre",
+      "date": "2026-08-05",
+      "mots": 3253
     }
   ],
-  "compteur": 29,
-  "derniere_publication": "2026-08-04"
+  "compteur": 30,
+  "derniere_publication": "2026-08-05"
 }
