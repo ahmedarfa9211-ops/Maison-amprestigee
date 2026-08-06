@@ -179,8 +179,14 @@
       "slug": "coiffeuse-verre",
       "date": "2026-08-05",
       "mots": 3253
+    },
+    {
+      "id": "comparatif-miroir-led",
+      "slug": "coiffeuse-avec-miroir-led",
+      "date": "2026-08-06",
+      "mots": 3322
     }
   ],
-  "compteur": 30,
-  "derniere_publication": "2026-08-05"
+  "compteur": 31,
+  "derniere_publication": "2026-08-06"
 }
