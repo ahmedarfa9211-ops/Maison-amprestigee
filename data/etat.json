@@ -185,8 +185,14 @@
       "slug": "coiffeuse-avec-miroir-led",
       "date": "2026-08-06",
       "mots": 3322
+    },
+    {
+      "id": "guide-d-achat-miroir-led",
+      "slug": "coiffeuse-avec-miroir-led-2",
+      "date": "2026-08-07",
+      "mots": 3131
     }
   ],
-  "compteur": 31,
-  "derniere_publication": "2026-08-06"
+  "compteur": 32,
+  "derniere_publication": "2026-08-07"
 }
