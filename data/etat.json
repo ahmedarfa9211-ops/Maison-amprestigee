@@ -215,8 +215,14 @@
       "slug": "coiffeuse-avec-miroir-led-6",
       "date": "2026-08-11",
       "mots": 3153
+    },
+    {
+      "id": "comparatif-blanche",
+      "slug": "coiffeuse-blanche-2",
+      "date": "2026-08-12",
+      "mots": 3385
     }
   ],
-  "compteur": 36,
-  "derniere_publication": "2026-08-11"
+  "compteur": 37,
+  "derniere_publication": "2026-08-12"
 }
