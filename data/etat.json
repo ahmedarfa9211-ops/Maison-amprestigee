@@ -221,8 +221,14 @@
       "slug": "coiffeuse-blanche-2",
       "date": "2026-08-12",
       "mots": 3385
+    },
+    {
+      "id": "guide-d-achat-blanche",
+      "slug": "coiffeuse-blanche-3",
+      "date": "2026-08-13",
+      "mots": 3196
     }
   ],
-  "compteur": 37,
-  "derniere_publication": "2026-08-12"
+  "compteur": 38,
+  "derniere_publication": "2026-08-13"
 }
