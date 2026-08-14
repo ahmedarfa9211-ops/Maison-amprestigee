@@ -227,8 +227,14 @@
       "slug": "coiffeuse-blanche-3",
       "date": "2026-08-13",
       "mots": 3196
+    },
+    {
+      "id": "top-blanche",
+      "slug": "coiffeuse-blanche-4",
+      "date": "2026-08-14",
+      "mots": 3300
     }
   ],
-  "compteur": 38,
-  "derniere_publication": "2026-08-13"
+  "compteur": 39,
+  "derniere_publication": "2026-08-14"
 }
