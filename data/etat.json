@@ -233,8 +233,14 @@
       "slug": "coiffeuse-blanche-4",
       "date": "2026-08-14",
       "mots": 3300
+    },
+    {
+      "id": "guide-complet-blanche",
+      "slug": "coiffeuse-blanche-5",
+      "date": "2026-08-15",
+      "mots": 3242
     }
   ],
-  "compteur": 39,
-  "derniere_publication": "2026-08-14"
+  "compteur": 40,
+  "derniere_publication": "2026-08-15"
 }
