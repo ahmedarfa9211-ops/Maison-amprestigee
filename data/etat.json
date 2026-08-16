@@ -239,8 +239,14 @@
       "slug": "coiffeuse-blanche-5",
       "date": "2026-08-15",
       "mots": 3242
+    },
+    {
+      "id": "choisir-blanche",
+      "slug": "coiffeuse-blanche-6",
+      "date": "2026-08-16",
+      "mots": 3224
     }
   ],
-  "compteur": 40,
-  "derniere_publication": "2026-08-15"
+  "compteur": 41,
+  "derniere_publication": "2026-08-16"
 }
