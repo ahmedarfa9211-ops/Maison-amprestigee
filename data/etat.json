@@ -245,8 +245,14 @@
       "slug": "coiffeuse-blanche-6",
       "date": "2026-08-16",
       "mots": 3224
+    },
+    {
+      "id": "amenagement-blanche",
+      "slug": "coiffeuse-blanche-7",
+      "date": "2026-08-17",
+      "mots": 3230
     }
   ],
-  "compteur": 41,
-  "derniere_publication": "2026-08-16"
+  "compteur": 42,
+  "derniere_publication": "2026-08-17"
 }
