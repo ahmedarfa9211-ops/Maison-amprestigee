@@ -251,8 +251,14 @@
       "slug": "coiffeuse-blanche-7",
       "date": "2026-08-17",
       "mots": 3230
+    },
+    {
+      "id": "comparatif-bois",
+      "slug": "coiffeuse-en-bois",
+      "date": "2026-08-18",
+      "mots": 3119
     }
   ],
-  "compteur": 42,
-  "derniere_publication": "2026-08-17"
+  "compteur": 43,
+  "derniere_publication": "2026-08-18"
 }
