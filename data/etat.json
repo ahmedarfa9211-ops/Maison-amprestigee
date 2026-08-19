@@ -257,8 +257,14 @@
       "slug": "coiffeuse-en-bois",
       "date": "2026-08-18",
       "mots": 3119
+    },
+    {
+      "id": "guide-d-achat-bois",
+      "slug": "coiffeuse-en-bois-2",
+      "date": "2026-08-19",
+      "mots": 2899
     }
   ],
-  "compteur": 43,
-  "derniere_publication": "2026-08-18"
+  "compteur": 44,
+  "derniere_publication": "2026-08-19"
 }
