@@ -263,8 +263,14 @@
       "slug": "coiffeuse-en-bois-2",
       "date": "2026-08-19",
       "mots": 2899
+    },
+    {
+      "id": "top-bois",
+      "slug": "coiffeuse-en-bois-3",
+      "date": "2026-08-20",
+      "mots": 3100
     }
   ],
-  "compteur": 44,
-  "derniere_publication": "2026-08-19"
+  "compteur": 45,
+  "derniere_publication": "2026-08-20"
 }
