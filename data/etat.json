@@ -269,8 +269,14 @@
       "slug": "coiffeuse-en-bois-3",
       "date": "2026-08-20",
       "mots": 3100
+    },
+    {
+      "id": "guide-complet-bois",
+      "slug": "coiffeuse-en-bois-4",
+      "date": "2026-08-21",
+      "mots": 3166
     }
   ],
-  "compteur": 45,
-  "derniere_publication": "2026-08-20"
+  "compteur": 46,
+  "derniere_publication": "2026-08-21"
 }
