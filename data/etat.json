@@ -275,8 +275,14 @@
       "slug": "coiffeuse-en-bois-4",
       "date": "2026-08-21",
       "mots": 3166
+    },
+    {
+      "id": "choisir-bois",
+      "slug": "coiffeuse-en-bois-5",
+      "date": "2026-08-22",
+      "mots": 3092
     }
   ],
-  "compteur": 46,
-  "derniere_publication": "2026-08-21"
+  "compteur": 47,
+  "derniere_publication": "2026-08-22"
 }
