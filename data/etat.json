@@ -281,8 +281,14 @@
       "slug": "coiffeuse-en-bois-5",
       "date": "2026-08-22",
       "mots": 3092
+    },
+    {
+      "id": "amenagement-bois",
+      "slug": "coiffeuse-en-bois-6",
+      "date": "2026-08-23",
+      "mots": 2968
     }
   ],
-  "compteur": 47,
-  "derniere_publication": "2026-08-22"
+  "compteur": 48,
+  "derniere_publication": "2026-08-23"
 }
