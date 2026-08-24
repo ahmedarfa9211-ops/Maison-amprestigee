@@ -287,8 +287,14 @@
       "slug": "coiffeuse-en-bois-6",
       "date": "2026-08-23",
       "mots": 2968
+    },
+    {
+      "id": "comparatif-noire",
+      "slug": "coiffeuse-noire-2",
+      "date": "2026-08-24",
+      "mots": 2992
     }
   ],
-  "compteur": 48,
-  "derniere_publication": "2026-08-23"
+  "compteur": 49,
+  "derniere_publication": "2026-08-24"
 }
