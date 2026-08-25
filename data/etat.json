@@ -293,8 +293,14 @@
       "slug": "coiffeuse-noire-2",
       "date": "2026-08-24",
       "mots": 2992
+    },
+    {
+      "id": "guide-d-achat-noire",
+      "slug": "coiffeuse-noire-3",
+      "date": "2026-08-25",
+      "mots": 2963
     }
   ],
-  "compteur": 49,
-  "derniere_publication": "2026-08-24"
+  "compteur": 50,
+  "derniere_publication": "2026-08-25"
 }
