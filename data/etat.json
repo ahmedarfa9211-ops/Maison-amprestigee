@@ -299,8 +299,14 @@
       "slug": "coiffeuse-noire-3",
       "date": "2026-08-25",
       "mots": 2963
+    },
+    {
+      "id": "top-noire",
+      "slug": "coiffeuse-noire-4",
+      "date": "2026-08-26",
+      "mots": 3114
     }
   ],
-  "compteur": 50,
-  "derniere_publication": "2026-08-25"
+  "compteur": 51,
+  "derniere_publication": "2026-08-26"
 }
