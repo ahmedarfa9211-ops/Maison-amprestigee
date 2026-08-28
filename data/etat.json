@@ -305,8 +305,14 @@
       "slug": "coiffeuse-noire-4",
       "date": "2026-08-26",
       "mots": 3114
+    },
+    {
+      "id": "guide-complet-noire",
+      "slug": "coiffeuse-noire-5",
+      "date": "2026-08-28",
+      "mots": 2972
     }
   ],
-  "compteur": 51,
-  "derniere_publication": "2026-08-26"
+  "compteur": 52,
+  "derniere_publication": "2026-08-28"
 }
