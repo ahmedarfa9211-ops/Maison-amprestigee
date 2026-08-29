@@ -311,8 +311,14 @@
       "slug": "coiffeuse-noire-5",
       "date": "2026-08-28",
       "mots": 2972
+    },
+    {
+      "id": "choisir-noire",
+      "slug": "coiffeuse-noire-6",
+      "date": "2026-08-29",
+      "mots": 2903
     }
   ],
-  "compteur": 52,
-  "derniere_publication": "2026-08-28"
+  "compteur": 53,
+  "derniere_publication": "2026-08-29"
 }
