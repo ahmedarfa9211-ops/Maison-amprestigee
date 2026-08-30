@@ -317,8 +317,14 @@
       "slug": "coiffeuse-noire-6",
       "date": "2026-08-29",
       "mots": 2903
+    },
+    {
+      "id": "amenagement-noire",
+      "slug": "coiffeuse-noire-7",
+      "date": "2026-08-30",
+      "mots": 3107
     }
   ],
-  "compteur": 53,
-  "derniere_publication": "2026-08-29"
+  "compteur": 54,
+  "derniere_publication": "2026-08-30"
 }
