@@ -323,8 +323,14 @@
       "slug": "coiffeuse-noire-7",
       "date": "2026-08-30",
       "mots": 3107
+    },
+    {
+      "id": "comparatif-rose",
+      "slug": "coiffeuse-rose",
+      "date": "2026-08-31",
+      "mots": 3062
     }
   ],
-  "compteur": 54,
-  "derniere_publication": "2026-08-30"
+  "compteur": 55,
+  "derniere_publication": "2026-08-31"
 }
