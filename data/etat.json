@@ -329,8 +329,14 @@
       "slug": "coiffeuse-rose",
       "date": "2026-08-31",
       "mots": 3062
+    },
+    {
+      "id": "guide-d-achat-rose",
+      "slug": "coiffeuse-rose-2",
+      "date": "2026-09-01",
+      "mots": 3061
     }
   ],
-  "compteur": 55,
-  "derniere_publication": "2026-08-31"
+  "compteur": 56,
+  "derniere_publication": "2026-09-01"
 }
