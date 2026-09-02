@@ -335,8 +335,14 @@
       "slug": "coiffeuse-rose-2",
       "date": "2026-09-01",
       "mots": 3061
+    },
+    {
+      "id": "top-rose",
+      "slug": "coiffeuse-rose-3",
+      "date": "2026-09-02",
+      "mots": 3247
     }
   ],
-  "compteur": 56,
-  "derniere_publication": "2026-09-01"
+  "compteur": 57,
+  "derniere_publication": "2026-09-02"
 }
