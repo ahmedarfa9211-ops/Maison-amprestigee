@@ -341,8 +341,14 @@
       "slug": "coiffeuse-rose-3",
       "date": "2026-09-02",
       "mots": 3247
+    },
+    {
+      "id": "guide-complet-rose",
+      "slug": "coiffeuse-rose-4",
+      "date": "2026-09-03",
+      "mots": 2944
     }
   ],
-  "compteur": 57,
-  "derniere_publication": "2026-09-02"
+  "compteur": 58,
+  "derniere_publication": "2026-09-03"
 }
