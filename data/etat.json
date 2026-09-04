@@ -347,8 +347,14 @@
       "slug": "coiffeuse-rose-4",
       "date": "2026-09-03",
       "mots": 2944
+    },
+    {
+      "id": "choisir-rose",
+      "slug": "coiffeuse-rose-5",
+      "date": "2026-09-04",
+      "mots": 2905
     }
   ],
-  "compteur": 58,
-  "derniere_publication": "2026-09-03"
+  "compteur": 59,
+  "derniere_publication": "2026-09-04"
 }
