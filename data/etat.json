@@ -353,8 +353,14 @@
       "slug": "coiffeuse-rose-5",
       "date": "2026-09-04",
       "mots": 2905
+    },
+    {
+      "id": "amenagement-rose",
+      "slug": "coiffeuse-rose-6",
+      "date": "2026-09-05",
+      "mots": 3114
     }
   ],
-  "compteur": 59,
-  "derniere_publication": "2026-09-04"
+  "compteur": 60,
+  "derniere_publication": "2026-09-05"
 }
