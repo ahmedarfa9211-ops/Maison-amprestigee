@@ -359,8 +359,14 @@
       "slug": "coiffeuse-rose-6",
       "date": "2026-09-05",
       "mots": 3114
+    },
+    {
+      "id": "comparatif-grise",
+      "slug": "coiffeuse-grise",
+      "date": "2026-09-06",
+      "mots": 2977
     }
   ],
-  "compteur": 60,
-  "derniere_publication": "2026-09-05"
+  "compteur": 61,
+  "derniere_publication": "2026-09-06"
 }
