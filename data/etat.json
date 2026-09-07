@@ -365,8 +365,14 @@
       "slug": "coiffeuse-grise",
       "date": "2026-09-06",
       "mots": 2977
+    },
+    {
+      "id": "guide-d-achat-grise",
+      "slug": "coiffeuse-grise-2",
+      "date": "2026-09-07",
+      "mots": 3092
     }
   ],
-  "compteur": 61,
-  "derniere_publication": "2026-09-06"
+  "compteur": 62,
+  "derniere_publication": "2026-09-07"
 }
