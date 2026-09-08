@@ -371,8 +371,14 @@
       "slug": "coiffeuse-grise-2",
       "date": "2026-09-07",
       "mots": 3092
+    },
+    {
+      "id": "top-grise",
+      "slug": "coiffeuse-grise-3",
+      "date": "2026-09-08",
+      "mots": 3091
     }
   ],
-  "compteur": 62,
-  "derniere_publication": "2026-09-07"
+  "compteur": 63,
+  "derniere_publication": "2026-09-08"
 }
