@@ -377,8 +377,14 @@
       "slug": "coiffeuse-grise-3",
       "date": "2026-09-08",
       "mots": 3091
+    },
+    {
+      "id": "guide-complet-grise",
+      "slug": "coiffeuse-grise-4",
+      "date": "2026-09-09",
+      "mots": 3154
     }
   ],
-  "compteur": 63,
-  "derniere_publication": "2026-09-08"
+  "compteur": 64,
+  "derniere_publication": "2026-09-09"
 }
