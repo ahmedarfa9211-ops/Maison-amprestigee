@@ -383,8 +383,14 @@
       "slug": "coiffeuse-grise-4",
       "date": "2026-09-09",
       "mots": 3154
+    },
+    {
+      "id": "choisir-grise",
+      "slug": "coiffeuse-grise-5",
+      "date": "2026-09-10",
+      "mots": 2958
     }
   ],
-  "compteur": 64,
-  "derniere_publication": "2026-09-09"
+  "compteur": 65,
+  "derniere_publication": "2026-09-10"
 }
