@@ -389,8 +389,14 @@
       "slug": "coiffeuse-grise-5",
       "date": "2026-09-10",
       "mots": 2958
+    },
+    {
+      "id": "amenagement-grise",
+      "slug": "coiffeuse-grise-6",
+      "date": "2026-09-11",
+      "mots": 3031
     }
   ],
-  "compteur": 65,
-  "derniere_publication": "2026-09-10"
+  "compteur": 66,
+  "derniere_publication": "2026-09-11"
 }
