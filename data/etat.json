@@ -395,8 +395,14 @@
       "slug": "coiffeuse-grise-6",
       "date": "2026-09-11",
       "mots": 3031
+    },
+    {
+      "id": "comparatif-angle",
+      "slug": "coiffeuse-d-angle-2",
+      "date": "2026-09-12",
+      "mots": 2920
     }
   ],
-  "compteur": 66,
-  "derniere_publication": "2026-09-11"
+  "compteur": 67,
+  "derniere_publication": "2026-09-12"
 }
