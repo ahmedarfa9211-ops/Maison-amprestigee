@@ -401,8 +401,14 @@
       "slug": "coiffeuse-d-angle-2",
       "date": "2026-09-12",
       "mots": 2920
+    },
+    {
+      "id": "guide-d-achat-angle",
+      "slug": "coiffeuse-d-angle-3",
+      "date": "2026-09-13",
+      "mots": 3192
     }
   ],
-  "compteur": 67,
-  "derniere_publication": "2026-09-12"
+  "compteur": 68,
+  "derniere_publication": "2026-09-13"
 }
