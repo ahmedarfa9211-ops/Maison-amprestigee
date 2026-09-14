@@ -407,8 +407,14 @@
       "slug": "coiffeuse-d-angle-3",
       "date": "2026-09-13",
       "mots": 3192
+    },
+    {
+      "id": "top-angle",
+      "slug": "coiffeuse-d-angle-4",
+      "date": "2026-09-14",
+      "mots": 2936
     }
   ],
-  "compteur": 68,
-  "derniere_publication": "2026-09-13"
+  "compteur": 69,
+  "derniere_publication": "2026-09-14"
 }
