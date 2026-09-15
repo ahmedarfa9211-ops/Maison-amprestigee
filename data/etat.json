@@ -413,8 +413,14 @@
       "slug": "coiffeuse-d-angle-4",
       "date": "2026-09-14",
       "mots": 2936
+    },
+    {
+      "id": "guide-complet-angle",
+      "slug": "coiffeuse-d-angle-5",
+      "date": "2026-09-15",
+      "mots": 3063
     }
   ],
-  "compteur": 69,
-  "derniere_publication": "2026-09-14"
+  "compteur": 70,
+  "derniere_publication": "2026-09-15"
 }
