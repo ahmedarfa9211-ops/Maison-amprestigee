@@ -419,8 +419,14 @@
       "slug": "coiffeuse-d-angle-5",
       "date": "2026-09-15",
       "mots": 3063
+    },
+    {
+      "id": "choisir-angle",
+      "slug": "coiffeuse-d-angle-6",
+      "date": "2026-09-16",
+      "mots": 2918
     }
   ],
-  "compteur": 70,
-  "derniere_publication": "2026-09-15"
+  "compteur": 71,
+  "derniere_publication": "2026-09-16"
 }
