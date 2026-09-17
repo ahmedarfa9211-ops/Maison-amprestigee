@@ -425,8 +425,14 @@
       "slug": "coiffeuse-d-angle-6",
       "date": "2026-09-16",
       "mots": 2918
+    },
+    {
+      "id": "amenagement-angle",
+      "slug": "coiffeuse-d-angle-7",
+      "date": "2026-09-17",
+      "mots": 2881
     }
   ],
-  "compteur": 71,
-  "derniere_publication": "2026-09-16"
+  "compteur": 72,
+  "derniere_publication": "2026-09-17"
 }
