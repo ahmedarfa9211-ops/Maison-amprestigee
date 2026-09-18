@@ -431,8 +431,14 @@
       "slug": "coiffeuse-d-angle-7",
       "date": "2026-09-17",
       "mots": 2881
+    },
+    {
+      "id": "comparatif-murale",
+      "slug": "coiffeuse-murale-2",
+      "date": "2026-09-18",
+      "mots": 2985
     }
   ],
-  "compteur": 72,
-  "derniere_publication": "2026-09-17"
+  "compteur": 73,
+  "derniere_publication": "2026-09-18"
 }
