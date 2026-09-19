@@ -437,8 +437,14 @@
       "slug": "coiffeuse-murale-2",
       "date": "2026-09-18",
       "mots": 2985
+    },
+    {
+      "id": "guide-d-achat-murale",
+      "slug": "coiffeuse-murale-3",
+      "date": "2026-09-19",
+      "mots": 3096
     }
   ],
-  "compteur": 73,
-  "derniere_publication": "2026-09-18"
+  "compteur": 74,
+  "derniere_publication": "2026-09-19"
 }
