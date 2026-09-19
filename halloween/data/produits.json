@@ -1,0 +1,516 @@
+{
+  "_mode_emploi": [
+    "Chaque produit est un ARCHÉTYPE : tant que 'asin' vaut null, le lien pointe vers une recherche Amazon.fr filtrée (100% valide et rémunérée).",
+    "Dès que vous collez un vrai ASIN (les 10 caractères dans l'URL Amazon après /dp/), le lien devient un lien produit direct, qui convertit mieux.",
+    "Commande utile : python publier.py --produits   (liste les produits et leur état)",
+    "N'INSCRIVEZ JAMAIS DE PRIX ICI : le contrat Amazon Partenaires l'interdit hors Product Advertising API.",
+    "Champ 'exclut' : liste de filtres de sujet pour lesquels ce produit ne doit JAMAIS être sélectionné (ex. un costume adulte exclu d'un comparatif « enfant »). C'est le garde-fou éditorial.",
+    "Champ 'brouillon': true — le produit est enregistré mais EXCLU de la publication tant qu'il n'est pas documenté."
+  ],
+  "produits": [
+    {
+      "id": "costume-sorciere-femme",
+      "nom": "Déguisement de sorcière pour femme avec chapeau",
+      "asin": null,
+      "requete": "deguisement sorciere femme robe chapeau halloween",
+      "categorie": "costume-adulte",
+      "gamme": "milieu",
+      "style": ["classique", "effrayant", "glamour"],
+      "couleur": ["noir", "violet"],
+      "tags": ["sorciere", "femme", "adulte", "robe", "chapeau", "classique", "effrayant"],
+      "pour_qui": "une valeur sûre pour une femme qui veut un costume immédiatement reconnaissable sans se ruiner",
+      "points_forts": [
+        "Le personnage le plus universel d'Halloween : personne n'a besoin d'explication devant une sorcière",
+        "L'ensemble robe + chapeau se suffit à lui-même, mais accepte tous les ajouts (balai, chaudron, maquillage vert) selon l'envie et le budget",
+        "La coupe longue passe par-dessus un legging et un sous-pull thermique, ce qui règle le problème du froid du 31 octobre",
+        "Se recycle d'une année sur l'autre sans se démoder, contrairement aux costumes liés à un film précis"
+      ],
+      "points_faibles": [
+        "Costume si répandu qu'il faut soigner un détail (maquillage, perruque, chapeau original) pour ne pas passer inaperçue",
+        "Les tissus d'entrée de gamme sont fins : prévoir une couche chaude en dessous plutôt que de compter sur la robe seule"
+      ],
+      "notes": {"rapport_qualite_prix": 4.5, "qualite": 3.5, "confort": 4.0, "facilite": 5.0, "effet": 4.0},
+      "exclut": ["enfant", "bebe", "chien", "homme"]
+    },
+    {
+      "id": "costume-vampire-homme",
+      "nom": "Déguisement de vampire pour homme avec cape",
+      "asin": null,
+      "requete": "deguisement vampire homme cape gilet halloween",
+      "categorie": "costume-adulte",
+      "gamme": "milieu",
+      "style": ["classique", "elegant", "effrayant"],
+      "couleur": ["noir", "rouge"],
+      "tags": ["vampire", "homme", "adulte", "cape", "elegant", "classique", "effrayant"],
+      "pour_qui": "un homme qui veut rester élégant tout en jouant le jeu, sans maquillage compliqué",
+      "points_forts": [
+        "La cape à col montant fait tout le travail : enfilée sur une chemise blanche et un pantalon noir déjà dans l'armoire, l'effet est immédiat",
+        "Costume élégant qui reste présentable en soirée entre adultes, là où un masque intégral devient vite gênant à table",
+        "Se décline sans effort du comte classique au vampire plus gore avec deux gouttes de faux sang aux commissures",
+        "La cape resservira pour un magicien, un seigneur médiéval ou un Dracula les années suivantes"
+      ],
+      "points_faibles": [
+        "Les fausses canines vendues avec sont souvent inconfortables : les réserver aux photos plutôt qu'à toute la soirée",
+        "Le col rigide peut gêner si le patron est mal coupé : vérifier les retours sur ce point précis"
+      ],
+      "notes": {"rapport_qualite_prix": 4.0, "qualite": 4.0, "confort": 3.5, "facilite": 4.5, "effet": 4.0},
+      "exclut": ["enfant", "bebe", "chien", "femme"]
+    },
+    {
+      "id": "costume-squelette-mixte",
+      "nom": "Combinaison squelette imprimée pour adulte",
+      "asin": null,
+      "requete": "deguisement squelette adulte combinaison imprime halloween",
+      "categorie": "costume-adulte",
+      "gamme": "budget",
+      "style": ["classique", "effrayant"],
+      "couleur": ["noir", "blanc"],
+      "tags": ["squelette", "adulte", "femme", "homme", "mixte", "budget", "combinaison", "effrayant"],
+      "pour_qui": "celles et ceux qui veulent un costume efficace, mixte et bon marché, enfilé en trente secondes",
+      "points_forts": [
+        "L'imprimé squelette est lisible de loin, y compris dans la pénombre d'une soirée, ce qui n'est pas le cas des costumes trop chargés",
+        "Coupe unisexe : le même modèle habille un homme comme une femme, pratique pour un couple ou un groupe assorti",
+        "La combinaison intégrale tient chaud par elle-même, sans couche à ajouter dessous",
+        "Le ticket d'entrée le plus bas de la catégorie, idéal pour un déguisement qu'on ne remettra peut-être qu'une fois"
+      ],
+      "points_faibles": [
+        "L'imprimé bon marché peut se craqueler au lavage : laver à l'envers, à froid, et sécher à plat",
+        "La coupe near-body ne pardonne rien : vérifier le guide des tailles plutôt que de se fier à sa taille habituelle"
+      ],
+      "notes": {"rapport_qualite_prix": 5.0, "qualite": 3.0, "confort": 4.0, "facilite": 5.0, "effet": 3.5},
+      "exclut": ["bebe", "chien"]
+    },
+    {
+      "id": "costume-enfant-citrouille",
+      "nom": "Déguisement de citrouille pour enfant",
+      "asin": null,
+      "requete": "deguisement citrouille enfant halloween costume",
+      "categorie": "costume-enfant",
+      "gamme": "budget",
+      "style": ["mignon", "classique"],
+      "couleur": ["orange", "vert"],
+      "tags": ["citrouille", "enfant", "mignon", "budget", "classique"],
+      "pour_qui": "un jeune enfant, pour un premier Halloween mignon plutôt qu'effrayant",
+      "points_forts": [
+        "Le costume rembourré tient chaud tout seul lors de la tournée « des bonbons ou un sort » en soirée",
+        "Forme reconnaissable et rassurante : parfaite pour les plus petits qui n'aiment pas l'aspect effrayant",
+        "Ouverture large et fermeture sur le devant : l'enfant s'habille et va aux toilettes sans bataille",
+        "Coupe ample qui passe par-dessus des vêtements chauds, ce qui allonge la durée d'usage sur plusieurs tailles"
+      ],
+      "points_faibles": [
+        "Le rembourrage se tasse au lavage : privilégier un coup d'éponge localisé plutôt qu'un passage en machine",
+        "Vérifier la présence de bandes réfléchissantes ou en ajouter : un enfant en orange sombre est peu visible la nuit"
+      ],
+      "notes": {"rapport_qualite_prix": 4.5, "qualite": 3.5, "confort": 4.5, "facilite": 4.5, "effet": 4.0},
+      "exclut": ["adulte", "homme", "femme", "chien", "effrayant"]
+    },
+    {
+      "id": "costume-enfant-squelette",
+      "nom": "Déguisement de squelette lumineux pour enfant",
+      "asin": null,
+      "requete": "deguisement squelette enfant lumineux phosphorescent halloween",
+      "categorie": "costume-enfant",
+      "gamme": "milieu",
+      "style": ["effrayant", "classique"],
+      "couleur": ["noir", "blanc"],
+      "tags": ["squelette", "enfant", "phosphorescent", "classique", "effrayant"],
+      "pour_qui": "un enfant qui veut faire peur pour de rire, avec l'effet phosphorescent qui plaît toujours",
+      "points_forts": [
+        "L'imprimé qui brille dans le noir est l'argument numéro un auprès des enfants, et rend l'enfant visible la nuit",
+        "Squelette : le compromis idéal entre « effrayant » et « pas traumatisant » pour un âge scolaire",
+        "Deux pièces (haut + bas) plus faciles à ajuster qu'une combinaison intégrale à la croissance",
+        "Se prête au jeu du maquillage assorti sans obligation d'en mettre"
+      ],
+      "points_faibles": [
+        "La phosphorescence faiblit avec les lavages : la « recharger » quelques minutes sous une lampe avant de sortir",
+        "L'imprimé se réserve aux tailles indiquées : trop grand, le squelette est déformé et perd son effet"
+      ],
+      "notes": {"rapport_qualite_prix": 4.5, "qualite": 3.5, "confort": 4.0, "facilite": 4.5, "effet": 4.5},
+      "exclut": ["adulte", "homme", "femme", "chien", "bebe"]
+    },
+    {
+      "id": "costume-bebe-combinaison",
+      "nom": "Combinaison-pyjama d'Halloween pour bébé",
+      "asin": null,
+      "requete": "deguisement bebe combinaison pyjama halloween citrouille",
+      "categorie": "costume-enfant",
+      "gamme": "budget",
+      "style": ["mignon"],
+      "couleur": ["orange", "noir"],
+      "tags": ["bebe", "citrouille", "mignon", "combinaison", "budget", "chaud"],
+      "pour_qui": "un bébé ou un tout-petit, pour une photo mémorable sans compromis sur le confort",
+      "points_forts": [
+        "Coupe pyjama en maille douce : le bébé peut dormir dedans, ce qui en fait un achat qui sert au-delà du 31 octobre",
+        "Pressions à l'entrejambe pour le change sans déshabillage complet",
+        "Capuche à oreilles ou à tige de citrouille pour l'effet, sans rien qui serre le cou",
+        "Matière chaude adaptée à une fin octobre, contrairement aux déguisements fins pour adultes"
+      ],
+      "points_faibles": [
+        "Les bébés grandissent vite : commander la taille du moment, pas au-dessus, sous peine d'un costume flottant sur les photos",
+        "Éviter tout petit accessoire détachable à hauteur de bouche : privilégier les motifs cousus"
+      ],
+      "notes": {"rapport_qualite_prix": 5.0, "qualite": 4.0, "confort": 5.0, "facilite": 4.5, "effet": 4.0},
+      "exclut": ["adulte", "homme", "femme", "ado", "chien", "effrayant", "groupe"]
+    },
+    {
+      "id": "costume-couple-squelette",
+      "nom": "Duo de costumes squelette assortis pour couple",
+      "asin": null,
+      "requete": "deguisement couple squelette assorti halloween duo",
+      "categorie": "costume-duo",
+      "gamme": "milieu",
+      "style": ["classique", "effrayant"],
+      "couleur": ["noir", "blanc"],
+      "tags": ["couple", "duo", "squelette", "assorti", "classique", "effrayant"],
+      "pour_qui": "un couple qui veut un déguisement coordonné sans chercher deux costumes séparément",
+      "points_forts": [
+        "L'effet « couple assorti » se remarque immédiatement sur les photos et fait toujours son petit effet en soirée",
+        "Le squelette fonctionne sur toutes les morphologies et tous les genres, sans rôle masculin ou féminin imposé",
+        "Acheter le duo d'un coup évite la chasse à deux costumes cohérents en taille et en style",
+        "Chacune des deux pièces reste portable seule les années suivantes"
+      ],
+      "points_faibles": [
+        "Les ensembles couple proposent parfois deux tailles identiques : vérifier qu'on peut choisir chaque taille séparément",
+        "L'imprimé bas de gamme se craquèle : lavage à froid, à l'envers, séchage à plat"
+      ],
+      "notes": {"rapport_qualite_prix": 4.0, "qualite": 3.5, "confort": 4.0, "facilite": 4.5, "effet": 4.5},
+      "exclut": ["enfant", "bebe", "chien"]
+    },
+    {
+      "id": "costume-groupe-fantome",
+      "nom": "Lot de capes de fantôme pour groupe",
+      "asin": null,
+      "requete": "deguisement fantome cape lot groupe halloween",
+      "categorie": "costume-duo",
+      "gamme": "budget",
+      "style": ["classique", "effrayant"],
+      "couleur": ["blanc", "noir"],
+      "tags": ["groupe", "fantome", "cape", "lot", "budget", "classique", "effrayant"],
+      "pour_qui": "un groupe d'amis ou une famille qui veut un thème commun à petit prix",
+      "points_forts": [
+        "Acheter un lot revient bien moins cher que des costumes individuels, l'argument décisif pour un groupe nombreux",
+        "La cape à capuche s'enfile par-dessus n'importe quelle tenue, donc une seule taille convient à presque tout le monde",
+        "Un groupe uniforme a plus d'impact visuel que dix costumes dépareillés, pour un budget global inférieur",
+        "Se range à plat sans prendre de place et ressort chaque année"
+      ],
+      "points_faibles": [
+        "Le tissu léger d'un lot économique reste basique : c'est le nombre qui fait l'effet, pas la finition d'une pièce isolée",
+        "Prévoir des accessoires différenciants (masques, lampes) pour que le groupe ne soit pas totalement anonyme"
+      ],
+      "notes": {"rapport_qualite_prix": 5.0, "qualite": 2.5, "confort": 4.0, "facilite": 5.0, "effet": 4.0},
+      "exclut": ["bebe", "chien"]
+    },
+    {
+      "id": "costume-zombie-adulte",
+      "nom": "Déguisement de zombie déchiré effet sang pour adulte",
+      "asin": null,
+      "requete": "deguisement zombie adulte dechire sang halloween",
+      "categorie": "costume-adulte",
+      "gamme": "milieu",
+      "style": ["gore", "effrayant"],
+      "couleur": ["gris", "rouge"],
+      "tags": ["zombie", "adulte", "homme", "femme", "gore", "effrayant"],
+      "pour_qui": "les amateurs de frissons qui visent l'effet le plus impressionnant de la soirée",
+      "points_forts": [
+        "Les déchirures et les taches sont déjà imprimées : l'effet gore est acquis sans savoir-faire en maquillage",
+        "C'est le costume qui « fait le plus peur » pour un budget raisonnable, ce que recherchent beaucoup d'ados et d'adultes",
+        "Se combine parfaitement avec un maquillage FX pour monter d'un cran quand on en a l'envie",
+        "Mixte : la même base habille un homme comme une femme"
+      ],
+      "points_faibles": [
+        "Trop effrayant pour une fête avec de jeunes enfants : réservé aux soirées entre adultes ou ados",
+        "Le faux sang textile peut déteindre sur une doublure claire : porter un tee-shirt sombre en dessous"
+      ],
+      "notes": {"rapport_qualite_prix": 4.0, "qualite": 3.5, "confort": 3.5, "facilite": 4.5, "effet": 5.0},
+      "exclut": ["enfant", "bebe", "chien", "mignon"]
+    },
+    {
+      "id": "costume-chien-halloween",
+      "nom": "Déguisement d'Halloween pour chien",
+      "asin": null,
+      "requete": "deguisement chien halloween citrouille araignee",
+      "categorie": "accessoire",
+      "gamme": "budget",
+      "style": ["mignon"],
+      "couleur": ["orange", "noir"],
+      "tags": ["chien", "animal", "mignon", "accessoire", "budget"],
+      "pour_qui": "faire participer le chien de la maison à la fête, le temps de quelques photos",
+      "points_forts": [
+        "Réglable par bandes auto-agrippantes : s'ajuste à un large tour de poitrail sans serrer",
+        "Léger et sans capuche contraignante : la plupart des chiens l'acceptent le temps d'une photo",
+        "Prix dérisoire pour un accessoire qui fait toujours son effet auprès des invités",
+        "Se lave facilement, ce qui compte avec un animal"
+      ],
+      "points_faibles": [
+        "Aucun chien ne doit rester déguisé longtemps ni sans surveillance : c'est un accessoire photo, pas une tenue de soirée",
+        "Mesurer le tour de poitrail et la longueur du dos avant de commander, la taille « M » d'une marque n'est pas celle d'une autre"
+      ],
+      "notes": {"rapport_qualite_prix": 4.5, "qualite": 3.5, "confort": 3.5, "facilite": 4.0, "effet": 4.0},
+      "exclut": ["adulte", "enfant", "bebe", "homme", "femme", "effrayant", "groupe", "couple"]
+    },
+    {
+      "id": "cape-noire-capuche",
+      "nom": "Cape noire à capuche à nouer",
+      "asin": null,
+      "requete": "cape noire capuche halloween adulte deguisement",
+      "categorie": "accessoire",
+      "gamme": "budget",
+      "style": ["classique", "polyvalent"],
+      "couleur": ["noir"],
+      "tags": ["cape", "capuche", "accessoire", "polyvalent", "budget", "derniere-minute"],
+      "pour_qui": "improviser un costume en cinq minutes ou compléter une tenue existante",
+      "points_forts": [
+        "L'accessoire le plus polyvalent d'Halloween : sorcier, vampire, faucheuse, mage, fantôme selon ce qu'on ajoute",
+        "Se noue au cou en une seconde et s'enfile par-dessus n'importe quelle tenue, y compris chaude",
+        "Solution dernière minute par excellence quand on a oublié de commander un costume complet",
+        "Se plie très petit et se garde d'une année sur l'autre sans entretien"
+      ],
+      "points_faibles": [
+        "Une cape seule ne fait pas un costume : il faut au moins un accessoire (chapeau, masque, maquillage) pour préciser le personnage",
+        "Les modèles très longs traînent au sol : vérifier la longueur annoncée selon sa taille"
+      ],
+      "notes": {"rapport_qualite_prix": 5.0, "qualite": 3.5, "confort": 4.5, "facilite": 5.0, "effet": 3.5},
+      "exclut": ["bebe", "chien"]
+    },
+    {
+      "id": "kit-maquillage-fx",
+      "nom": "Palette de maquillage FX Halloween avec faux sang",
+      "asin": null,
+      "requete": "maquillage halloween fx palette faux sang cicatrice",
+      "categorie": "accessoire",
+      "gamme": "budget",
+      "style": ["gore", "polyvalent"],
+      "couleur": ["multicolore"],
+      "tags": ["maquillage", "fx", "faux-sang", "accessoire", "polyvalent", "budget", "diy"],
+      "pour_qui": "transformer un costume basique en tenue mémorable, ou se maquiller sans acheter de costume",
+      "points_forts": [
+        "Le meilleur rapport effet/prix d'Halloween : quelques euros de maquillage changent radicalement un costume ordinaire",
+        "Une seule palette sert à toute la famille et resservira plusieurs années",
+        "Permet d'improviser un déguisement complet (zombie, sorcière, mort-vivant) avec des vêtements sombres déjà possédés",
+        "Idéal pour ajuster l'intensité : léger pour un enfant, appuyé pour une soirée entre adultes"
+      ],
+      "points_faibles": [
+        "Faire un test la veille sur l'avant-bras : certaines peaux sensibles réagissent aux fards bon marché",
+        "Prévoir un démaquillant gras : le maquillage FX et le faux sang ne partent pas à l'eau seule"
+      ],
+      "notes": {"rapport_qualite_prix": 5.0, "qualite": 3.5, "confort": 4.0, "facilite": 3.5, "effet": 4.5},
+      "exclut": ["bebe", "chien"]
+    },
+    {
+      "id": "perruque-longue",
+      "nom": "Perruque longue pour costume d'Halloween",
+      "asin": null,
+      "requete": "perruque halloween longue deguisement sorciere",
+      "categorie": "accessoire",
+      "gamme": "budget",
+      "style": ["glamour", "polyvalent"],
+      "couleur": ["noir", "blanc", "violet"],
+      "tags": ["perruque", "accessoire", "polyvalent", "budget", "glamour"],
+      "pour_qui": "parfaire une silhouette et rendre un costume répandu tout de suite plus soigné",
+      "points_forts": [
+        "Une perruque change complètement une silhouette et distingue un costume classique de la version bâclée du voisin",
+        "Filet réglable qui s'adapte à la plupart des tours de tête",
+        "Se réutilise pour d'autres déguisements et d'autres soirées costumées dans l'année",
+        "Effet immédiat sur les photos, là où le costume seul manque parfois de caractère"
+      ],
+      "points_faibles": [
+        "Les fibres synthétiques bon marché brillent sous un flash : préférer une teinte mate si l'on prévoit beaucoup de photos",
+        "Tenir éloignée de toute flamme (bougies de citrouille) : les fibres sont inflammables"
+      ],
+      "notes": {"rapport_qualite_prix": 4.5, "qualite": 3.0, "confort": 3.5, "facilite": 4.5, "effet": 4.0},
+      "exclut": ["bebe", "chien"]
+    },
+    {
+      "id": "masque-effrayant-latex",
+      "nom": "Masque effrayant en latex",
+      "asin": null,
+      "requete": "masque halloween latex effrayant horreur adulte",
+      "categorie": "accessoire",
+      "gamme": "milieu",
+      "style": ["gore", "effrayant"],
+      "couleur": ["multicolore"],
+      "tags": ["masque", "latex", "accessoire", "effrayant", "gore", "derniere-minute"],
+      "pour_qui": "obtenir un maximum d'effet effrayant en un seul achat, sans maquillage",
+      "points_forts": [
+        "Un bon masque en latex fait tout le travail : enfilé sur une tenue sombre, le costume est complet",
+        "Solution parfaite pour qui ne veut pas se maquiller ni se changer entièrement",
+        "L'effet est garanti et reproductible, là où un maquillage raté peut décevoir",
+        "Se réutilise chaque année sans entretien particulier"
+      ],
+      "points_faibles": [
+        "Un masque intégral tient chaud et limite la vision : le retirer pour manger, boire et se déplacer dans le noir",
+        "Le latex a une odeur les premiers jours : le sortir de son emballage 48 h avant la fête"
+      ],
+      "notes": {"rapport_qualite_prix": 4.0, "qualite": 4.0, "confort": 2.5, "facilite": 5.0, "effet": 5.0},
+      "exclut": ["bebe", "chien", "enfant", "mignon"]
+    },
+    {
+      "id": "chapeau-sorciere",
+      "nom": "Chapeau de sorcière en feutre",
+      "asin": null,
+      "requete": "chapeau sorciere halloween feutre adulte",
+      "categorie": "accessoire",
+      "gamme": "budget",
+      "style": ["classique", "polyvalent"],
+      "couleur": ["noir", "violet"],
+      "tags": ["chapeau", "sorciere", "accessoire", "polyvalent", "budget", "derniere-minute"],
+      "pour_qui": "compléter un look de sorcière ou improviser un déguisement à moindre frais",
+      "points_forts": [
+        "L'accessoire qui signe instantanément le personnage de la sorcière, même sur une tenue toute noire ordinaire",
+        "En feutre rigide, il tient sa forme au fil des années, contrairement aux modèles mous",
+        "Se pose sur une perruque comme sur des cheveux, sans réglage compliqué",
+        "Le plus petit budget déguisement qui soit, pour un effet reconnaissable"
+      ],
+      "points_faibles": [
+        "Un chapeau seul ne suffit pas : il demande au minimum une tenue sombre pour tenir le personnage",
+        "Les modèles très hauts accrochent les encadrements de porte : à surveiller en soirée bondée"
+      ],
+      "notes": {"rapport_qualite_prix": 5.0, "qualite": 3.5, "confort": 4.0, "facilite": 5.0, "effet": 3.5},
+      "exclut": ["bebe", "chien"]
+    },
+    {
+      "id": "costume-diable-femme",
+      "nom": "Déguisement de diablesse pour femme",
+      "asin": null,
+      "requete": "deguisement diablesse femme robe rouge cornes halloween",
+      "categorie": "costume-adulte",
+      "gamme": "milieu",
+      "style": ["glamour", "classique"],
+      "couleur": ["rouge", "noir"],
+      "tags": ["diable", "diablesse", "femme", "adulte", "glamour", "classique"],
+      "pour_qui": "une femme qui veut un costume classique avec une touche plus habillée",
+      "points_forts": [
+        "Personnage classique et immédiatement lisible grâce au duo robe rouge et serre-tête à cornes",
+        "L'ensemble accessoirisé (cornes, parfois fourche) évite d'avoir à compléter l'achat",
+        "Le rouge tranche sur la marée de costumes noirs d'une soirée et ressort sur les photos",
+        "La robe se reporte hors Halloween, contrairement à un costume à thème très marqué"
+      ],
+      "points_faibles": [
+        "Les robes courtes appellent un collant chaud et une veste pour une fin octobre : à anticiper",
+        "Le serre-tête à cornes bon marché serre parfois : vérifier les avis sur le confort sur la durée"
+      ],
+      "notes": {"rapport_qualite_prix": 4.0, "qualite": 3.5, "confort": 3.5, "facilite": 4.5, "effet": 4.0},
+      "exclut": ["enfant", "bebe", "chien", "homme"]
+    },
+    {
+      "id": "costume-fantome-enfant",
+      "nom": "Déguisement de fantôme pour enfant",
+      "asin": null,
+      "requete": "deguisement fantome enfant halloween cape blanche",
+      "categorie": "costume-enfant",
+      "gamme": "budget",
+      "style": ["classique", "effrayant"],
+      "couleur": ["blanc"],
+      "tags": ["fantome", "enfant", "classique", "budget", "effrayant"],
+      "pour_qui": "un enfant qui veut faire peur gentiment, dans le costume d'Halloween le plus simple qui soit",
+      "points_forts": [
+        "Le déguisement le plus intemporel et le plus facile à porter : une cape à capuche, rien à régler",
+        "Assez large pour passer par-dessus un manteau, ce qui règle la question du froid en soirée",
+        "Effrayant juste ce qu'il faut pour un enfant, sans image traumatisante",
+        "Petit budget, idéal pour un costume qui grandit avec l'enfant grâce à la coupe ample"
+      ],
+      "points_faibles": [
+        "Le blanc est peu visible la nuit : ajouter des bandes réfléchissantes ou une lampe pour la tournée des bonbons",
+        "Une capuche qui tombe sur les yeux gêne la marche : vérifier qu'elle dégage bien le champ de vision"
+      ],
+      "notes": {"rapport_qualite_prix": 4.5, "qualite": 3.0, "confort": 4.5, "facilite": 5.0, "effet": 3.5},
+      "exclut": ["adulte", "homme", "femme", "chien", "bebe"]
+    },
+    {
+      "id": "costume-super-heros-enfant",
+      "nom": "Déguisement de super-héros pour enfant",
+      "asin": null,
+      "requete": "deguisement super heros enfant costume cape halloween",
+      "categorie": "costume-enfant",
+      "gamme": "milieu",
+      "style": ["mignon", "classique"],
+      "couleur": ["rouge", "bleu"],
+      "tags": ["super-heros", "enfant", "mignon", "classique", "cape"],
+      "pour_qui": "un enfant qui préfère un héros à un costume effrayant",
+      "points_forts": [
+        "Réconcilie Halloween et les enfants qui n'aiment pas se faire peur : on fête sans frayeur",
+        "Se reporte toute l'année pour jouer, ce qui amortit l'achat bien au-delà du 31 octobre",
+        "Le rembourrage musclé et la cape font un effet immédiat pour un enfant",
+        "Coupe confortable qui laisse courir et grimper, essentiel pour un soir de tournée des bonbons"
+      ],
+      "points_faibles": [
+        "Les capes sur les jeunes enfants s'accrochent : vérifier une attache qui cède en cas de traction",
+        "Les rembourrages en mousse tiennent très chaud : prévoir une couche légère en dessous seulement"
+      ],
+      "notes": {"rapport_qualite_prix": 4.0, "qualite": 3.5, "confort": 4.0, "facilite": 4.0, "effet": 4.0},
+      "exclut": ["adulte", "homme", "femme", "chien", "bebe", "effrayant", "gore"]
+    },
+    {
+      "id": "costume-gonflable-adulte",
+      "nom": "Déguisement gonflable humoristique pour adulte",
+      "asin": null,
+      "requete": "deguisement gonflable adulte halloween humoristique",
+      "categorie": "costume-adulte",
+      "gamme": "milieu",
+      "style": ["humoristique"],
+      "couleur": ["multicolore"],
+      "tags": ["gonflable", "humoristique", "adulte", "homme", "femme", "groupe"],
+      "pour_qui": "celui ou celle qui vise le rire plutôt que la peur, et l'entrée la plus remarquée de la soirée",
+      "points_forts": [
+        "Effet garanti : un costume gonflable ne passe jamais inaperçu et déclenche les rires dès l'arrivée",
+        "S'enfile sur ses propres vêtements chauds, ventilateur inclus, sans se dévêtir",
+        "Taille unique très tolérante : le même costume habille des morphologies très différentes",
+        "Se dégonfle et se range dans un petit sac, réutilisable chaque année"
+      ],
+      "points_faibles": [
+        "Encombrant : difficile de s'asseoir, de passer les portes et de danser en soirée bondée",
+        "Le ventilateur fonctionne sur piles : prévoir un jeu de rechange pour ne pas se dégonfler en pleine fête"
+      ],
+      "notes": {"rapport_qualite_prix": 3.5, "qualite": 3.5, "confort": 2.5, "facilite": 4.0, "effet": 5.0},
+      "exclut": ["enfant", "bebe", "chien", "effrayant"]
+    },
+    {
+      "id": "lentilles-halloween",
+      "nom": "Lentilles de contact fantaisie pour Halloween",
+      "asin": null,
+      "requete": "lentilles contact halloween fantaisie deguisement",
+      "categorie": "accessoire",
+      "gamme": "milieu",
+      "style": ["effrayant", "polyvalent"],
+      "couleur": ["multicolore"],
+      "tags": ["lentilles", "accessoire", "effrayant", "polyvalent"],
+      "pour_qui": "pousser le réalisme d'un costume de vampire, zombie ou démon d'un cran supplémentaire",
+      "points_forts": [
+        "Le détail qui transforme un costume correct en tenue troublante : le regard fait toute la différence sur les photos",
+        "Se combinent avec n'importe quel personnage sombre pour un effet immédiat",
+        "Effet spectaculaire pour un accessoire minuscule et facile à transporter",
+        "Réutilisables selon la durée de validité indiquée sur l'emballage"
+      ],
+      "points_faibles": [
+        "Produit de santé : n'acheter que des lentilles marquées CE, respecter la durée de port et ne jamais les partager",
+        "Inadaptées aux enfants et aux porteurs non habitués : s'entraîner à les poser avant le jour J"
+      ],
+      "notes": {"rapport_qualite_prix": 3.5, "qualite": 4.0, "confort": 3.0, "facilite": 3.0, "effet": 4.5},
+      "exclut": ["bebe", "chien", "enfant", "mignon"]
+    },
+    {
+      "id": "costume-medieval-adulte",
+      "nom": "Déguisement médiéval (seigneur ou dame) pour adulte",
+      "asin": null,
+      "requete": "deguisement medieval adulte halloween seigneur dame",
+      "categorie": "costume-adulte",
+      "gamme": "premium",
+      "style": ["elegant", "classique"],
+      "couleur": ["bordeaux", "noir", "vert"],
+      "tags": ["medieval", "adulte", "homme", "femme", "elegant", "premium", "couple"],
+      "pour_qui": "celles et ceux qui veulent un costume habillé, réutilisable pour d'autres soirées à thème",
+      "points_forts": [
+        "Finition nettement supérieure aux costumes jetables : tissus plus épais, coupe soignée, qui se voit de près",
+        "Se reporte pour un mariage médiéval, une murder party ou un festival, ce qui justifie l'investissement",
+        "Élégant et couvrant : parfait pour une fin octobre fraîche, sans avoir froid",
+        "Fonctionne aussi bien en solo qu'en couple assorti seigneur et dame"
+      ],
+      "points_faibles": [
+        "Budget plus élevé : à réserver à qui compte le reporter, pas pour un unique soir",
+        "Les pièces multiples (surcotte, ceinture, cape) demandent quelques minutes d'habillage, contrairement à une combinaison"
+      ],
+      "notes": {"rapport_qualite_prix": 3.5, "qualite": 4.5, "confort": 4.0, "facilite": 3.5, "effet": 4.5},
+      "exclut": ["enfant", "bebe", "chien", "budget", "derniere-minute"]
+    }
+  ]
+}
