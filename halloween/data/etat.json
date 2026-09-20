@@ -239,8 +239,128 @@
       "slug": "deguisement-squelette-4",
       "date": "2026-08-27",
       "mots": 2948
+    },
+    {
+      "id": "choisir-squelette",
+      "slug": "deguisement-squelette-5",
+      "date": "2026-07-23",
+      "mots": 2967
+    },
+    {
+      "id": "idees-squelette",
+      "slug": "deguisement-squelette-6",
+      "date": "2026-07-24",
+      "mots": 2939
+    },
+    {
+      "id": "comparatif-fantome",
+      "slug": "deguisement-fantome",
+      "date": "2026-07-25",
+      "mots": 2937
+    },
+    {
+      "id": "guide-d-achat-fantome",
+      "slug": "deguisement-fantome-2",
+      "date": "2026-07-26",
+      "mots": 2932
+    },
+    {
+      "id": "top-fantome",
+      "slug": "deguisement-fantome-3",
+      "date": "2026-07-27",
+      "mots": 2928
+    },
+    {
+      "id": "guide-complet-fantome",
+      "slug": "deguisement-fantome-4",
+      "date": "2026-07-28",
+      "mots": 2903
+    },
+    {
+      "id": "choisir-fantome",
+      "slug": "deguisement-fantome-5",
+      "date": "2026-07-29",
+      "mots": 2984
+    },
+    {
+      "id": "idees-fantome",
+      "slug": "deguisement-fantome-6",
+      "date": "2026-07-30",
+      "mots": 3008
+    },
+    {
+      "id": "comparatif-zombie",
+      "slug": "deguisement-zombie",
+      "date": "2026-07-31",
+      "mots": 2910
+    },
+    {
+      "id": "guide-d-achat-zombie",
+      "slug": "deguisement-zombie-2",
+      "date": "2026-08-01",
+      "mots": 2894
+    },
+    {
+      "id": "top-zombie",
+      "slug": "deguisement-zombie-3",
+      "date": "2026-08-02",
+      "mots": 2941
+    },
+    {
+      "id": "guide-complet-zombie",
+      "slug": "deguisement-zombie-4",
+      "date": "2026-08-03",
+      "mots": 2959
+    },
+    {
+      "id": "choisir-zombie",
+      "slug": "deguisement-zombie-5",
+      "date": "2026-08-04",
+      "mots": 2921
+    },
+    {
+      "id": "idees-zombie",
+      "slug": "deguisement-zombie-6",
+      "date": "2026-08-05",
+      "mots": 2899
+    },
+    {
+      "id": "comparatif-citrouille",
+      "slug": "deguisement-citrouille",
+      "date": "2026-08-06",
+      "mots": 2995
+    },
+    {
+      "id": "guide-d-achat-citrouille",
+      "slug": "deguisement-citrouille-2",
+      "date": "2026-08-07",
+      "mots": 2883
+    },
+    {
+      "id": "top-citrouille",
+      "slug": "deguisement-citrouille-3",
+      "date": "2026-08-08",
+      "mots": 2940
+    },
+    {
+      "id": "guide-complet-citrouille",
+      "slug": "deguisement-citrouille-4",
+      "date": "2026-08-09",
+      "mots": 2917
+    },
+    {
+      "id": "choisir-citrouille",
+      "slug": "deguisement-citrouille-5",
+      "date": "2026-08-10",
+      "mots": 2951
+    },
+    {
+      "id": "idees-citrouille",
+      "slug": "deguisement-citrouille-6",
+      "date": "2026-08-11",
+      "mots": 2924
     }
   ],
-  "compteur": 40,
-  "derniere_publication": "2026-08-27"
+  "compteur": 60,
+  "derniere_publication": "2026-08-11"
 }
