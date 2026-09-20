@@ -443,8 +443,14 @@
       "slug": "coiffeuse-murale-3",
       "date": "2026-09-19",
       "mots": 3096
+    },
+    {
+      "id": "top-murale",
+      "slug": "coiffeuse-murale-4",
+      "date": "2026-09-20",
+      "mots": 3161
     }
   ],
-  "compteur": 74,
-  "derniere_publication": "2026-09-19"
+  "compteur": 75,
+  "derniere_publication": "2026-09-20"
 }
