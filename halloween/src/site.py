@@ -130,9 +130,26 @@ def page_liste(
                 liens.append(f'<a href="{e(cible)}">{i}</a>')
         nav = f'<nav class="pagination">{"".join(liens)}</nav>'
 
-    corps = f"""<section class="hero"><div class="conteneur">
+    if accueil and page_num == 1:
+        slogan = e(config["site"].get("slogan", ""))
+        chips = "".join(
+            f'<a class="chip" href="/categorie/{e(cle)}/">{e(nom)}</a>'
+            for cle, nom in categories.items()
+            if cle != "questions"
+        )
+        entete_hero = f"""<section class="hero hero-accueil"><div class="conteneur">
+  <p class="hero-kicker">🎃 Spécial Halloween</p>
+  <h1>{e(titre)}</h1>
+  <p class="hero-slogan">{slogan}</p>
+  <p class="hero-desc">{e(description)}</p>
+  <nav class="chips" aria-label="Rubriques">{chips}</nav>
+</div></section>"""
+    else:
+        entete_hero = f"""<section class="hero"><div class="conteneur">
   <h1>{e(titre)}</h1><p>{e(description)}</p>
-</div></section>
+</div></section>"""
+
+    corps = f"""{entete_hero}
 <div class="conteneur"><div class="grille">{vignettes}</div>{nav}</div>"""
     return gabarits.page(config, titre, tete, corps, jsonld)
 

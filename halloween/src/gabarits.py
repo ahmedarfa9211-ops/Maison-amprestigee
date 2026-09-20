@@ -47,6 +47,17 @@ a{{color:var(--principale);text-underline-offset:2px}}
   border-bottom:1px solid var(--bord)}}
 .hero h1{{font-size:clamp(1.9rem,4.6vw,2.9rem);line-height:1.15;margin:0 0 .7rem;letter-spacing:-.025em}}
 .hero p{{color:var(--doux);font-size:1.06rem;max-width:62ch;margin:0}}
+.hero-accueil{{background:linear-gradient(160deg,var(--principale),#3a1e56 60%,var(--accent));border-bottom:none;color:#fff}}
+.hero-accueil h1{{color:#fff}}
+.hero-kicker{{display:inline-block;font-weight:700;font-size:.82rem;letter-spacing:.12em;text-transform:uppercase;
+  color:#fff;background:rgba(255,117,24,.9);padding:.3rem .8rem;border-radius:999px;margin:0 0 1rem}}
+.hero-slogan{{color:#fff!important;font-size:1.24rem;font-weight:600;max-width:62ch;margin:0 0 .5rem}}
+.hero-desc{{color:rgba(255,255,255,.85)!important;font-size:1rem;max-width:64ch;margin:0 0 1.3rem}}
+.chips{{display:flex;flex-wrap:wrap;gap:.5rem}}
+.chip{{display:inline-block;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.28);
+  color:#fff;text-decoration:none;padding:.4rem .9rem;border-radius:999px;font-size:.9rem;font-weight:600;
+  transition:background .12s}}
+.chip:hover{{background:var(--accent);border-color:var(--accent)}}
 
 /* fil d'ariane */
 .ariane{{font-size:.85rem;color:var(--doux);padding:1rem 0 0}}

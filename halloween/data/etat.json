@@ -143,8 +143,104 @@
       "slug": "deguisement-halloween-grande-taille",
       "date": "2026-09-20",
       "mots": 2931
+    },
+    {
+      "id": "comparatif-sorciere",
+      "slug": "deguisement-sorciere",
+      "date": "2026-08-12",
+      "mots": 2932
+    },
+    {
+      "id": "guide-d-achat-sorciere",
+      "slug": "deguisement-sorciere-2",
+      "date": "2026-08-13",
+      "mots": 2968
+    },
+    {
+      "id": "top-sorciere",
+      "slug": "deguisement-sorciere-3",
+      "date": "2026-08-14",
+      "mots": 2876
+    },
+    {
+      "id": "guide-complet-sorciere",
+      "slug": "deguisement-sorciere-4",
+      "date": "2026-08-15",
+      "mots": 2953
+    },
+    {
+      "id": "choisir-sorciere",
+      "slug": "deguisement-sorciere-5",
+      "date": "2026-08-16",
+      "mots": 2907
+    },
+    {
+      "id": "idees-sorciere",
+      "slug": "deguisement-sorciere-6",
+      "date": "2026-08-17",
+      "mots": 2951
+    },
+    {
+      "id": "comparatif-vampire",
+      "slug": "deguisement-vampire",
+      "date": "2026-08-18",
+      "mots": 2983
+    },
+    {
+      "id": "guide-d-achat-vampire",
+      "slug": "deguisement-vampire-2",
+      "date": "2026-08-19",
+      "mots": 2941
+    },
+    {
+      "id": "top-vampire",
+      "slug": "deguisement-vampire-3",
+      "date": "2026-08-20",
+      "mots": 2984
+    },
+    {
+      "id": "guide-complet-vampire",
+      "slug": "deguisement-vampire-4",
+      "date": "2026-08-21",
+      "mots": 2952
+    },
+    {
+      "id": "choisir-vampire",
+      "slug": "deguisement-vampire-5",
+      "date": "2026-08-22",
+      "mots": 2904
+    },
+    {
+      "id": "idees-vampire",
+      "slug": "deguisement-vampire-6",
+      "date": "2026-08-23",
+      "mots": 3003
+    },
+    {
+      "id": "comparatif-squelette",
+      "slug": "deguisement-squelette",
+      "date": "2026-08-24",
+      "mots": 2900
+    },
+    {
+      "id": "guide-d-achat-squelette",
+      "slug": "deguisement-squelette-2",
+      "date": "2026-08-25",
+      "mots": 3003
+    },
+    {
+      "id": "top-squelette",
+      "slug": "deguisement-squelette-3",
+      "date": "2026-08-26",
+      "mots": 2913
+    },
+    {
+      "id": "guide-complet-squelette",
+      "slug": "deguisement-squelette-4",
+      "date": "2026-08-27",
+      "mots": 2948
     }
   ],
-  "compteur": 24,
-  "derniere_publication": "2026-09-20"
+  "compteur": 40,
+  "derniere_publication": "2026-08-27"
 }
