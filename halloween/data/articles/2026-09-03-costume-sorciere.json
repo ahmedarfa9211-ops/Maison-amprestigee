@@ -2,7 +2,7 @@
   "id": "costume-sorciere",
   "slug": "costume-sorciere",
   "date": "2026-09-03",
-  "date_maj": "2026-09-03",
+  "date_maj": "2026-09-21",
   "titre_h1": "Costume de sorcière : le guide pour un classique réussi",
   "titre_seo": "Costume de sorcière : le guide pour un classique réussi",
   "meta": "Comment choisir un costume sorcière : la bonne taille, le confort, les accessoires, le maquillage et une sélection commentée.",
@@ -13,17 +13,17 @@
   ],
   "categorie": "guides-achat",
   "type": "guide-achat",
-  "mots": 2968,
+  "mots": 2862,
   "filtres": [
     "sorciere"
   ],
   "produits": [
     "costume-sorciere-femme",
+    "costume-sorciere-enfant",
     "costume-bebe-combinaison",
     "chapeau-sorciere",
     "costume-enfant-citrouille",
-    "costume-enfant-squelette",
-    "costume-couple-squelette"
+    "costume-licorne-enfant"
   ],
   "lies": [
     "deguisement-halloween-femme",
@@ -139,6 +139,22 @@
         "ideal_pour": "une valeur sûre pour une femme qui veut un costume immédiatement reconnaissable sans se ruiner"
       },
       {
+        "produit_id": "costume-sorciere-enfant",
+        "accroche": "Pour une enfant qui veut le grand classique d'Halloween à sa taille",
+        "verdict": "Déguisement de sorcière pour enfant s'adresse à une enfant qui veut le grand classique d'Halloween à sa taille. Le personnage le plus universel, décliné pour les enfants : aucune explication nécessaire. En contrepartie, costume très répandu à l'école : un accessoire original aide à se distinguer. Un choix cohérent dès lors que ces limites correspondent à votre usage réel.",
+        "points_forts": [
+          "Le personnage le plus universel, décliné pour les enfants : aucune explication nécessaire",
+          "Robe + chapeau suffisent, tout ajout (balai, maquillage) reste optionnel",
+          "Coupe ample qui accepte une couche chaude dessous",
+          "Se transmet facilement d'un enfant à l'autre"
+        ],
+        "points_faibles": [
+          "Costume très répandu à l'école : un accessoire original aide à se distinguer",
+          "Le chapeau pointu tombe facilement en courant : prévoir une pince"
+        ],
+        "ideal_pour": "une enfant qui veut le grand classique d'Halloween à sa taille"
+      },
+      {
         "produit_id": "costume-bebe-combinaison",
         "accroche": "Pour un bébé ou un tout-petit, pour une photo mémorable sans compromis sur le confort",
         "verdict": "Combinaison-pyjama d'Halloween pour bébé s'adresse à un bébé ou un tout-petit, pour une photo mémorable sans compromis sur le confort. Coupe pyjama en maille douce : le bébé peut dormir dedans, ce qui en fait un achat qui sert au-delà du 31 octobre. En contrepartie, les bébés grandissent vite : commander la taille du moment, pas au-dessus, sous peine d'un costume flottant sur les photos. Un choix cohérent dès lors que ces limites correspondent à votre usage réel.",
@@ -187,36 +203,20 @@
         "ideal_pour": "un jeune enfant, pour un premier Halloween mignon plutôt qu'effrayant"
       },
       {
-        "produit_id": "costume-enfant-squelette",
-        "accroche": "Pour un enfant qui veut faire peur pour de rire, avec l'effet phosphorescent qui plaît toujours",
-        "verdict": "Déguisement de squelette lumineux pour enfant s'adresse à un enfant qui veut faire peur pour de rire, avec l'effet phosphorescent qui plaît toujours. L'imprimé qui brille dans le noir est l'argument numéro un auprès des enfants, et rend l'enfant visible la nuit. En contrepartie, la phosphorescence faiblit avec les lavages : la « recharger » quelques minutes sous une lampe avant de sortir. Un choix cohérent dès lors que ces limites correspondent à votre usage réel.",
+        "produit_id": "costume-licorne-enfant",
+        "accroche": "Pour un jeune enfant, pour un Halloween tout en douceur",
+        "verdict": "Déguisement de licorne pour enfant s'adresse à un jeune enfant, pour un Halloween tout en douceur. Costume rassurant et coloré, parfait pour les plus petits. En contrepartie, se salit vite sur les tons clairs : un passage éponge plutôt que la machine. Un choix cohérent dès lors que ces limites correspondent à votre usage réel.",
         "points_forts": [
-          "L'imprimé qui brille dans le noir est l'argument numéro un auprès des enfants, et rend l'enfant visible la nuit",
-          "Squelette : le compromis idéal entre « effrayant » et « pas traumatisant » pour un âge scolaire",
-          "Deux pièces (haut + bas) plus faciles à ajuster qu'une combinaison intégrale à la croissance",
-          "Se prête au jeu du maquillage assorti sans obligation d'en mettre"
+          "Costume rassurant et coloré, parfait pour les plus petits",
+          "Capuche à corne et crinière : l'effet est immédiat sans accessoire à acheter",
+          "Coupe ample qui passe par-dessus des vêtements chauds",
+          "Matière douce que l'enfant garde volontiers longtemps"
         ],
         "points_faibles": [
-          "La phosphorescence faiblit avec les lavages : la « recharger » quelques minutes sous une lampe avant de sortir",
-          "L'imprimé se réserve aux tailles indiquées : trop grand, le squelette est déformé et perd son effet"
+          "Se salit vite sur les tons clairs : un passage éponge plutôt que la machine",
+          "La corne rigide peut gêner en voiture : à retirer pour les trajets"
         ],
-        "ideal_pour": "un enfant qui veut faire peur pour de rire, avec l'effet phosphorescent qui plaît toujours"
-      },
-      {
-        "produit_id": "costume-couple-squelette",
-        "accroche": "Pour un couple qui veut un déguisement coordonné sans chercher deux costumes séparément",
-        "verdict": "Duo de costumes squelette assortis pour couple s'adresse à un couple qui veut un déguisement coordonné sans chercher deux costumes séparément. L'effet « couple assorti » se remarque immédiatement sur les photos et fait toujours son petit effet en soirée. En contrepartie, les ensembles couple proposent parfois deux tailles identiques : vérifier qu'on peut choisir chaque taille séparément. Un choix cohérent dès lors que ces limites correspondent à votre usage réel.",
-        "points_forts": [
-          "L'effet « couple assorti » se remarque immédiatement sur les photos et fait toujours son petit effet en soirée",
-          "Le squelette fonctionne sur toutes les morphologies et tous les genres, sans rôle masculin ou féminin imposé",
-          "Acheter le duo d'un coup évite la chasse à deux costumes cohérents en taille et en style",
-          "Chacune des deux pièces reste portable seule les années suivantes"
-        ],
-        "points_faibles": [
-          "Les ensembles couple proposent parfois deux tailles identiques : vérifier qu'on peut choisir chaque taille séparément",
-          "L'imprimé bas de gamme se craquèle : lavage à froid, à l'envers, séchage à plat"
-        ],
-        "ideal_pour": "un couple qui veut un déguisement coordonné sans chercher deux costumes séparément"
+        "ideal_pour": "un jeune enfant, pour un Halloween tout en douceur"
       }
     ],
     "faq": [
@@ -259,5 +259,5 @@
   },
   "source": "local",
   "titre_page": "Costume de sorcière : le guide pour un classique réussi",
-  "jsonld_selection": "<script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"ItemList\",\"name\":\"Costume de sorcière : le guide pour un classique réussi\",\"numberOfItems\":6,\"itemListOrder\":\"https://schema.org/ItemListOrderDescending\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Déguisement de sorcière pour femme avec chapeau\",\"description\":\"une valeur sûre pour une femme qui veut un costume immédiatement reconnaissable sans se ruiner\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Combinaison-pyjama d'Halloween pour bébé\",\"description\":\"un bébé ou un tout-petit, pour une photo mémorable sans compromis sur le confort\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Chapeau de sorcière en feutre\",\"description\":\"compléter un look de sorcière ou improviser un déguisement à moindre frais\"},{\"@type\":\"ListItem\",\"position\":4,\"name\":\"Déguisement de citrouille pour enfant\",\"description\":\"un jeune enfant, pour un premier Halloween mignon plutôt qu'effrayant\"},{\"@type\":\"ListItem\",\"position\":5,\"name\":\"Déguisement de squelette lumineux pour enfant\",\"description\":\"un enfant qui veut faire peur pour de rire, avec l'effet phosphorescent qui plaît toujours\"},{\"@type\":\"ListItem\",\"position\":6,\"name\":\"Duo de costumes squelette assortis pour couple\",\"description\":\"un couple qui veut un déguisement coordonné sans chercher deux costumes séparément\"}]}</script>"
+  "jsonld_selection": "<script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"ItemList\",\"name\":\"Costume de sorcière : le guide pour un classique réussi\",\"numberOfItems\":6,\"itemListOrder\":\"https://schema.org/ItemListOrderDescending\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Déguisement de sorcière pour femme avec chapeau\",\"description\":\"une valeur sûre pour une femme qui veut un costume immédiatement reconnaissable sans se ruiner\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Déguisement de sorcière pour enfant\",\"description\":\"une enfant qui veut le grand classique d'Halloween à sa taille\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Combinaison-pyjama d'Halloween pour bébé\",\"description\":\"un bébé ou un tout-petit, pour une photo mémorable sans compromis sur le confort\"},{\"@type\":\"ListItem\",\"position\":4,\"name\":\"Chapeau de sorcière en feutre\",\"description\":\"compléter un look de sorcière ou improviser un déguisement à moindre frais\"},{\"@type\":\"ListItem\",\"position\":5,\"name\":\"Déguisement de citrouille pour enfant\",\"description\":\"un jeune enfant, pour un premier Halloween mignon plutôt qu'effrayant\"},{\"@type\":\"ListItem\",\"position\":6,\"name\":\"Déguisement de licorne pour enfant\",\"description\":\"un jeune enfant, pour un Halloween tout en douceur\"}]}</script>"
 }

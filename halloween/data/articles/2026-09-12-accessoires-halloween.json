@@ -2,7 +2,7 @@
   "id": "accessoires-halloween",
   "slug": "accessoires-halloween",
   "date": "2026-09-12",
-  "date_maj": "2026-09-12",
+  "date_maj": "2026-09-21",
   "titre_h1": "Accessoires d'Halloween : ce qui transforme un costume ordinaire",
   "titre_seo": "Accessoires d'Halloween : ce qui transforme un costume ordin",
   "meta": "Comment choisir des accessoires halloween : la bonne taille, le confort, les accessoires, le maquillage et une sélection commentée.",
@@ -13,7 +13,7 @@
   ],
   "categorie": "guides-achat",
   "type": "guide-achat",
-  "mots": 3100,
+  "mots": 3039,
   "filtres": [
     "accessoire"
   ],
@@ -22,8 +22,8 @@
     "chapeau-sorciere",
     "kit-maquillage-fx",
     "masque-effrayant-latex",
-    "perruque-longue",
-    "costume-chien-halloween"
+    "accessoire-cape-led",
+    "accessoire-ailes-serretete"
   ],
   "lies": [
     "deguisement-halloween-femme",
@@ -197,36 +197,36 @@
         "ideal_pour": "obtenir un maximum d'effet effrayant en un seul achat, sans maquillage"
       },
       {
-        "produit_id": "perruque-longue",
-        "accroche": "Pour parfaire une silhouette et rendre un costume répandu tout de suite plus soigné",
-        "verdict": "Perruque longue pour costume d'Halloween s'adresse à parfaire une silhouette et rendre un costume répandu tout de suite plus soigné. Une perruque change complètement une silhouette et distingue un costume classique de la version bâclée du voisin. En contrepartie, les fibres synthétiques bon marché brillent sous un flash : préférer une teinte mate si l'on prévoit beaucoup de photos. Un choix cohérent dès lors que ces limites correspondent à votre usage réel.",
+        "produit_id": "accessoire-cape-led",
+        "accroche": "Pour ajouter un effet lumineux qui rend un costume visible et spectaculaire la nuit",
+        "verdict": "Cape à capuche avec LED s'adresse à ajouter un effet lumineux qui rend un costume visible et spectaculaire la nuit. La lumière rend l'enfant ou l'adulte visible la nuit, un vrai plus sécurité pour la tournée des bonbons. En contrepartie, fonctionne sur piles : prévoir un jeu de rechange pour tenir la soirée. Un choix cohérent dès lors que ces limites correspondent à votre usage réel.",
         "points_forts": [
-          "Une perruque change complètement une silhouette et distingue un costume classique de la version bâclée du voisin",
-          "Filet réglable qui s'adapte à la plupart des tours de tête",
-          "Se réutilise pour d'autres déguisements et d'autres soirées costumées dans l'année",
-          "Effet immédiat sur les photos, là où le costume seul manque parfois de caractère"
+          "La lumière rend l'enfant ou l'adulte visible la nuit, un vrai plus sécurité pour la tournée des bonbons",
+          "Transforme une simple cape en costume spectaculaire de mage ou de spectre",
+          "Effet immédiat sur les photos de soirée en basse lumière",
+          "Se réutilise pour d'autres fêtes costumées dans l'année"
         ],
         "points_faibles": [
-          "Les fibres synthétiques bon marché brillent sous un flash : préférer une teinte mate si l'on prévoit beaucoup de photos",
-          "Tenir éloignée de toute flamme (bougies de citrouille) : les fibres sont inflammables"
+          "Fonctionne sur piles : prévoir un jeu de rechange pour tenir la soirée",
+          "Tenir la partie électronique à l'écart de l'eau et de la pluie"
         ],
-        "ideal_pour": "parfaire une silhouette et rendre un costume répandu tout de suite plus soigné"
+        "ideal_pour": "ajouter un effet lumineux qui rend un costume visible et spectaculaire la nuit"
       },
       {
-        "produit_id": "costume-chien-halloween",
-        "accroche": "Pour faire participer le chien de la maison à la fête, le temps de quelques photos",
-        "verdict": "Déguisement d'Halloween pour chien s'adresse à faire participer le chien de la maison à la fête, le temps de quelques photos. Réglable par bandes auto-agrippantes : s'ajuste à un large tour de poitrail sans serrer. En contrepartie, aucun chien ne doit rester déguisé longtemps ni sans surveillance : c'est un accessoire photo, pas une tenue de soirée. Un choix cohérent dès lors que ces limites correspondent à votre usage réel.",
+        "produit_id": "accessoire-ailes-serretete",
+        "accroche": "Pour transformer une tenue sombre en costume en un seul achat",
+        "verdict": "Ailes et serre-tête à thème (chauve-souris, ange, chat) s'adresse à transformer une tenue sombre en costume en un seul achat. L'accessoire qui crée un personnage à partir d'une simple tenue noire : idéal dernière minute. En contrepartie, un accessoire seul ne suffit pas : il faut au moins une tenue assortie. Un choix cohérent dès lors que ces limites correspondent à votre usage réel.",
         "points_forts": [
-          "Réglable par bandes auto-agrippantes : s'ajuste à un large tour de poitrail sans serrer",
-          "Léger et sans capuche contraignante : la plupart des chiens l'acceptent le temps d'une photo",
-          "Prix dérisoire pour un accessoire qui fait toujours son effet auprès des invités",
-          "Se lave facilement, ce qui compte avec un animal"
+          "L'accessoire qui crée un personnage à partir d'une simple tenue noire : idéal dernière minute",
+          "Plusieurs thèmes possibles selon le modèle (chauve-souris, chat, ange)",
+          "Se range à plat et resservira d'une année sur l'autre",
+          "Coût minime pour un effet immédiat sur les photos"
         ],
         "points_faibles": [
-          "Aucun chien ne doit rester déguisé longtemps ni sans surveillance : c'est un accessoire photo, pas une tenue de soirée",
-          "Mesurer le tour de poitrail et la longueur du dos avant de commander, la taille « M » d'une marque n'est pas celle d'une autre"
+          "Un accessoire seul ne suffit pas : il faut au moins une tenue assortie",
+          "Les serre-têtes rigides serrent parfois après quelques heures"
         ],
-        "ideal_pour": "faire participer le chien de la maison à la fête, le temps de quelques photos"
+        "ideal_pour": "transformer une tenue sombre en costume en un seul achat"
       }
     ],
     "faq": [
@@ -269,5 +269,5 @@
   },
   "source": "local",
   "titre_page": "Accessoires d'Halloween : ce qui transforme un costume ordin",
-  "jsonld_selection": "<script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"ItemList\",\"name\":\"Accessoires d'Halloween : ce qui transforme un costume ordinaire\",\"numberOfItems\":6,\"itemListOrder\":\"https://schema.org/ItemListOrderDescending\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Cape noire à capuche à nouer\",\"description\":\"improviser un costume en cinq minutes ou compléter une tenue existante\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Chapeau de sorcière en feutre\",\"description\":\"compléter un look de sorcière ou improviser un déguisement à moindre frais\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Palette de maquillage FX Halloween avec faux sang\",\"description\":\"transformer un costume basique en tenue mémorable, ou se maquiller sans acheter de costume\"},{\"@type\":\"ListItem\",\"position\":4,\"name\":\"Masque effrayant en latex\",\"description\":\"obtenir un maximum d'effet effrayant en un seul achat, sans maquillage\"},{\"@type\":\"ListItem\",\"position\":5,\"name\":\"Perruque longue pour costume d'Halloween\",\"description\":\"parfaire une silhouette et rendre un costume répandu tout de suite plus soigné\"},{\"@type\":\"ListItem\",\"position\":6,\"name\":\"Déguisement d'Halloween pour chien\",\"description\":\"faire participer le chien de la maison à la fête, le temps de quelques photos\"}]}</script>"
+  "jsonld_selection": "<script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"ItemList\",\"name\":\"Accessoires d'Halloween : ce qui transforme un costume ordinaire\",\"numberOfItems\":6,\"itemListOrder\":\"https://schema.org/ItemListOrderDescending\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Cape noire à capuche à nouer\",\"description\":\"improviser un costume en cinq minutes ou compléter une tenue existante\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Chapeau de sorcière en feutre\",\"description\":\"compléter un look de sorcière ou improviser un déguisement à moindre frais\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Palette de maquillage FX Halloween avec faux sang\",\"description\":\"transformer un costume basique en tenue mémorable, ou se maquiller sans acheter de costume\"},{\"@type\":\"ListItem\",\"position\":4,\"name\":\"Masque effrayant en latex\",\"description\":\"obtenir un maximum d'effet effrayant en un seul achat, sans maquillage\"},{\"@type\":\"ListItem\",\"position\":5,\"name\":\"Cape à capuche avec LED\",\"description\":\"ajouter un effet lumineux qui rend un costume visible et spectaculaire la nuit\"},{\"@type\":\"ListItem\",\"position\":6,\"name\":\"Ailes et serre-tête à thème (chauve-souris, ange, chat)\",\"description\":\"transformer une tenue sombre en costume en un seul achat\"}]}</script>"
 }

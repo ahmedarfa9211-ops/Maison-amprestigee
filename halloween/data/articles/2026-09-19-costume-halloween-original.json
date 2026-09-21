@@ -2,7 +2,7 @@
   "id": "costume-halloween-original",
   "slug": "costume-halloween-original",
   "date": "2026-09-19",
-  "date_maj": "2026-09-19",
+  "date_maj": "2026-09-21",
   "titre_h1": "Costume d'Halloween original : sortir des déguisements vus partout",
   "titre_seo": "Costume d'Halloween original : sortir des déguisements vus p",
   "meta": "Comment choisir un costume halloween original : la bonne taille, le confort, les accessoires, le maquillage et une sélection commentée.",
@@ -13,18 +13,18 @@
   ],
   "categorie": "idees",
   "type": "idees",
-  "mots": 2950,
+  "mots": 2825,
   "filtres": [
     "humoristique",
     "gonflable"
   ],
   "produits": [
     "costume-gonflable-adulte",
+    "costume-dinosaure-enfant",
+    "costume-citrouille-adulte",
     "costume-bebe-combinaison",
     "costume-enfant-squelette",
-    "costume-sorciere-femme",
-    "costume-enfant-citrouille",
-    "costume-squelette-mixte"
+    "costume-sorciere-femme"
   ],
   "lies": [
     "deguisement-halloween-couple",
@@ -135,6 +135,38 @@
         "ideal_pour": "celui ou celle qui vise le rire plutôt que la peur, et l'entrée la plus remarquée de la soirée"
       },
       {
+        "produit_id": "costume-dinosaure-enfant",
+        "accroche": "Pour un enfant qui préfère un costume amusant à un costume effrayant",
+        "verdict": "Déguisement de dinosaure pour enfant s'adresse à un enfant qui préfère un costume amusant à un costume effrayant. Combinaison rembourrée qui tient chaud toute seule pour la tournée des bonbons. En contrepartie, le rembourrage tient chaud en intérieur chauffé : prévoir peu de couches dessous. Un choix cohérent dès lors que ces limites correspondent à votre usage réel.",
+        "points_forts": [
+          "Combinaison rembourrée qui tient chaud toute seule pour la tournée des bonbons",
+          "La capuche à crête plaît beaucoup et se repère de loin",
+          "S'enfile d'une pièce, fermeture sur le devant : autonomie de l'enfant",
+          "Se reporte en pyjama-jeu bien après Halloween"
+        ],
+        "points_faibles": [
+          "Le rembourrage tient chaud en intérieur chauffé : prévoir peu de couches dessous",
+          "Ajouter des bandes réfléchissantes : le vert foncé est peu visible la nuit"
+        ],
+        "ideal_pour": "un enfant qui préfère un costume amusant à un costume effrayant"
+      },
+      {
+        "produit_id": "costume-citrouille-adulte",
+        "accroche": "Pour un adulte qui vise le sourire plutôt que la peur, en famille",
+        "verdict": "Déguisement de citrouille humoristique pour adulte s'adresse à un adulte qui vise le sourire plutôt que la peur, en famille. Personnage bon enfant, parfait pour accompagner de jeunes enfants sans leur faire peur. En contrepartie, registre volontairement peu effrayant : à éviter pour une soirée horreur. Un choix cohérent dès lors que ces limites correspondent à votre usage réel.",
+        "points_forts": [
+          "Personnage bon enfant, parfait pour accompagner de jeunes enfants sans leur faire peur",
+          "Se coordonne avec un enfant en citrouille pour un duo parent-enfant",
+          "Coupe ample et confortable pour une soirée entière",
+          "Le symbole d'Halloween par excellence, toujours reconnu"
+        ],
+        "points_faibles": [
+          "Registre volontairement peu effrayant : à éviter pour une soirée horreur",
+          "La teinte orange sombre demande un élément réfléchissant la nuit"
+        ],
+        "ideal_pour": "un adulte qui vise le sourire plutôt que la peur, en famille"
+      },
+      {
         "produit_id": "costume-bebe-combinaison",
         "accroche": "Pour un bébé ou un tout-petit, pour une photo mémorable sans compromis sur le confort",
         "verdict": "Combinaison-pyjama d'Halloween pour bébé s'adresse à un bébé ou un tout-petit, pour une photo mémorable sans compromis sur le confort. Coupe pyjama en maille douce : le bébé peut dormir dedans, ce qui en fait un achat qui sert au-delà du 31 octobre. En contrepartie, les bébés grandissent vite : commander la taille du moment, pas au-dessus, sous peine d'un costume flottant sur les photos. Un choix cohérent dès lors que ces limites correspondent à votre usage réel.",
@@ -181,38 +213,6 @@
           "Les tissus d'entrée de gamme sont fins : prévoir une couche chaude en dessous plutôt que de compter sur la robe seule"
         ],
         "ideal_pour": "une valeur sûre pour une femme qui veut un costume immédiatement reconnaissable sans se ruiner"
-      },
-      {
-        "produit_id": "costume-enfant-citrouille",
-        "accroche": "Pour un jeune enfant, pour un premier Halloween mignon plutôt qu'effrayant",
-        "verdict": "Déguisement de citrouille pour enfant s'adresse à un jeune enfant, pour un premier Halloween mignon plutôt qu'effrayant. Le costume rembourré tient chaud tout seul lors de la tournée « des bonbons ou un sort » en soirée. En contrepartie, le rembourrage se tasse au lavage : privilégier un coup d'éponge localisé plutôt qu'un passage en machine. Un choix cohérent dès lors que ces limites correspondent à votre usage réel.",
-        "points_forts": [
-          "Le costume rembourré tient chaud tout seul lors de la tournée « des bonbons ou un sort » en soirée",
-          "Forme reconnaissable et rassurante : parfaite pour les plus petits qui n'aiment pas l'aspect effrayant",
-          "Ouverture large et fermeture sur le devant : l'enfant s'habille et va aux toilettes sans bataille",
-          "Coupe ample qui passe par-dessus des vêtements chauds, ce qui allonge la durée d'usage sur plusieurs tailles"
-        ],
-        "points_faibles": [
-          "Le rembourrage se tasse au lavage : privilégier un coup d'éponge localisé plutôt qu'un passage en machine",
-          "Vérifier la présence de bandes réfléchissantes ou en ajouter : un enfant en orange sombre est peu visible la nuit"
-        ],
-        "ideal_pour": "un jeune enfant, pour un premier Halloween mignon plutôt qu'effrayant"
-      },
-      {
-        "produit_id": "costume-squelette-mixte",
-        "accroche": "Pour celles et ceux qui veulent un costume efficace, mixte et bon marché, enfilé en trente secondes",
-        "verdict": "Combinaison squelette imprimée pour adulte s'adresse à celles et ceux qui veulent un costume efficace, mixte et bon marché, enfilé en trente secondes. L'imprimé squelette est lisible de loin, y compris dans la pénombre d'une soirée, ce qui n'est pas le cas des costumes trop chargés. En contrepartie, l'imprimé bon marché peut se craqueler au lavage : laver à l'envers, à froid, et sécher à plat. Un choix cohérent dès lors que ces limites correspondent à votre usage réel.",
-        "points_forts": [
-          "L'imprimé squelette est lisible de loin, y compris dans la pénombre d'une soirée, ce qui n'est pas le cas des costumes trop chargés",
-          "Coupe unisexe : le même modèle habille un homme comme une femme, pratique pour un couple ou un groupe assorti",
-          "La combinaison intégrale tient chaud par elle-même, sans couche à ajouter dessous",
-          "Le ticket d'entrée le plus bas de la catégorie, idéal pour un déguisement qu'on ne remettra peut-être qu'une fois"
-        ],
-        "points_faibles": [
-          "L'imprimé bon marché peut se craqueler au lavage : laver à l'envers, à froid, et sécher à plat",
-          "La coupe near-body ne pardonne rien : vérifier le guide des tailles plutôt que de se fier à sa taille habituelle"
-        ],
-        "ideal_pour": "celles et ceux qui veulent un costume efficace, mixte et bon marché, enfilé en trente secondes"
       }
     ],
     "faq": [
@@ -255,5 +255,5 @@
   },
   "source": "local",
   "titre_page": "Costume d'Halloween original : sortir des déguisements vus p",
-  "jsonld_selection": "<script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"ItemList\",\"name\":\"Costume d'Halloween original : sortir des déguisements vus partout\",\"numberOfItems\":6,\"itemListOrder\":\"https://schema.org/ItemListOrderDescending\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Déguisement gonflable humoristique pour adulte\",\"description\":\"celui ou celle qui vise le rire plutôt que la peur, et l'entrée la plus remarquée de la soirée\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Combinaison-pyjama d'Halloween pour bébé\",\"description\":\"un bébé ou un tout-petit, pour une photo mémorable sans compromis sur le confort\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Déguisement de squelette lumineux pour enfant\",\"description\":\"un enfant qui veut faire peur pour de rire, avec l'effet phosphorescent qui plaît toujours\"},{\"@type\":\"ListItem\",\"position\":4,\"name\":\"Déguisement de sorcière pour femme avec chapeau\",\"description\":\"une valeur sûre pour une femme qui veut un costume immédiatement reconnaissable sans se ruiner\"},{\"@type\":\"ListItem\",\"position\":5,\"name\":\"Déguisement de citrouille pour enfant\",\"description\":\"un jeune enfant, pour un premier Halloween mignon plutôt qu'effrayant\"},{\"@type\":\"ListItem\",\"position\":6,\"name\":\"Combinaison squelette imprimée pour adulte\",\"description\":\"celles et ceux qui veulent un costume efficace, mixte et bon marché, enfilé en trente secondes\"}]}</script>"
+  "jsonld_selection": "<script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"ItemList\",\"name\":\"Costume d'Halloween original : sortir des déguisements vus partout\",\"numberOfItems\":6,\"itemListOrder\":\"https://schema.org/ItemListOrderDescending\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Déguisement gonflable humoristique pour adulte\",\"description\":\"celui ou celle qui vise le rire plutôt que la peur, et l'entrée la plus remarquée de la soirée\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Déguisement de dinosaure pour enfant\",\"description\":\"un enfant qui préfère un costume amusant à un costume effrayant\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Déguisement de citrouille humoristique pour adulte\",\"description\":\"un adulte qui vise le sourire plutôt que la peur, en famille\"},{\"@type\":\"ListItem\",\"position\":4,\"name\":\"Combinaison-pyjama d'Halloween pour bébé\",\"description\":\"un bébé ou un tout-petit, pour une photo mémorable sans compromis sur le confort\"},{\"@type\":\"ListItem\",\"position\":5,\"name\":\"Déguisement de squelette lumineux pour enfant\",\"description\":\"un enfant qui veut faire peur pour de rire, avec l'effet phosphorescent qui plaît toujours\"},{\"@type\":\"ListItem\",\"position\":6,\"name\":\"Déguisement de sorcière pour femme avec chapeau\",\"description\":\"une valeur sûre pour une femme qui veut un costume immédiatement reconnaissable sans se ruiner\"}]}</script>"
 }

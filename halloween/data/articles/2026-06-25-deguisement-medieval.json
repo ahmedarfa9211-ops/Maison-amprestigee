@@ -2,7 +2,7 @@
   "id": "comparatif-medieval",
   "slug": "deguisement-medieval",
   "date": "2026-06-25",
-  "date_maj": "2026-06-25",
+  "date_maj": "2026-09-21",
   "titre_h1": "Déguisement médiéval : le comparatif 2026",
   "titre_seo": "Déguisement médiéval : le comparatif 2026",
   "meta": "Comment choisir un déguisement médiéval : la bonne taille, le confort, les accessoires, le maquillage et une sélection commentée.",
@@ -14,7 +14,7 @@
   ],
   "categorie": "comparatifs",
   "type": "comparatif",
-  "mots": 2943,
+  "mots": 2871,
   "filtres": [
     "medieval"
   ],
@@ -22,9 +22,9 @@
     "costume-medieval-adulte",
     "costume-bebe-combinaison",
     "costume-sorciere-femme",
+    "costume-dinosaure-enfant",
     "costume-enfant-citrouille",
-    "costume-enfant-squelette",
-    "costume-squelette-mixte"
+    "costume-enfant-squelette"
   ],
   "lies": [
     "deguisement-diable",
@@ -171,6 +171,22 @@
         "ideal_pour": "une valeur sûre pour une femme qui veut un costume immédiatement reconnaissable sans se ruiner"
       },
       {
+        "produit_id": "costume-dinosaure-enfant",
+        "accroche": "Pour un enfant qui préfère un costume amusant à un costume effrayant",
+        "verdict": "Déguisement de dinosaure pour enfant s'adresse à un enfant qui préfère un costume amusant à un costume effrayant. Combinaison rembourrée qui tient chaud toute seule pour la tournée des bonbons. En contrepartie, le rembourrage tient chaud en intérieur chauffé : prévoir peu de couches dessous. Un choix cohérent dès lors que ces limites correspondent à votre usage réel.",
+        "points_forts": [
+          "Combinaison rembourrée qui tient chaud toute seule pour la tournée des bonbons",
+          "La capuche à crête plaît beaucoup et se repère de loin",
+          "S'enfile d'une pièce, fermeture sur le devant : autonomie de l'enfant",
+          "Se reporte en pyjama-jeu bien après Halloween"
+        ],
+        "points_faibles": [
+          "Le rembourrage tient chaud en intérieur chauffé : prévoir peu de couches dessous",
+          "Ajouter des bandes réfléchissantes : le vert foncé est peu visible la nuit"
+        ],
+        "ideal_pour": "un enfant qui préfère un costume amusant à un costume effrayant"
+      },
+      {
         "produit_id": "costume-enfant-citrouille",
         "accroche": "Pour un jeune enfant, pour un premier Halloween mignon plutôt qu'effrayant",
         "verdict": "Déguisement de citrouille pour enfant s'adresse à un jeune enfant, pour un premier Halloween mignon plutôt qu'effrayant. Le costume rembourré tient chaud tout seul lors de la tournée « des bonbons ou un sort » en soirée. En contrepartie, le rembourrage se tasse au lavage : privilégier un coup d'éponge localisé plutôt qu'un passage en machine. Un choix cohérent dès lors que ces limites correspondent à votre usage réel.",
@@ -201,22 +217,6 @@
           "L'imprimé se réserve aux tailles indiquées : trop grand, le squelette est déformé et perd son effet"
         ],
         "ideal_pour": "un enfant qui veut faire peur pour de rire, avec l'effet phosphorescent qui plaît toujours"
-      },
-      {
-        "produit_id": "costume-squelette-mixte",
-        "accroche": "Pour celles et ceux qui veulent un costume efficace, mixte et bon marché, enfilé en trente secondes",
-        "verdict": "Combinaison squelette imprimée pour adulte s'adresse à celles et ceux qui veulent un costume efficace, mixte et bon marché, enfilé en trente secondes. L'imprimé squelette est lisible de loin, y compris dans la pénombre d'une soirée, ce qui n'est pas le cas des costumes trop chargés. En contrepartie, l'imprimé bon marché peut se craqueler au lavage : laver à l'envers, à froid, et sécher à plat. Un choix cohérent dès lors que ces limites correspondent à votre usage réel.",
-        "points_forts": [
-          "L'imprimé squelette est lisible de loin, y compris dans la pénombre d'une soirée, ce qui n'est pas le cas des costumes trop chargés",
-          "Coupe unisexe : le même modèle habille un homme comme une femme, pratique pour un couple ou un groupe assorti",
-          "La combinaison intégrale tient chaud par elle-même, sans couche à ajouter dessous",
-          "Le ticket d'entrée le plus bas de la catégorie, idéal pour un déguisement qu'on ne remettra peut-être qu'une fois"
-        ],
-        "points_faibles": [
-          "L'imprimé bon marché peut se craqueler au lavage : laver à l'envers, à froid, et sécher à plat",
-          "La coupe near-body ne pardonne rien : vérifier le guide des tailles plutôt que de se fier à sa taille habituelle"
-        ],
-        "ideal_pour": "celles et ceux qui veulent un costume efficace, mixte et bon marché, enfilé en trente secondes"
       }
     ],
     "faq": [
@@ -259,5 +259,5 @@
   },
   "source": "local",
   "titre_page": "Déguisement médiéval : le comparatif 2026 | Panoplie Halloween",
-  "jsonld_selection": "<script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"ItemList\",\"name\":\"Déguisement médiéval : le comparatif 2026\",\"numberOfItems\":6,\"itemListOrder\":\"https://schema.org/ItemListOrderDescending\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Déguisement médiéval (seigneur ou dame) pour adulte\",\"description\":\"celles et ceux qui veulent un costume habillé, réutilisable pour d'autres soirées à thème\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Combinaison-pyjama d'Halloween pour bébé\",\"description\":\"un bébé ou un tout-petit, pour une photo mémorable sans compromis sur le confort\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Déguisement de sorcière pour femme avec chapeau\",\"description\":\"une valeur sûre pour une femme qui veut un costume immédiatement reconnaissable sans se ruiner\"},{\"@type\":\"ListItem\",\"position\":4,\"name\":\"Déguisement de citrouille pour enfant\",\"description\":\"un jeune enfant, pour un premier Halloween mignon plutôt qu'effrayant\"},{\"@type\":\"ListItem\",\"position\":5,\"name\":\"Déguisement de squelette lumineux pour enfant\",\"description\":\"un enfant qui veut faire peur pour de rire, avec l'effet phosphorescent qui plaît toujours\"},{\"@type\":\"ListItem\",\"position\":6,\"name\":\"Combinaison squelette imprimée pour adulte\",\"description\":\"celles et ceux qui veulent un costume efficace, mixte et bon marché, enfilé en trente secondes\"}]}</script>"
+  "jsonld_selection": "<script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"ItemList\",\"name\":\"Déguisement médiéval : le comparatif 2026\",\"numberOfItems\":6,\"itemListOrder\":\"https://schema.org/ItemListOrderDescending\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Déguisement médiéval (seigneur ou dame) pour adulte\",\"description\":\"celles et ceux qui veulent un costume habillé, réutilisable pour d'autres soirées à thème\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Combinaison-pyjama d'Halloween pour bébé\",\"description\":\"un bébé ou un tout-petit, pour une photo mémorable sans compromis sur le confort\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Déguisement de sorcière pour femme avec chapeau\",\"description\":\"une valeur sûre pour une femme qui veut un costume immédiatement reconnaissable sans se ruiner\"},{\"@type\":\"ListItem\",\"position\":4,\"name\":\"Déguisement de dinosaure pour enfant\",\"description\":\"un enfant qui préfère un costume amusant à un costume effrayant\"},{\"@type\":\"ListItem\",\"position\":5,\"name\":\"Déguisement de citrouille pour enfant\",\"description\":\"un jeune enfant, pour un premier Halloween mignon plutôt qu'effrayant\"},{\"@type\":\"ListItem\",\"position\":6,\"name\":\"Déguisement de squelette lumineux pour enfant\",\"description\":\"un enfant qui veut faire peur pour de rire, avec l'effet phosphorescent qui plaît toujours\"}]}</script>"
 }

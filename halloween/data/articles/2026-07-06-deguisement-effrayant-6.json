@@ -2,7 +2,7 @@
   "id": "idees-effrayant",
   "slug": "deguisement-effrayant-6",
   "date": "2026-07-06",
-  "date_maj": "2026-07-06",
+  "date_maj": "2026-09-21",
   "titre_h1": "Idées de déguisement effrayant",
   "titre_seo": "Idées de déguisement effrayant",
   "meta": "Comment choisir un déguisement effrayant : la bonne taille, le confort, les accessoires, le maquillage et une sélection commentée.",
@@ -14,7 +14,7 @@
   ],
   "categorie": "idees",
   "type": "idees",
-  "mots": 2923,
+  "mots": 2880,
   "filtres": [
     "effrayant"
   ],
@@ -22,9 +22,9 @@
     "costume-enfant-squelette",
     "costume-sorciere-femme",
     "costume-zombie-adulte",
+    "costume-vampire-enfant",
     "costume-fantome-enfant",
-    "costume-groupe-fantome",
-    "costume-couple-squelette"
+    "costume-groupe-fantome"
   ],
   "lies": [
     "deguisement-diable-6",
@@ -171,6 +171,22 @@
         "ideal_pour": "les amateurs de frissons qui visent l'effet le plus impressionnant de la soirée"
       },
       {
+        "produit_id": "costume-vampire-enfant",
+        "accroche": "Pour un enfant qui veut faire un peu peur sans costume anxiogène",
+        "verdict": "Déguisement de vampire pour enfant avec cape s'adresse à un enfant qui veut faire un peu peur sans costume anxiogène. La cape à col fait tout l'effet, enfilée sur une tenue sombre déjà possédée. En contrepartie, les fausses canines sont à réserver aux photos, inconfortables sur la durée. Un choix cohérent dès lors que ces limites correspondent à votre usage réel.",
+        "points_forts": [
+          "La cape à col fait tout l'effet, enfilée sur une tenue sombre déjà possédée",
+          "Effrayant juste ce qu'il faut pour l'âge scolaire",
+          "La cape se règle et se garde plusieurs années",
+          "Deux gouttes de maquillage suffisent à parfaire le personnage"
+        ],
+        "points_faibles": [
+          "Les fausses canines sont à réserver aux photos, inconfortables sur la durée",
+          "La cape longue peut faire trébucher : vérifier la longueur"
+        ],
+        "ideal_pour": "un enfant qui veut faire un peu peur sans costume anxiogène"
+      },
+      {
         "produit_id": "costume-fantome-enfant",
         "accroche": "Pour un enfant qui veut faire peur gentiment, dans le costume d'Halloween le plus simple qui soit",
         "verdict": "Déguisement de fantôme pour enfant s'adresse à un enfant qui veut faire peur gentiment, dans le costume d'Halloween le plus simple qui soit. Le déguisement le plus intemporel et le plus facile à porter : une cape à capuche, rien à régler. En contrepartie, le blanc est peu visible la nuit : ajouter des bandes réfléchissantes ou une lampe pour la tournée des bonbons. Un choix cohérent dès lors que ces limites correspondent à votre usage réel.",
@@ -201,22 +217,6 @@
           "Prévoir des accessoires différenciants (masques, lampes) pour que le groupe ne soit pas totalement anonyme"
         ],
         "ideal_pour": "un groupe d'amis ou une famille qui veut un thème commun à petit prix"
-      },
-      {
-        "produit_id": "costume-couple-squelette",
-        "accroche": "Pour un couple qui veut un déguisement coordonné sans chercher deux costumes séparément",
-        "verdict": "Duo de costumes squelette assortis pour couple s'adresse à un couple qui veut un déguisement coordonné sans chercher deux costumes séparément. L'effet « couple assorti » se remarque immédiatement sur les photos et fait toujours son petit effet en soirée. En contrepartie, les ensembles couple proposent parfois deux tailles identiques : vérifier qu'on peut choisir chaque taille séparément. Un choix cohérent dès lors que ces limites correspondent à votre usage réel.",
-        "points_forts": [
-          "L'effet « couple assorti » se remarque immédiatement sur les photos et fait toujours son petit effet en soirée",
-          "Le squelette fonctionne sur toutes les morphologies et tous les genres, sans rôle masculin ou féminin imposé",
-          "Acheter le duo d'un coup évite la chasse à deux costumes cohérents en taille et en style",
-          "Chacune des deux pièces reste portable seule les années suivantes"
-        ],
-        "points_faibles": [
-          "Les ensembles couple proposent parfois deux tailles identiques : vérifier qu'on peut choisir chaque taille séparément",
-          "L'imprimé bas de gamme se craquèle : lavage à froid, à l'envers, séchage à plat"
-        ],
-        "ideal_pour": "un couple qui veut un déguisement coordonné sans chercher deux costumes séparément"
       }
     ],
     "faq": [
@@ -259,5 +259,5 @@
   },
   "source": "local",
   "titre_page": "Idées de déguisement effrayant | Panoplie Halloween",
-  "jsonld_selection": "<script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"ItemList\",\"name\":\"Idées de déguisement effrayant\",\"numberOfItems\":6,\"itemListOrder\":\"https://schema.org/ItemListOrderDescending\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Déguisement de squelette lumineux pour enfant\",\"description\":\"un enfant qui veut faire peur pour de rire, avec l'effet phosphorescent qui plaît toujours\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Déguisement de sorcière pour femme avec chapeau\",\"description\":\"une valeur sûre pour une femme qui veut un costume immédiatement reconnaissable sans se ruiner\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Déguisement de zombie déchiré effet sang pour adulte\",\"description\":\"les amateurs de frissons qui visent l'effet le plus impressionnant de la soirée\"},{\"@type\":\"ListItem\",\"position\":4,\"name\":\"Déguisement de fantôme pour enfant\",\"description\":\"un enfant qui veut faire peur gentiment, dans le costume d'Halloween le plus simple qui soit\"},{\"@type\":\"ListItem\",\"position\":5,\"name\":\"Lot de capes de fantôme pour groupe\",\"description\":\"un groupe d'amis ou une famille qui veut un thème commun à petit prix\"},{\"@type\":\"ListItem\",\"position\":6,\"name\":\"Duo de costumes squelette assortis pour couple\",\"description\":\"un couple qui veut un déguisement coordonné sans chercher deux costumes séparément\"}]}</script>"
+  "jsonld_selection": "<script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"ItemList\",\"name\":\"Idées de déguisement effrayant\",\"numberOfItems\":6,\"itemListOrder\":\"https://schema.org/ItemListOrderDescending\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Déguisement de squelette lumineux pour enfant\",\"description\":\"un enfant qui veut faire peur pour de rire, avec l'effet phosphorescent qui plaît toujours\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Déguisement de sorcière pour femme avec chapeau\",\"description\":\"une valeur sûre pour une femme qui veut un costume immédiatement reconnaissable sans se ruiner\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Déguisement de zombie déchiré effet sang pour adulte\",\"description\":\"les amateurs de frissons qui visent l'effet le plus impressionnant de la soirée\"},{\"@type\":\"ListItem\",\"position\":4,\"name\":\"Déguisement de vampire pour enfant avec cape\",\"description\":\"un enfant qui veut faire un peu peur sans costume anxiogène\"},{\"@type\":\"ListItem\",\"position\":5,\"name\":\"Déguisement de fantôme pour enfant\",\"description\":\"un enfant qui veut faire peur gentiment, dans le costume d'Halloween le plus simple qui soit\"},{\"@type\":\"ListItem\",\"position\":6,\"name\":\"Lot de capes de fantôme pour groupe\",\"description\":\"un groupe d'amis ou une famille qui veut un thème commun à petit prix\"}]}</script>"
 }

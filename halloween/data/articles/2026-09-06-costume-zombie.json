@@ -2,7 +2,7 @@
   "id": "costume-zombie",
   "slug": "costume-zombie",
   "date": "2026-09-06",
-  "date_maj": "2026-09-06",
+  "date_maj": "2026-09-21",
   "titre_h1": "Costume de zombie : maximiser l'effet gore",
   "titre_seo": "Costume de zombie : maximiser l'effet gore",
   "meta": "Comment choisir un costume zombie : la bonne taille, le confort, les accessoires, le maquillage et une sélection commentée.",
@@ -13,18 +13,18 @@
   ],
   "categorie": "guides-achat",
   "type": "guide-achat",
-  "mots": 2916,
+  "mots": 2828,
   "filtres": [
     "zombie",
     "gore"
   ],
   "produits": [
     "costume-zombie-adulte",
+    "costume-clown-effrayant",
     "costume-bebe-combinaison",
     "costume-enfant-citrouille",
-    "costume-enfant-squelette",
-    "costume-sorciere-femme",
-    "kit-maquillage-fx"
+    "costume-chat-femme",
+    "costume-enfant-squelette"
   ],
   "lies": [
     "costume-sorciere",
@@ -135,6 +135,22 @@
         "ideal_pour": "les amateurs de frissons qui visent l'effet le plus impressionnant de la soirée"
       },
       {
+        "produit_id": "costume-clown-effrayant",
+        "accroche": "Pour les amateurs de frissons qui veulent le costume qui fait le plus sursauter",
+        "verdict": "Déguisement de clown effrayant s'adresse à les amateurs de frissons qui veulent le costume qui fait le plus sursauter. Le clown effrayant est l'un des personnages les plus marquants d'une soirée horreur. En contrepartie, à proscrire devant de jeunes enfants : réellement anxiogène. Un choix cohérent dès lors que ces limites correspondent à votre usage réel.",
+        "points_forts": [
+          "Le clown effrayant est l'un des personnages les plus marquants d'une soirée horreur",
+          "Mixte et disponible en plusieurs coupes",
+          "Se combine avec un maquillage et une perruque pour un effet maximal",
+          "Le costume seul suffit déjà à camper le personnage"
+        ],
+        "points_faibles": [
+          "À proscrire devant de jeunes enfants : réellement anxiogène",
+          "Le maquillage complet demande du temps et un bon démaquillant"
+        ],
+        "ideal_pour": "les amateurs de frissons qui veulent le costume qui fait le plus sursauter"
+      },
+      {
         "produit_id": "costume-bebe-combinaison",
         "accroche": "Pour un bébé ou un tout-petit, pour une photo mémorable sans compromis sur le confort",
         "verdict": "Combinaison-pyjama d'Halloween pour bébé s'adresse à un bébé ou un tout-petit, pour une photo mémorable sans compromis sur le confort. Coupe pyjama en maille douce : le bébé peut dormir dedans, ce qui en fait un achat qui sert au-delà du 31 octobre. En contrepartie, les bébés grandissent vite : commander la taille du moment, pas au-dessus, sous peine d'un costume flottant sur les photos. Un choix cohérent dès lors que ces limites correspondent à votre usage réel.",
@@ -167,6 +183,22 @@
         "ideal_pour": "un jeune enfant, pour un premier Halloween mignon plutôt qu'effrayant"
       },
       {
+        "produit_id": "costume-chat-femme",
+        "accroche": "Pour une femme qui veut un costume rapide, élégant et peu coûteux à partir d'une tenue noire",
+        "verdict": "Déguisement de chat noir pour femme s'adresse à une femme qui veut un costume rapide, élégant et peu coûteux à partir d'une tenue noire. Se compose d'une tenue noire déjà possédée + un serre-tête à oreilles : solution dernière minute idéale. En contrepartie, costume très répandu : soigner le maquillage et un détail pour se distinguer. Un choix cohérent dès lors que ces limites correspondent à votre usage réel.",
+        "points_forts": [
+          "Se compose d'une tenue noire déjà possédée + un serre-tête à oreilles : solution dernière minute idéale",
+          "Ni effrayant ni encombrant : confortable toute la soirée",
+          "Le maquillage (nez, moustaches) suffit à parfaire le personnage pour quelques euros",
+          "La tenue noire se reporte au quotidien, seul l'accessoire est spécifique"
+        ],
+        "points_faibles": [
+          "Costume très répandu : soigner le maquillage et un détail pour se distinguer",
+          "Le serre-tête bon marché serre parfois après quelques heures"
+        ],
+        "ideal_pour": "une femme qui veut un costume rapide, élégant et peu coûteux à partir d'une tenue noire"
+      },
+      {
         "produit_id": "costume-enfant-squelette",
         "accroche": "Pour un enfant qui veut faire peur pour de rire, avec l'effet phosphorescent qui plaît toujours",
         "verdict": "Déguisement de squelette lumineux pour enfant s'adresse à un enfant qui veut faire peur pour de rire, avec l'effet phosphorescent qui plaît toujours. L'imprimé qui brille dans le noir est l'argument numéro un auprès des enfants, et rend l'enfant visible la nuit. En contrepartie, la phosphorescence faiblit avec les lavages : la « recharger » quelques minutes sous une lampe avant de sortir. Un choix cohérent dès lors que ces limites correspondent à votre usage réel.",
@@ -181,38 +213,6 @@
           "L'imprimé se réserve aux tailles indiquées : trop grand, le squelette est déformé et perd son effet"
         ],
         "ideal_pour": "un enfant qui veut faire peur pour de rire, avec l'effet phosphorescent qui plaît toujours"
-      },
-      {
-        "produit_id": "costume-sorciere-femme",
-        "accroche": "Pour une valeur sûre pour une femme qui veut un costume immédiatement reconnaissable sans se ruiner",
-        "verdict": "Déguisement de sorcière pour femme avec chapeau s'adresse à une valeur sûre pour une femme qui veut un costume immédiatement reconnaissable sans se ruiner. Le personnage le plus universel d'Halloween : personne n'a besoin d'explication devant une sorcière. En contrepartie, costume si répandu qu'il faut soigner un détail (maquillage, perruque, chapeau original) pour ne pas passer inaperçue. Un choix cohérent dès lors que ces limites correspondent à votre usage réel.",
-        "points_forts": [
-          "Le personnage le plus universel d'Halloween : personne n'a besoin d'explication devant une sorcière",
-          "L'ensemble robe + chapeau se suffit à lui-même, mais accepte tous les ajouts (balai, chaudron, maquillage vert) selon l'envie et le budget",
-          "La coupe longue passe par-dessus un legging et un sous-pull thermique, ce qui règle le problème du froid du 31 octobre",
-          "Se recycle d'une année sur l'autre sans se démoder, contrairement aux costumes liés à un film précis"
-        ],
-        "points_faibles": [
-          "Costume si répandu qu'il faut soigner un détail (maquillage, perruque, chapeau original) pour ne pas passer inaperçue",
-          "Les tissus d'entrée de gamme sont fins : prévoir une couche chaude en dessous plutôt que de compter sur la robe seule"
-        ],
-        "ideal_pour": "une valeur sûre pour une femme qui veut un costume immédiatement reconnaissable sans se ruiner"
-      },
-      {
-        "produit_id": "kit-maquillage-fx",
-        "accroche": "Pour transformer un costume basique en tenue mémorable, ou se maquiller sans acheter de costume",
-        "verdict": "Palette de maquillage FX Halloween avec faux sang s'adresse à transformer un costume basique en tenue mémorable, ou se maquiller sans acheter de costume. Le meilleur rapport effet/prix d'Halloween : quelques euros de maquillage changent radicalement un costume ordinaire. En contrepartie, faire un test la veille sur l'avant-bras : certaines peaux sensibles réagissent aux fards bon marché. Un choix cohérent dès lors que ces limites correspondent à votre usage réel.",
-        "points_forts": [
-          "Le meilleur rapport effet/prix d'Halloween : quelques euros de maquillage changent radicalement un costume ordinaire",
-          "Une seule palette sert à toute la famille et resservira plusieurs années",
-          "Permet d'improviser un déguisement complet (zombie, sorcière, mort-vivant) avec des vêtements sombres déjà possédés",
-          "Idéal pour ajuster l'intensité : léger pour un enfant, appuyé pour une soirée entre adultes"
-        ],
-        "points_faibles": [
-          "Faire un test la veille sur l'avant-bras : certaines peaux sensibles réagissent aux fards bon marché",
-          "Prévoir un démaquillant gras : le maquillage FX et le faux sang ne partent pas à l'eau seule"
-        ],
-        "ideal_pour": "transformer un costume basique en tenue mémorable, ou se maquiller sans acheter de costume"
       }
     ],
     "faq": [
@@ -255,5 +255,5 @@
   },
   "source": "local",
   "titre_page": "Costume de zombie : maximiser l'effet gore | Panoplie Halloween",
-  "jsonld_selection": "<script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"ItemList\",\"name\":\"Costume de zombie : maximiser l'effet gore\",\"numberOfItems\":6,\"itemListOrder\":\"https://schema.org/ItemListOrderDescending\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Déguisement de zombie déchiré effet sang pour adulte\",\"description\":\"les amateurs de frissons qui visent l'effet le plus impressionnant de la soirée\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Combinaison-pyjama d'Halloween pour bébé\",\"description\":\"un bébé ou un tout-petit, pour une photo mémorable sans compromis sur le confort\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Déguisement de citrouille pour enfant\",\"description\":\"un jeune enfant, pour un premier Halloween mignon plutôt qu'effrayant\"},{\"@type\":\"ListItem\",\"position\":4,\"name\":\"Déguisement de squelette lumineux pour enfant\",\"description\":\"un enfant qui veut faire peur pour de rire, avec l'effet phosphorescent qui plaît toujours\"},{\"@type\":\"ListItem\",\"position\":5,\"name\":\"Déguisement de sorcière pour femme avec chapeau\",\"description\":\"une valeur sûre pour une femme qui veut un costume immédiatement reconnaissable sans se ruiner\"},{\"@type\":\"ListItem\",\"position\":6,\"name\":\"Palette de maquillage FX Halloween avec faux sang\",\"description\":\"transformer un costume basique en tenue mémorable, ou se maquiller sans acheter de costume\"}]}</script>"
+  "jsonld_selection": "<script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"ItemList\",\"name\":\"Costume de zombie : maximiser l'effet gore\",\"numberOfItems\":6,\"itemListOrder\":\"https://schema.org/ItemListOrderDescending\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Déguisement de zombie déchiré effet sang pour adulte\",\"description\":\"les amateurs de frissons qui visent l'effet le plus impressionnant de la soirée\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Déguisement de clown effrayant\",\"description\":\"les amateurs de frissons qui veulent le costume qui fait le plus sursauter\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Combinaison-pyjama d'Halloween pour bébé\",\"description\":\"un bébé ou un tout-petit, pour une photo mémorable sans compromis sur le confort\"},{\"@type\":\"ListItem\",\"position\":4,\"name\":\"Déguisement de citrouille pour enfant\",\"description\":\"un jeune enfant, pour un premier Halloween mignon plutôt qu'effrayant\"},{\"@type\":\"ListItem\",\"position\":5,\"name\":\"Déguisement de chat noir pour femme\",\"description\":\"une femme qui veut un costume rapide, élégant et peu coûteux à partir d'une tenue noire\"},{\"@type\":\"ListItem\",\"position\":6,\"name\":\"Déguisement de squelette lumineux pour enfant\",\"description\":\"un enfant qui veut faire peur pour de rire, avec l'effet phosphorescent qui plaît toujours\"}]}</script>"
 }
