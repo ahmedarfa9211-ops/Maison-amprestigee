@@ -1,0 +1,60 @@
+{
+  "site": {
+    "nom": "Panoplie Halloween",
+    "slogan": "Le guide des costumes et déguisements d'Halloween",
+    "url": "https://panoplie-halloween.fr",
+    "langue": "fr-FR",
+    "auteur": "La rédaction Panoplie Halloween",
+    "email_contact": "contact@panoplie-halloween.fr",
+    "description": "Comparatifs, guides d'achat et idées pour choisir son costume d'Halloween : déguisements adulte, enfant, couple et groupe, accessoires, maquillage et bons plans dernière minute.",
+    "couleur_principale": "#2A1541",
+    "couleur_secondaire": "#F7EEE2",
+    "couleur_accent": "#FF7518"
+  },
+  "theme": {
+    "nom_generique": "déguisement",
+    "nom_generique_pluriel": "déguisements",
+    "champ_lexical": "costume, déguisement, accessoire, perruque, masque, maquillage, taille, cape, Halloween, soirée"
+  },
+  "affiliation": {
+    "tag": "maisonamprest-21",
+    "domaine": "www.amazon.fr",
+    "texte_cta": "Voir le prix sur Amazon",
+    "mention_courte": "Liens affiliés — en tant que Partenaire Amazon, je réalise un bénéfice sur les achats remplissant les conditions requises.",
+    "mention_longue": "Ce site participe au Programme Partenaires d'Amazon EU, un programme d'affiliation conçu pour permettre à des sites de percevoir une rémunération grâce à la création de liens vers Amazon.fr. En tant que Partenaire Amazon, je réalise un bénéfice sur les achats remplissant les conditions requises. Cela n'entraîne aucun surcoût pour vous et n'influence pas nos recommandations.",
+    "afficher_prix": false,
+    "_note_prix": "Laisser sur false : le contrat Amazon interdit d'afficher un prix qui ne provient pas de la Product Advertising API. Le système affiche donc toujours 'Voir le prix sur Amazon'."
+  },
+  "publication": {
+    "articles_par_jour": 1,
+    "objectif_mots": 2400,
+    "minimum_mots": 2000,
+    "fuseau_horaire": "Europe/Paris",
+    "heure_publication": "07:00",
+    "articles_lies": 4,
+    "produits_par_comparatif": 6
+  },
+  "redaction": {
+    "mode": "api",
+    "_modes_disponibles": [
+      "api",
+      "local"
+    ],
+    "modele": "claude-sonnet-5",
+    "temperature": 1.0,
+    "max_tokens": 16000,
+    "_note": "mode 'api' = rédaction unique par Claude (nécessite ANTHROPIC_API_KEY). mode 'local' = assemblage sans API, gratuit, utile pour tester ou dépanner. Le mode 'api' bascule automatiquement en 'local' si la clé est absente."
+  },
+  "verifications": {
+    "_note": "Ajoutez ici une balise de vérification de propriété du domaine (ex. 'pinterest' ou 'google') fournie par le service concerné."
+  },
+  "seo": {
+    "longueur_max_titre": 60,
+    "longueur_max_meta": 155,
+    "indexation": true,
+    "generer_sitemap": true,
+    "generer_rss": true,
+    "donnees_structurees": true,
+    "_note_indexation": "L'indexation ne s'applique jamais sur une adresse *.github.io : elle s'active automatiquement dès que site.url (ou la variable SITE_URL) pointe vers un vrai domaine."
+  }
+}

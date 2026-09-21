@@ -1,0 +1,78 @@
+name: Publication Halloween
+
+# Déclenchement manuel uniquement : un dépôt GitHub Pages n'héberge qu'un seul
+# site, déjà occupé par le site coiffeuse. Ce workflow rédige les guides Halloween
+# et enregistre le contenu, sans toucher au déploiement Pages existant.
+# Pour publier le site Halloween en ligne, hébergez le dossier halloween/site sur
+# un dépôt distinct ou un autre hébergeur (Netlify, Cloudflare Pages…).
+
+on:
+  workflow_dispatch:
+    inputs:
+      nombre:
+        description: "Nombre d'articles à publier"
+        required: false
+        default: "1"
+      mode:
+        description: "Mode de rédaction : api ou local"
+        required: false
+        default: "api"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publication-halloween
+  cancel-in-progress: false
+
+jobs:
+  publier:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: halloween
+    steps:
+      - name: Récupérer le dépôt
+        uses: actions/checkout@v4
+
+      - name: Installer Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Déterminer l'adresse du site
+        run: |
+          if [ -n "${{ vars.SITE_URL_HALLOWEEN }}" ]; then
+            echo "SITE_URL=${{ vars.SITE_URL_HALLOWEEN }}" >> "$GITHUB_ENV"
+          else
+            echo "SITE_URL=https://panoplie-halloween.fr" >> "$GITHUB_ENV"
+          fi
+
+      - name: Rédiger l'article du jour et reconstruire le site
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          AMAZON_TAG: ${{ secrets.AMAZON_TAG }}
+          MODE_REDACTION: ${{ github.event.inputs.mode || 'api' }}
+        run: |
+          echo "Site : $SITE_URL"
+          python publier.py --nombre "${{ github.event.inputs.nombre || 1 }}"
+          python publier.py --verifier
+
+      - name: Enregistrer le nouveau contenu
+        run: |
+          git config user.name  "Publication automatique"
+          git config user.email "actions@github.com"
+          git add -A
+          if git diff --staged --quiet; then
+            echo "Rien de nouveau à enregistrer."
+          else
+            git commit -m "Halloween : publication du $(date +%Y-%m-%d)"
+            git push
+          fi
+
+      - name: Archiver le site généré (téléchargeable depuis l'exécution)
+        uses: actions/upload-artifact@v4
+        with:
+          name: site-halloween
+          path: halloween/site
+          if-no-files-found: warn
