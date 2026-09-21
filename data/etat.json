@@ -449,8 +449,14 @@
       "slug": "coiffeuse-murale-4",
       "date": "2026-09-20",
       "mots": 3161
+    },
+    {
+      "id": "guide-complet-murale",
+      "slug": "coiffeuse-murale-5",
+      "date": "2026-09-21",
+      "mots": 2970
     }
   ],
-  "compteur": 75,
-  "derniere_publication": "2026-09-20"
+  "compteur": 76,
+  "derniere_publication": "2026-09-21"
 }
