@@ -1,0 +1,479 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mya Beauty — Extensions de cheveux weft à Montpellier & Agde</title>
+<meta name="description" content="Pose d'extensions de cheveux weft à Montpellier et Agde. Volume et longueur sur mesure, méthode sans colle ni chaleur. Rendez-vous par WhatsApp.">
+<meta name="theme-color" content="#FBF7F1">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Mya Beauty — Extensions de cheveux weft à Montpellier & Agde">
+<meta property="og:description" content="Volume et longueur sur mesure, méthode sans colle ni chaleur. Prenez rendez-vous par WhatsApp.">
+<meta property="og:locale" content="fr_FR">
+<!-- ⚠️ À COMPLÉTER : og:image + og:url une fois la page en ligne
+<meta property="og:image" content="https://VOTRE-DOMAINE.fr/photos/og.jpg">
+<meta property="og:url" content="https://VOTRE-DOMAINE.fr/">
+-->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+
+<style>
+/* =========================================================
+   MYA BEAUTY — page de capture de rendez-vous
+   Palette : ivoire / doré — titres Playfair Display
+   ========================================================= */
+:root{
+  --ivoire:#FBF7F1;
+  --ivoire-2:#F4ECE1;
+  --or:#C8A46B;
+  --or-fonce:#A5824A;
+  --encre:#2B2320;
+  --gris:#6B615B;
+  --wa:#25D366;
+  --wa-fonce:#128C7E;
+  --rayon:14px;
+  --serif:"Playfair Display",Georgia,"Times New Roman",serif;
+  --sans:"Jost",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{
+  margin:0;background:var(--ivoire);color:var(--encre);
+  font-family:var(--sans);font-weight:300;font-size:17px;line-height:1.65;
+  padding-bottom:88px; /* place pour la barre WhatsApp fixe (mobile) */
+}
+img{max-width:100%;display:block}
+a{color:var(--or-fonce)}
+.wrap{width:100%;max-width:760px;margin:0 auto;padding:0 20px}
+
+h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.2;margin:0 0 .5em}
+h1{font-size:clamp(2rem,8vw,3rem);letter-spacing:.01em}
+h2{font-size:clamp(1.5rem,5.5vw,2.05rem);text-align:center}
+h3{font-size:1.15rem;margin-bottom:.25em}
+p{margin:0 0 1em}
+.sur-titre{
+  font-size:.72rem;letter-spacing:.28em;text-transform:uppercase;
+  color:var(--or-fonce);font-weight:400;margin:0 0 .9em;text-align:center;
+}
+.chapeau{font-size:1.06rem;color:var(--gris)}
+.centre{text-align:center}
+
+/* ---------- filet doré décoratif ---------- */
+.filet{display:flex;align-items:center;justify-content:center;gap:12px;margin:0 0 1.6em}
+.filet::before,.filet::after{content:"";height:1px;width:44px;background:var(--or)}
+.filet span{color:var(--or);font-size:.8rem;letter-spacing:.2em}
+
+/* ---------- en-tête ---------- */
+header{padding:26px 0 8px;text-align:center}
+.logo{
+  font-family:var(--serif);font-size:1.45rem;letter-spacing:.34em;
+  text-transform:uppercase;margin:0;font-weight:500;
+}
+.logo-sous{font-size:.68rem;letter-spacing:.24em;text-transform:uppercase;color:var(--gris);margin:.5em 0 0}
+
+/* ---------- hero ---------- */
+.hero{padding:34px 0 10px;text-align:center}
+.hero h1 em{font-style:italic;color:var(--or-fonce)}
+.badges{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin:22px 0 0;padding:0;list-style:none}
+.badges li{
+  font-size:.74rem;letter-spacing:.05em;border:1px solid var(--or);
+  border-radius:999px;padding:5px 11px;color:var(--or-fonce);background:#fff9;
+}
+
+/* ---------- boutons ---------- */
+.cta-wa{
+  display:flex;align-items:center;justify-content:center;gap:10px;
+  background:var(--wa);color:#fff;text-decoration:none;font-family:var(--sans);
+  font-size:1.06rem;font-weight:500;letter-spacing:.01em;
+  padding:17px 22px;border-radius:999px;margin:26px auto 10px;max-width:420px;
+  box-shadow:0 6px 20px rgba(37,211,102,.28);transition:transform .15s ease,box-shadow .15s ease;
+}
+.cta-wa:hover,.cta-wa:focus-visible{transform:translateY(-2px);box-shadow:0 10px 26px rgba(37,211,102,.34)}
+.cta-wa svg{width:22px;height:22px;flex:none;fill:#fff}
+.cta-note{font-size:.82rem;color:var(--gris);text-align:center;margin:0 0 6px}
+.cta-2{
+  display:inline-block;text-decoration:none;color:var(--or-fonce);
+  border-bottom:1px solid var(--or);padding-bottom:2px;font-size:.92rem;letter-spacing:.08em;
+}
+a:focus-visible,summary:focus-visible{outline:2px solid var(--or-fonce);outline-offset:3px;border-radius:4px}
+
+/* ---------- sections ---------- */
+section{padding:44px 0}
+.section-ivoire{background:var(--ivoire-2)}
+
+/* ---------- avant / après ---------- */
+.grille-ba{display:grid;grid-template-columns:1fr;gap:20px;margin:26px 0 0}
+@media(min-width:560px){.grille-ba{grid-template-columns:1fr 1fr}}
+figure.ba{margin:0}
+.ba img,.ba .ph{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:var(--rayon)}
+.ba .ph{
+  background:linear-gradient(145deg,#F7F0E6,#EADFCE);
+  border:1px dashed var(--or);
+  display:flex;align-items:center;justify-content:center;text-align:center;padding:18px;
+}
+.ba .ph::after{
+  content:attr(data-label);
+  font-family:var(--serif);font-size:.95rem;color:var(--or-fonce);line-height:1.5;white-space:pre-line;
+}
+.ba figcaption{font-size:.86rem;color:var(--gris);margin-top:9px;text-align:center}
+
+/* ---------- tarifs ---------- */
+.tarifs{list-style:none;padding:0;margin:26px 0 0}
+.tarifs li{
+  display:flex;justify-content:space-between;align-items:baseline;gap:16px;
+  padding:15px 2px;border-bottom:1px solid rgba(200,164,107,.35);
+}
+.tarifs li:last-child{border-bottom:0}
+.tarifs .nom{font-family:var(--serif);font-size:1.04rem}
+.tarifs .det{display:block;font-family:var(--sans);font-size:.83rem;color:var(--gris);margin-top:2px}
+.tarifs .prix{font-family:var(--serif);color:var(--or-fonce);white-space:nowrap;font-size:1.02rem}
+.mention{font-size:.84rem;color:var(--gris);margin-top:20px;text-align:center;font-style:italic}
+
+/* ---------- zone ---------- */
+.zone{display:grid;gap:16px;margin-top:26px}
+@media(min-width:560px){.zone{grid-template-columns:1fr 1fr}}
+.carte{background:#fff;border:1px solid rgba(200,164,107,.4);border-radius:var(--rayon);padding:22px}
+.carte h3{color:var(--or-fonce)}
+.carte p{margin:0;font-size:.95rem;color:var(--gris)}
+.villes{font-size:.9rem;color:var(--gris);text-align:center;margin-top:18px}
+
+/* ---------- étapes ---------- */
+.etapes{counter-reset:e;list-style:none;padding:0;margin:26px 0 0}
+.etapes li{position:relative;padding:0 0 22px 52px}
+.etapes li::before{
+  counter-increment:e;content:counter(e);
+  position:absolute;left:0;top:-2px;width:34px;height:34px;border-radius:50%;
+  border:1px solid var(--or);color:var(--or-fonce);font-family:var(--serif);
+  display:flex;align-items:center;justify-content:center;font-size:.95rem;
+}
+.etapes strong{font-family:var(--serif);font-weight:500;display:block}
+.etapes span{font-size:.95rem;color:var(--gris)}
+
+/* ---------- FAQ ---------- */
+details{border-bottom:1px solid rgba(200,164,107,.35);padding:14px 0}
+summary{cursor:pointer;font-family:var(--serif);font-size:1.03rem;list-style:none}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";float:right;color:var(--or-fonce);font-family:var(--sans)}
+details[open] summary::after{content:"–"}
+details p{margin:10px 0 2px;font-size:.95rem;color:var(--gris)}
+
+/* ---------- pied de page ---------- */
+footer{background:var(--encre);color:#E8DFD3;padding:40px 0 34px;margin-top:10px;font-size:.9rem}
+footer a{color:var(--or)}
+.reseaux{display:flex;gap:22px;justify-content:center;margin:0 0 20px;padding:0;list-style:none}
+.reseaux a{text-decoration:none;letter-spacing:.06em}
+footer details{border-bottom:1px solid rgba(232,223,211,.18)}
+footer summary{font-size:.92rem;color:#E8DFD3}
+footer summary::after{color:var(--or)}
+footer details p{color:#B9AEA1;font-size:.85rem}
+.copyright{text-align:center;color:#8F847A;font-size:.8rem;margin:24px 0 0}
+
+/* ---------- barre WhatsApp fixe (mobile) ---------- */
+.barre-fixe{
+  position:fixed;left:0;right:0;bottom:0;z-index:50;
+  background:rgba(251,247,241,.96);backdrop-filter:blur(8px);
+  border-top:1px solid rgba(200,164,107,.4);padding:12px 16px calc(12px + env(safe-area-inset-bottom));
+}
+.barre-fixe .cta-wa{margin:0 auto;max-width:520px;padding:14px 20px;font-size:1rem}
+@media(min-width:900px){
+  body{padding-bottom:0}
+  .barre-fixe{display:none}
+}
+</style>
+</head>
+
+<body>
+
+<!-- ============================================================
+     ⚠️ LES 3 CHOSES À REMPLACER AVANT LA MISE EN LIGNE
+     1. Le numéro WhatsApp : remplacez partout (3 liens + ce rappel) le
+        33600000000 par votre numéro au format international
+        (France = 33 + numéro sans le 0 : 0612345678 → 33612345678)
+     2. Les 4 photos avant/après : voir les commentaires « PHOTO » plus bas
+     3. Les tarifs + les mentions légales (SIRET, adresse, hébergeur)
+     ============================================================ -->
+
+<header>
+  <div class="wrap">
+    <p class="logo">Mya Beauty</p>
+    <p class="logo-sous">Extensions de cheveux · Montpellier &amp; Agde</p>
+  </div>
+</header>
+
+<!-- ===================== ACCROCHE ===================== -->
+<section class="hero" id="haut">
+  <div class="wrap">
+    <p class="sur-titre">Pose d'extensions weft</p>
+    <h1>La longueur et le volume dont vous rêvez, <em>en une seule séance</em></h1>
+    <p class="chapeau">
+      Extensions weft posées sans colle ni chaleur, sur tresse ou micro-anneaux.
+      Cheveux sélectionnés à la main, teinte et densité ajustées aux vôtres,
+      finition coupée et fondue pour un résultat que personne ne devine.
+    </p>
+
+    <ul class="badges">
+      <li>Salon à Montpellier</li>
+      <li>Point d'accueil à Agde</li>
+      <li>À domicile jusqu'à 50 km</li>
+      <li>Diagnostic offert</li>
+    </ul>
+
+    <a class="cta-wa" href="https://wa.me/33600000000?text=Bonjour%20Mya%20Beauty%20%E2%9C%A8%0AJe%20souhaite%20prendre%20rendez-vous%20pour%20une%20pose%20d%27extensions%20weft.%0A%0A%E2%80%A2%20Prestation%20souhait%C3%A9e%20%3A%20%0A%E2%80%A2%20Longueur%20%2F%20volume%20actuels%20%3A%20%0A%E2%80%A2%20Salon%20Montpellier%2C%20Agde%20ou%20%C3%A0%20domicile%20%28ville%29%20%3A%20%0A%E2%80%A2%20Disponibilit%C3%A9s%20%3A%20%0A%0AMerci%20%21">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 2c-5.46 0-9.9 4.44-9.9 9.9 0 1.75.46 3.45 1.32 4.95L2 22l5.3-1.39c1.45.79 3.08 1.21 4.74 1.21h.01c5.46 0 9.9-4.44 9.9-9.9 0-2.64-1.03-5.13-2.9-7A9.82 9.82 0 0 0 12.04 2zm0 18.02h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.05-.2-.31a8.18 8.18 0 0 1-1.26-4.37c0-4.54 3.7-8.23 8.25-8.23 2.2 0 4.27.86 5.83 2.41a8.19 8.19 0 0 1 2.41 5.83c0 4.54-3.7 8.23-8.24 8.23zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.24-.64.8-.78.97-.15.16-.29.18-.54.06-.25-.13-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.01-.38.11-.5.11-.11.25-.29.37-.43.13-.15.17-.25.25-.41.09-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.23.25-.86.85-.86 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.08.15-1.18-.06-.11-.22-.17-.47-.29z"/></svg>
+      Prendre rendez-vous sur WhatsApp
+    </a>
+    <p class="cta-note">Réponse sous 24 h · Diagnostic et devis gratuits</p>
+    <a class="cta-2" href="#tarifs">Voir les tarifs</a>
+  </div>
+</section>
+
+<!-- ===================== AVANT / APRÈS ===================== -->
+<section class="section-ivoire" id="avant-apres">
+  <div class="wrap">
+    <p class="filet"><span>✦</span></p>
+    <h2>Avant / après</h2>
+    <p class="chapeau centre">Des résultats réels, posés en salon, photographiés sans retouche.</p>
+
+    <div class="grille-ba">
+
+      <!-- PHOTO 1 — remplacez la ligne <div class="ph"…> par :
+           <img src="photos/avant-apres-1.jpg" alt="Avant / après : cheveux fins densifiés par une pose weft"> -->
+      <figure class="ba">
+        <div class="ph" data-label="Avant / Après&#10;photo 1"></div>
+        <figcaption>Cheveux fins densifiés — pose weft sur tresse</figcaption>
+      </figure>
+
+      <!-- PHOTO 2 — remplacez par :
+           <img src="photos/avant-apres-2.jpg" alt="Avant / après : gain de longueur sur carré mi-long"> -->
+      <figure class="ba">
+        <div class="ph" data-label="Avant / Après&#10;photo 2"></div>
+        <figcaption>Carré transformé — +20 cm de longueur</figcaption>
+      </figure>
+
+      <!-- PHOTO 3 — remplacez par :
+           <img src="photos/avant-apres-3.jpg" alt="Avant / après : coloration fondue sur extensions"> -->
+      <figure class="ba">
+        <div class="ph" data-label="Avant / Après&#10;photo 3"></div>
+        <figcaption>Teinte fondue sur mesure — raccord invisible</figcaption>
+      </figure>
+
+      <!-- PHOTO 4 — remplacez par :
+           <img src="photos/avant-apres-4.jpg" alt="Avant / après : volume sur cheveux bouclés"> -->
+      <figure class="ba">
+        <div class="ph" data-label="Avant / Après&#10;photo 4"></div>
+        <figcaption>Volume sur cheveux bouclés — finition coupée</figcaption>
+      </figure>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===================== TARIFS ===================== -->
+<section id="tarifs">
+  <div class="wrap">
+    <p class="filet"><span>✦</span></p>
+    <h2>Tarifs indicatifs</h2>
+    <p class="chapeau centre">Chaque pose est unique : le tarif exact vous est confirmé après le diagnostic, avant toute réservation.</p>
+
+    <!-- ⚠️ TARIFS À AJUSTER À VOS PRIX RÉELS -->
+    <ul class="tarifs">
+      <li>
+        <span class="nom">Diagnostic &amp; devis<span class="det">En salon ou en visio — 20 min</span></span>
+        <span class="prix">Offert</span>
+      </li>
+      <li>
+        <span class="nom">Pose weft — main-d'œuvre<span class="det">Sur tresse ou micro-anneaux, cheveux fournis par vos soins</span></span>
+        <span class="prix">dès 150 €</span>
+      </li>
+      <li>
+        <span class="nom">Forfait pose + cheveux<span class="det">Cheveux naturels Remy, teinte et densité sur mesure</span></span>
+        <span class="prix">dès 390 €</span>
+      </li>
+      <li>
+        <span class="nom">Remontée / resserrage<span class="det">À prévoir toutes les 6 à 10 semaines</span></span>
+        <span class="prix">dès 90 €</span>
+      </li>
+      <li>
+        <span class="nom">Dépose seule<span class="det">Avec soin démêlant et contrôle de la fibre</span></span>
+        <span class="prix">dès 50 €</span>
+      </li>
+      <li>
+        <span class="nom">Coupe &amp; personnalisation<span class="det">Fondu des longueurs, dégradé, frange</span></span>
+        <span class="prix">dès 40 €</span>
+      </li>
+      <li>
+        <span class="nom">Prestation à domicile<span class="det">Supplément déplacement, jusqu'à 50 km autour de Montpellier</span></span>
+        <span class="prix">dès 25 €</span>
+      </li>
+    </ul>
+    <p class="mention">Tarifs indicatifs, susceptibles de varier selon la longueur, la densité posée et la qualité des cheveux choisis.</p>
+  </div>
+</section>
+
+<!-- ===================== ZONE ===================== -->
+<section class="section-ivoire" id="zone">
+  <div class="wrap">
+    <p class="filet"><span>✦</span></p>
+    <h2>Où me trouver</h2>
+
+    <div class="zone">
+      <div class="carte">
+        <h3>Montpellier</h3>
+        <!-- ⚠️ À COMPLÉTER : adresse exacte du salon + jours d'ouverture -->
+        <p>Salon principal — adresse communiquée à la confirmation du rendez-vous.<br>Du mardi au samedi, sur rendez-vous.</p>
+      </div>
+      <div class="carte">
+        <h3>Agde</h3>
+        <!-- ⚠️ À COMPLÉTER : jours de présence à Agde -->
+        <p>Second point d'accueil — journées dédiées chaque mois, annoncées en story Instagram.</p>
+      </div>
+    </div>
+
+    <p class="villes">
+      <strong>Prestations à domicile</strong> dans un rayon d'environ 50 km :<br>
+      Nîmes · Lunel · Sète · Béziers · Frontignan · Mauguio · Castelnau-le-Lez · Palavas · Pézenas · Clermont-l'Hérault
+    </p>
+  </div>
+</section>
+
+<!-- ===================== DÉROULÉ ===================== -->
+<section id="deroule">
+  <div class="wrap">
+    <p class="filet"><span>✦</span></p>
+    <h2>Comment ça se passe</h2>
+
+    <ol class="etapes">
+      <li><strong>Vous m'écrivez sur WhatsApp</strong><span>Une photo de vos cheveux actuels et l'effet recherché suffisent pour démarrer.</span></li>
+      <li><strong>Diagnostic et devis, offerts</strong><span>On valide ensemble la méthode, la densité, la teinte et le budget. Aucun engagement.</span></li>
+      <li><strong>Le jour de la pose</strong><span>De 2 h à 4 h selon le volume, coupe et fondu compris. Vous repartez coiffée.</span></li>
+      <li><strong>Le suivi</strong><span>Routine d'entretien personnalisée, puis remontée toutes les 6 à 10 semaines.</span></li>
+    </ol>
+  </div>
+</section>
+
+<!-- ===================== FAQ ===================== -->
+<section class="section-ivoire" id="faq">
+  <div class="wrap">
+    <p class="filet"><span>✦</span></p>
+    <h2>Questions fréquentes</h2>
+
+    <details>
+      <summary>Est-ce que ça abîme les cheveux ?</summary>
+      <p>La pose weft se fait sans colle, sans kératine chaude et sans tension excessive. Le diagnostic préalable sert justement à vérifier que votre fibre et votre cuir chevelu le supportent — si ce n'est pas le cas, je vous le dis et je vous oriente autrement.</p>
+    </details>
+    <details>
+      <summary>Combien de temps ça tient ?</summary>
+      <p>Comptez 6 à 10 semaines entre deux remontées, selon votre pousse. Les cheveux, eux, se réutilisent en général 6 à 12 mois avec un entretien correct.</p>
+    </details>
+    <details>
+      <summary>Ça se voit ?</summary>
+      <p>Non, à condition que la densité soit adaptée et que les longueurs soient coupées et fondues après la pose — c'est inclus dans la prestation.</p>
+    </details>
+    <details>
+      <summary>J'ai les cheveux très fins, c'est possible ?</summary>
+      <p>Souvent oui, en adaptant le nombre de bandes et leur placement. C'est précisément ce que le diagnostic permet de déterminer avant de réserver.</p>
+    </details>
+    <details>
+      <summary>Comment je réserve ?</summary>
+      <p>Par WhatsApp uniquement, pour que nous puissions échanger photos et disponibilités. Le créneau est bloqué après validation du devis.</p>
+    </details>
+  </div>
+</section>
+
+<!-- ===================== CTA FINAL ===================== -->
+<section id="rendez-vous">
+  <div class="wrap centre">
+    <p class="filet"><span>✦</span></p>
+    <h2>Réservez votre pose</h2>
+    <p class="chapeau">Envoyez-moi une photo de vos cheveux : je vous réponds avec la méthode conseillée, le tarif et mes prochaines disponibilités.</p>
+
+    <a class="cta-wa" href="https://wa.me/33600000000?text=Bonjour%20Mya%20Beauty%20%E2%9C%A8%0AJe%20souhaite%20prendre%20rendez-vous%20pour%20une%20pose%20d%27extensions%20weft.%0A%0A%E2%80%A2%20Prestation%20souhait%C3%A9e%20%3A%20%0A%E2%80%A2%20Longueur%20%2F%20volume%20actuels%20%3A%20%0A%E2%80%A2%20Salon%20Montpellier%2C%20Agde%20ou%20%C3%A0%20domicile%20%28ville%29%20%3A%20%0A%E2%80%A2%20Disponibilit%C3%A9s%20%3A%20%0A%0AMerci%20%21">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 2c-5.46 0-9.9 4.44-9.9 9.9 0 1.75.46 3.45 1.32 4.95L2 22l5.3-1.39c1.45.79 3.08 1.21 4.74 1.21h.01c5.46 0 9.9-4.44 9.9-9.9 0-2.64-1.03-5.13-2.9-7A9.82 9.82 0 0 0 12.04 2zm0 18.02h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.05-.2-.31a8.18 8.18 0 0 1-1.26-4.37c0-4.54 3.7-8.23 8.25-8.23 2.2 0 4.27.86 5.83 2.41a8.19 8.19 0 0 1 2.41 5.83c0 4.54-3.7 8.23-8.24 8.23zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.24-.64.8-.78.97-.15.16-.29.18-.54.06-.25-.13-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.01-.38.11-.5.11-.11.25-.29.37-.43.13-.15.17-.25.25-.41.09-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.23.25-.86.85-.86 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.08.15-1.18-.06-.11-.22-.17-.47-.29z"/></svg>
+      Prendre rendez-vous sur WhatsApp
+    </a>
+    <p class="cta-note">Aucun acompte demandé avant le devis · Réponse sous 24 h</p>
+  </div>
+</section>
+
+<!-- ===================== PIED DE PAGE ===================== -->
+<footer>
+  <div class="wrap">
+    <ul class="reseaux">
+      <li><a href="https://www.instagram.com/__myabeauty/" target="_blank" rel="noopener">Instagram @__myabeauty</a></li>
+      <li><a href="https://www.tiktok.com/@myabeauty" target="_blank" rel="noopener">TikTok @MYABEAUTY</a></li>
+    </ul>
+
+    <!-- ⚠️ À COMPLÉTER : ces deux blocs sont obligatoires (mentions légales + RGPD).
+         Remplacez tout ce qui est entre crochets. -->
+    <details>
+      <summary>Mentions légales</summary>
+      <p>
+        Mya Beauty — entreprise individuelle [Prénom NOM].<br>
+        Siège : [adresse complète] · SIRET : [numéro] · [N° TVA intracom. ou mention « TVA non applicable, art. 293 B du CGI »]<br>
+        Responsable de publication : [Prénom NOM] · Contact : [email]<br>
+        Hébergeur du site : [nom, adresse, téléphone de l'hébergeur].<br>
+        Assurance responsabilité civile professionnelle : [assureur, n° de contrat, zone couverte].<br>
+        Médiateur de la consommation : [nom et site du médiateur] — conformément à l'article L.612-1 du Code de la consommation.
+      </p>
+    </details>
+
+    <details>
+      <summary>Données personnelles &amp; confidentialité</summary>
+      <p>
+        Ce site ne contient aucun formulaire et ne dépose aucun cookie de mesure ou de publicité.
+        Aucune donnée n'est collectée lors de votre simple visite.
+      </p>
+      <p>
+        Lorsque vous cliquez sur « Prendre rendez-vous sur WhatsApp », vous êtes redirigée vers
+        l'application WhatsApp : la conversation, votre numéro et les photos que vous choisissez de
+        m'envoyer sont traités dans WhatsApp, service édité par Meta Platforms Ireland Ltd,
+        selon sa propre politique de confidentialité.
+      </p>
+      <p>
+        Les informations échangées (identité, coordonnées, photos, historique des prestations) sont
+        utilisées uniquement pour répondre à votre demande, préparer et assurer la prestation, sur la
+        base de l'exécution du contrat ou de mesures précontractuelles. Elles sont conservées
+        [3 ans] après le dernier contact, puis supprimées. Elles ne sont ni revendues, ni transmises
+        à des tiers à des fins commerciales.
+      </p>
+      <p>
+        Vous disposez d'un droit d'accès, de rectification, d'effacement, de limitation et d'opposition :
+        écrivez à [email]. Vous pouvez également introduire une réclamation auprès de la CNIL (cnil.fr).
+      </p>
+      <p>
+        Aucune photo de cliente n'est publiée sans son accord écrit préalable et révocable à tout moment.
+      </p>
+    </details>
+
+    <p class="copyright">© <span id="annee">2026</span> Mya Beauty — Montpellier &amp; Agde</p>
+  </div>
+</footer>
+
+<!-- ===================== BARRE FIXE MOBILE ===================== -->
+<div class="barre-fixe">
+  <a class="cta-wa" href="https://wa.me/33600000000?text=Bonjour%20Mya%20Beauty%20%E2%9C%A8%0AJe%20souhaite%20prendre%20rendez-vous%20pour%20une%20pose%20d%27extensions%20weft.%0A%0A%E2%80%A2%20Prestation%20souhait%C3%A9e%20%3A%20%0A%E2%80%A2%20Longueur%20%2F%20volume%20actuels%20%3A%20%0A%E2%80%A2%20Salon%20Montpellier%2C%20Agde%20ou%20%C3%A0%20domicile%20%28ville%29%20%3A%20%0A%E2%80%A2%20Disponibilit%C3%A9s%20%3A%20%0A%0AMerci%20%21">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 2c-5.46 0-9.9 4.44-9.9 9.9 0 1.75.46 3.45 1.32 4.95L2 22l5.3-1.39c1.45.79 3.08 1.21 4.74 1.21h.01c5.46 0 9.9-4.44 9.9-9.9 0-2.64-1.03-5.13-2.9-7A9.82 9.82 0 0 0 12.04 2zm0 18.02h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.05-.2-.31a8.18 8.18 0 0 1-1.26-4.37c0-4.54 3.7-8.23 8.25-8.23 2.2 0 4.27.86 5.83 2.41a8.19 8.19 0 0 1 2.41 5.83c0 4.54-3.7 8.23-8.24 8.23zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.24-.64.8-.78.97-.15.16-.29.18-.54.06-.25-.13-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.01-.38.11-.5.11-.11.25-.29.37-.43.13-.15.17-.25.25-.41.09-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.23.25-.86.85-.86 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.08.15-1.18-.06-.11-.22-.17-.47-.29z"/></svg>
+    Prendre rendez-vous
+  </a>
+</div>
+
+<script>
+  document.getElementById('annee').textContent = new Date().getFullYear();
+</script>
+
+<!-- ============================================================
+     PIXEL PUBLICITAIRE (Meta / TikTok) — VOLONTAIREMENT ABSENT
+     Un pixel dépose des traceurs : en France il ne peut être chargé
+     qu'APRÈS consentement explicite (RGPD + art. 82 loi Informatique
+     et Libertés). Si vous lancez les publicités, ajoutez un bandeau
+     de consentement (ex. Axeptio, Tarteaucitron, Cookiebot) et ne
+     chargez le pixel que sur acceptation — puis complétez la section
+     « Données personnelles » ci-dessus en conséquence.
+     Alternative sans pixel : un lien wa.me distinct par plateforme
+     (voir creatifs-publicitaires.md, section « Mesure »).
+     ============================================================ -->
+
+</body>
+</html>
