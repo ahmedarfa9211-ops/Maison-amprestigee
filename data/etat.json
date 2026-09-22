@@ -455,8 +455,14 @@
       "slug": "coiffeuse-murale-5",
       "date": "2026-09-21",
       "mots": 2970
+    },
+    {
+      "id": "choisir-murale",
+      "slug": "coiffeuse-murale-6",
+      "date": "2026-09-22",
+      "mots": 3027
     }
   ],
-  "compteur": 76,
-  "derniere_publication": "2026-09-21"
+  "compteur": 77,
+  "derniere_publication": "2026-09-22"
 }
