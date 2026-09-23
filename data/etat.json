@@ -461,8 +461,14 @@
       "slug": "coiffeuse-murale-6",
       "date": "2026-09-22",
       "mots": 3027
+    },
+    {
+      "id": "amenagement-murale",
+      "slug": "coiffeuse-murale-7",
+      "date": "2026-09-23",
+      "mots": 3047
     }
   ],
-  "compteur": 77,
-  "derniere_publication": "2026-09-22"
+  "compteur": 78,
+  "derniere_publication": "2026-09-23"
 }
