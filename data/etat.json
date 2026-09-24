@@ -467,8 +467,14 @@
       "slug": "coiffeuse-murale-7",
       "date": "2026-09-23",
       "mots": 3047
+    },
+    {
+      "id": "comparatif-tiroirs",
+      "slug": "coiffeuse-avec-tiroirs",
+      "date": "2026-09-24",
+      "mots": 3199
     }
   ],
-  "compteur": 78,
-  "derniere_publication": "2026-09-23"
+  "compteur": 79,
+  "derniere_publication": "2026-09-24"
 }
