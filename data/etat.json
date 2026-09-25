@@ -473,8 +473,14 @@
       "slug": "coiffeuse-avec-tiroirs",
       "date": "2026-09-24",
       "mots": 3199
+    },
+    {
+      "id": "guide-d-achat-tiroirs",
+      "slug": "coiffeuse-avec-tiroirs-2",
+      "date": "2026-09-25",
+      "mots": 3199
     }
   ],
-  "compteur": 79,
-  "derniere_publication": "2026-09-24"
+  "compteur": 80,
+  "derniere_publication": "2026-09-25"
 }
