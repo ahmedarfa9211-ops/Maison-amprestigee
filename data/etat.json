@@ -479,8 +479,14 @@
       "slug": "coiffeuse-avec-tiroirs-2",
       "date": "2026-09-25",
       "mots": 3199
+    },
+    {
+      "id": "top-tiroirs",
+      "slug": "coiffeuse-avec-tiroirs-3",
+      "date": "2026-09-26",
+      "mots": 3199
     }
   ],
-  "compteur": 80,
-  "derniere_publication": "2026-09-25"
+  "compteur": 81,
+  "derniere_publication": "2026-09-26"
 }
