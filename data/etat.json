@@ -491,8 +491,14 @@
       "slug": "coiffeuse-avec-tiroirs-4",
       "date": "2026-09-27",
       "mots": 3202
+    },
+    {
+      "id": "choisir-tiroirs",
+      "slug": "coiffeuse-avec-tiroirs-5",
+      "date": "2026-09-28",
+      "mots": 3197
     }
   ],
-  "compteur": 82,
-  "derniere_publication": "2026-09-27"
+  "compteur": 83,
+  "derniere_publication": "2026-09-28"
 }
