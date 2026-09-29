@@ -497,8 +497,14 @@
       "slug": "coiffeuse-avec-tiroirs-5",
       "date": "2026-09-28",
       "mots": 3197
+    },
+    {
+      "id": "amenagement-tiroirs",
+      "slug": "coiffeuse-avec-tiroirs-6",
+      "date": "2026-09-29",
+      "mots": 3202
     }
   ],
-  "compteur": 83,
-  "derniere_publication": "2026-09-28"
+  "compteur": 84,
+  "derniere_publication": "2026-09-29"
 }
