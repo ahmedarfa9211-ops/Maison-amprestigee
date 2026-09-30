@@ -503,8 +503,14 @@
       "slug": "coiffeuse-avec-tiroirs-6",
       "date": "2026-09-29",
       "mots": 3202
+    },
+    {
+      "id": "comparatif-tabouret",
+      "slug": "coiffeuse-avec-tabouret",
+      "date": "2026-09-30",
+      "mots": 3189
     }
   ],
-  "compteur": 84,
-  "derniere_publication": "2026-09-29"
+  "compteur": 85,
+  "derniere_publication": "2026-09-30"
 }
