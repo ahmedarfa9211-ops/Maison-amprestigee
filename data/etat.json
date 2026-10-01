@@ -509,8 +509,14 @@
       "slug": "coiffeuse-avec-tabouret",
       "date": "2026-09-30",
       "mots": 3189
+    },
+    {
+      "id": "guide-d-achat-tabouret",
+      "slug": "coiffeuse-avec-tabouret-2",
+      "date": "2026-10-01",
+      "mots": 3175
     }
   ],
-  "compteur": 85,
-  "derniere_publication": "2026-09-30"
+  "compteur": 86,
+  "derniere_publication": "2026-10-01"
 }
