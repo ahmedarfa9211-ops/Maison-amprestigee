@@ -515,8 +515,14 @@
       "slug": "coiffeuse-avec-tabouret-2",
       "date": "2026-10-01",
       "mots": 3175
+    },
+    {
+      "id": "top-tabouret",
+      "slug": "coiffeuse-avec-tabouret-3",
+      "date": "2026-10-02",
+      "mots": 2945
     }
   ],
-  "compteur": 86,
-  "derniere_publication": "2026-10-01"
+  "compteur": 87,
+  "derniere_publication": "2026-10-02"
 }
