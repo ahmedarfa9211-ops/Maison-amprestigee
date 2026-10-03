@@ -521,8 +521,14 @@
       "slug": "coiffeuse-avec-tabouret-3",
       "date": "2026-10-02",
       "mots": 2945
+    },
+    {
+      "id": "guide-complet-tabouret",
+      "slug": "coiffeuse-avec-tabouret-4",
+      "date": "2026-10-03",
+      "mots": 2952
     }
   ],
-  "compteur": 87,
-  "derniere_publication": "2026-10-02"
+  "compteur": 88,
+  "derniere_publication": "2026-10-03"
 }
