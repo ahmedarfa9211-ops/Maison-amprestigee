@@ -527,8 +527,14 @@
       "slug": "coiffeuse-avec-tabouret-4",
       "date": "2026-10-03",
       "mots": 2952
+    },
+    {
+      "id": "choisir-tabouret",
+      "slug": "coiffeuse-avec-tabouret-5",
+      "date": "2026-10-04",
+      "mots": 3122
     }
   ],
-  "compteur": 88,
-  "derniere_publication": "2026-10-03"
+  "compteur": 89,
+  "derniere_publication": "2026-10-04"
 }
