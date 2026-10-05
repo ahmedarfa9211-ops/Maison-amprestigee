@@ -533,8 +533,14 @@
       "slug": "coiffeuse-avec-tabouret-5",
       "date": "2026-10-04",
       "mots": 3122
+    },
+    {
+      "id": "amenagement-tabouret",
+      "slug": "coiffeuse-avec-tabouret-6",
+      "date": "2026-10-05",
+      "mots": 3031
     }
   ],
-  "compteur": 89,
-  "derniere_publication": "2026-10-04"
+  "compteur": 90,
+  "derniere_publication": "2026-10-05"
 }
