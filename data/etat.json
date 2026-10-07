@@ -545,8 +545,14 @@
       "slug": "coiffeuse-pas-chere",
       "date": "2026-10-06",
       "mots": 2891
+    },
+    {
+      "id": "guide-d-achat-pas-chere",
+      "slug": "coiffeuse-pas-chere-2",
+      "date": "2026-10-07",
+      "mots": 2907
     }
   ],
-  "compteur": 91,
-  "derniere_publication": "2026-10-06"
+  "compteur": 92,
+  "derniere_publication": "2026-10-07"
 }
