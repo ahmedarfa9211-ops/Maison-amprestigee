@@ -557,8 +557,14 @@
       "slug": "coiffeuse-pas-chere-3",
       "date": "2026-10-08",
       "mots": 3157
+    },
+    {
+      "id": "guide-complet-pas-chere",
+      "slug": "coiffeuse-pas-chere-4",
+      "date": "2026-10-09",
+      "mots": 3165
     }
   ],
-  "compteur": 93,
-  "derniere_publication": "2026-10-08"
+  "compteur": 94,
+  "derniere_publication": "2026-10-09"
 }
