@@ -563,8 +563,14 @@
       "slug": "coiffeuse-pas-chere-4",
       "date": "2026-10-09",
       "mots": 3165
+    },
+    {
+      "id": "choisir-pas-chere",
+      "slug": "coiffeuse-pas-chere-5",
+      "date": "2026-10-10",
+      "mots": 3046
     }
   ],
-  "compteur": 94,
-  "derniere_publication": "2026-10-09"
+  "compteur": 95,
+  "derniere_publication": "2026-10-10"
 }
