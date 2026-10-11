@@ -1,0 +1,316 @@
+{
+  "_mode_emploi": [
+    "Ce fichier alimente le calendrier éditorial. 'prioritaires' passe en premier, dans l'ordre.",
+    "Quand la liste prioritaire est épuisée, le moteur combine automatiquement axes x formats pour produire des centaines de sujets uniques supplémentaires.",
+    "Pour imposer un sujet un jour précis : python publier.py --sujet <id>"
+  ],
+  "theme_mot": "déguisement",
+  "categories": {
+    "comparatifs": "Comparatifs",
+    "guides-achat": "Guides d'achat",
+    "idees": "Idées & inspiration",
+    "enfants": "Enfants & famille",
+    "diy": "Faire soi-même",
+    "questions": "Questions fréquentes"
+  },
+  "prioritaires": [
+    {
+      "id": "meilleur-deguisement-halloween",
+      "titre": "Meilleur déguisement d'Halloween : le comparatif complet",
+      "mot_cle": "meilleur déguisement Halloween",
+      "secondaires": ["comparatif déguisement Halloween", "quel costume Halloween choisir", "top costume Halloween"],
+      "type": "comparatif",
+      "categorie": "comparatifs",
+      "intention": "commerciale",
+      "filtres": []
+    },
+    {
+      "id": "deguisement-halloween-femme",
+      "titre": "Déguisement d'Halloween femme : comment bien choisir",
+      "mot_cle": "déguisement Halloween femme",
+      "secondaires": ["costume Halloween femme", "déguisement femme Halloween adulte"],
+      "type": "guide-achat",
+      "categorie": "guides-achat",
+      "intention": "commerciale",
+      "filtres": ["femme"]
+    },
+    {
+      "id": "deguisement-halloween-homme",
+      "titre": "Déguisement d'Halloween homme : le guide d'achat",
+      "mot_cle": "déguisement Halloween homme",
+      "secondaires": ["costume Halloween homme", "déguisement homme Halloween adulte"],
+      "type": "guide-achat",
+      "categorie": "guides-achat",
+      "intention": "commerciale",
+      "filtres": ["homme"]
+    },
+    {
+      "id": "deguisement-halloween-enfant",
+      "titre": "Déguisement d'Halloween enfant : le comparatif",
+      "mot_cle": "déguisement Halloween enfant",
+      "secondaires": ["costume Halloween enfant", "déguisement Halloween fille", "déguisement Halloween garçon"],
+      "type": "comparatif",
+      "categorie": "enfants",
+      "intention": "commerciale",
+      "filtres": ["enfant"]
+    },
+    {
+      "id": "deguisement-halloween-couple",
+      "titre": "Déguisement d'Halloween en couple : les meilleures idées assorties",
+      "mot_cle": "déguisement Halloween couple",
+      "secondaires": ["costume Halloween couple", "déguisement duo Halloween"],
+      "type": "idees",
+      "categorie": "idees",
+      "intention": "commerciale",
+      "filtres": ["couple", "duo"]
+    },
+    {
+      "id": "deguisement-halloween-groupe",
+      "titre": "Déguisement d'Halloween en groupe : le thème qui fait l'unanimité",
+      "mot_cle": "déguisement Halloween groupe",
+      "secondaires": ["costume Halloween groupe", "déguisement Halloween entre amis"],
+      "type": "idees",
+      "categorie": "idees",
+      "intention": "commerciale",
+      "filtres": ["groupe"]
+    },
+    {
+      "id": "costume-sorciere",
+      "titre": "Costume de sorcière : le guide pour un classique réussi",
+      "mot_cle": "costume sorcière",
+      "secondaires": ["déguisement sorcière", "costume sorcière femme"],
+      "type": "guide-achat",
+      "categorie": "guides-achat",
+      "intention": "commerciale",
+      "filtres": ["sorciere"]
+    },
+    {
+      "id": "costume-vampire",
+      "titre": "Costume de vampire : bien choisir cape et accessoires",
+      "mot_cle": "costume vampire",
+      "secondaires": ["déguisement vampire", "costume Dracula"],
+      "type": "guide-achat",
+      "categorie": "guides-achat",
+      "intention": "commerciale",
+      "filtres": ["vampire"]
+    },
+    {
+      "id": "costume-squelette",
+      "titre": "Costume de squelette : le déguisement le plus efficace",
+      "mot_cle": "costume squelette",
+      "secondaires": ["déguisement squelette", "combinaison squelette Halloween"],
+      "type": "guide-achat",
+      "categorie": "guides-achat",
+      "intention": "commerciale",
+      "filtres": ["squelette"]
+    },
+    {
+      "id": "costume-zombie",
+      "titre": "Costume de zombie : maximiser l'effet gore",
+      "mot_cle": "costume zombie",
+      "secondaires": ["déguisement zombie", "costume mort-vivant Halloween"],
+      "type": "guide-achat",
+      "categorie": "guides-achat",
+      "intention": "commerciale",
+      "filtres": ["zombie", "gore"]
+    },
+    {
+      "id": "deguisement-halloween-bebe",
+      "titre": "Déguisement d'Halloween pour bébé : confort et sécurité avant tout",
+      "mot_cle": "déguisement Halloween bébé",
+      "secondaires": ["costume Halloween bébé", "déguisement bébé citrouille"],
+      "type": "guide-achat",
+      "categorie": "enfants",
+      "intention": "commerciale",
+      "filtres": ["bebe"]
+    },
+    {
+      "id": "deguisement-halloween-pas-cher",
+      "titre": "Déguisement d'Halloween pas cher : les meilleurs petits budgets",
+      "mot_cle": "déguisement Halloween pas cher",
+      "secondaires": ["costume Halloween petit prix", "déguisement Halloween économique"],
+      "type": "comparatif",
+      "categorie": "comparatifs",
+      "intention": "transactionnelle",
+      "filtres": ["budget"]
+    },
+    {
+      "id": "deguisement-halloween-derniere-minute",
+      "titre": "Déguisement d'Halloween de dernière minute : s'en sortir en une soirée",
+      "mot_cle": "déguisement Halloween dernière minute",
+      "secondaires": ["costume Halloween rapide", "déguisement Halloween express"],
+      "type": "idees",
+      "categorie": "idees",
+      "intention": "commerciale",
+      "filtres": ["derniere-minute", "cape"]
+    },
+    {
+      "id": "deguisement-halloween-effrayant",
+      "titre": "Déguisement d'Halloween effrayant : faire vraiment peur",
+      "mot_cle": "déguisement Halloween effrayant",
+      "secondaires": ["costume Halloween qui fait peur", "déguisement horreur"],
+      "type": "comparatif",
+      "categorie": "comparatifs",
+      "intention": "commerciale",
+      "filtres": ["effrayant"]
+    },
+    {
+      "id": "maquillage-halloween",
+      "titre": "Maquillage d'Halloween : le guide et le matériel qu'il faut",
+      "mot_cle": "maquillage Halloween",
+      "secondaires": ["maquillage Halloween facile", "maquillage FX Halloween", "faux sang Halloween"],
+      "type": "guide-complet",
+      "categorie": "diy",
+      "intention": "informationnelle",
+      "filtres": ["maquillage", "fx"]
+    },
+    {
+      "id": "accessoires-halloween",
+      "titre": "Accessoires d'Halloween : ce qui transforme un costume ordinaire",
+      "mot_cle": "accessoires Halloween",
+      "secondaires": ["accessoire déguisement Halloween", "perruque masque Halloween"],
+      "type": "guide-achat",
+      "categorie": "guides-achat",
+      "intention": "commerciale",
+      "filtres": ["accessoire"]
+    },
+    {
+      "id": "deguisement-chien-halloween",
+      "titre": "Déguisement d'Halloween pour chien : faire participer l'animal",
+      "mot_cle": "déguisement chien Halloween",
+      "secondaires": ["costume chien Halloween", "déguisement animal Halloween"],
+      "type": "idees",
+      "categorie": "idees",
+      "intention": "commerciale",
+      "filtres": ["chien"]
+    },
+    {
+      "id": "deguisement-halloween-ado",
+      "titre": "Déguisement d'Halloween pour ado : ni enfantin, ni excessif",
+      "mot_cle": "déguisement Halloween ado",
+      "secondaires": ["costume Halloween adolescent", "déguisement Halloween ado fille"],
+      "type": "guide-achat",
+      "categorie": "guides-achat",
+      "intention": "commerciale",
+      "filtres": ["effrayant"]
+    },
+    {
+      "id": "costume-fantome",
+      "titre": "Costume de fantôme : le grand classique, bien exécuté",
+      "mot_cle": "costume fantôme",
+      "secondaires": ["déguisement fantôme", "costume fantôme enfant"],
+      "type": "guide-achat",
+      "categorie": "guides-achat",
+      "intention": "commerciale",
+      "filtres": ["fantome"]
+    },
+    {
+      "id": "deguisement-halloween-famille",
+      "titre": "Déguisement d'Halloween en famille : coordonner petits et grands",
+      "mot_cle": "déguisement Halloween famille",
+      "secondaires": ["costume Halloween famille assorti", "déguisement Halloween parents enfants"],
+      "type": "idees",
+      "categorie": "enfants",
+      "intention": "commerciale",
+      "filtres": ["enfant", "bebe"]
+    },
+    {
+      "id": "costume-diable",
+      "titre": "Costume de diable et diablesse : le classique qui tranche",
+      "mot_cle": "costume diable",
+      "secondaires": ["déguisement diable", "costume diablesse femme"],
+      "type": "guide-achat",
+      "categorie": "guides-achat",
+      "intention": "commerciale",
+      "filtres": ["diable"]
+    },
+    {
+      "id": "deguisement-fait-maison",
+      "titre": "Déguisement d'Halloween fait maison : réussir avec ce qu'on a",
+      "mot_cle": "déguisement Halloween fait maison",
+      "secondaires": ["costume Halloween DIY", "déguisement Halloween facile à faire"],
+      "type": "guide-complet",
+      "categorie": "diy",
+      "intention": "informationnelle",
+      "filtres": ["diy", "maquillage", "cape"]
+    },
+    {
+      "id": "costume-halloween-original",
+      "titre": "Costume d'Halloween original : sortir des déguisements vus partout",
+      "mot_cle": "costume Halloween original",
+      "secondaires": ["déguisement Halloween original", "idée costume Halloween qui change"],
+      "type": "idees",
+      "categorie": "idees",
+      "intention": "commerciale",
+      "filtres": ["humoristique", "gonflable"]
+    },
+    {
+      "id": "deguisement-halloween-grande-taille",
+      "titre": "Déguisement d'Halloween grande taille : coupe et confort",
+      "mot_cle": "déguisement Halloween grande taille",
+      "secondaires": ["costume Halloween grande taille femme", "déguisement Halloween XXL"],
+      "type": "guide-achat",
+      "categorie": "guides-achat",
+      "intention": "commerciale",
+      "filtres": ["adulte"]
+    }
+  ],
+  "axes": {
+    "attributs": [
+      {"cle": "sorcière", "slug": "sorciere", "filtres": ["sorciere"]},
+      {"cle": "vampire", "slug": "vampire", "filtres": ["vampire"]},
+      {"cle": "squelette", "slug": "squelette", "filtres": ["squelette"]},
+      {"cle": "fantôme", "slug": "fantome", "filtres": ["fantome"]},
+      {"cle": "zombie", "slug": "zombie", "filtres": ["zombie"]},
+      {"cle": "citrouille", "slug": "citrouille", "filtres": ["citrouille"]},
+      {"cle": "diable", "slug": "diable", "filtres": ["diable"]},
+      {"cle": "de super-héros", "slug": "super-heros", "filtres": ["super-heros"]},
+      {"cle": "médiéval", "slug": "medieval", "filtres": ["medieval"]},
+      {"cle": "effrayant", "slug": "effrayant", "filtres": ["effrayant"]},
+      {"cle": "gonflable", "slug": "gonflable", "filtres": ["gonflable"]},
+      {"cle": "humoristique", "slug": "humoristique", "filtres": ["humoristique"]}
+    ],
+    "contextes": [
+      {"cle": "pour femme", "slug": "femme", "filtres": ["femme"]},
+      {"cle": "pour homme", "slug": "homme", "filtres": ["homme"]},
+      {"cle": "pour enfant", "slug": "enfant", "filtres": ["enfant"]},
+      {"cle": "pour bébé", "slug": "bebe", "filtres": ["bebe"]},
+      {"cle": "pour ado", "slug": "ado", "filtres": ["effrayant"]},
+      {"cle": "en couple", "slug": "couple", "filtres": ["couple", "duo"]},
+      {"cle": "en groupe", "slug": "groupe", "filtres": ["groupe"]},
+      {"cle": "pour toute la famille", "slug": "famille", "filtres": ["enfant", "bebe"]},
+      {"cle": "pas cher", "slug": "pas-cher", "filtres": ["budget"]},
+      {"cle": "de dernière minute", "slug": "derniere-minute", "filtres": ["derniere-minute", "cape"]}
+    ],
+    "formats": [
+      {"prefixe": "Comparatif", "gabarit": "{attribut} : le comparatif {annee}", "type": "comparatif", "categorie": "comparatifs", "intention": "commerciale"},
+      {"prefixe": "Guide d'achat", "gabarit": "Guide d'achat : {attribut}", "type": "guide-achat", "categorie": "guides-achat", "intention": "commerciale"},
+      {"prefixe": "Top", "gabarit": "Notre top {annee} : {attribut}", "type": "comparatif", "categorie": "comparatifs", "intention": "transactionnelle"},
+      {"prefixe": "Guide complet", "gabarit": "Tout savoir : {attribut}", "type": "guide-complet", "categorie": "guides-achat", "intention": "informationnelle"},
+      {"prefixe": "Choisir", "gabarit": "Comment choisir son {attribut}", "type": "guide-achat", "categorie": "guides-achat", "intention": "commerciale"},
+      {"prefixe": "Idées", "gabarit": "Idées de {attribut}", "type": "idees", "categorie": "idees", "intention": "commerciale"}
+    ]
+  },
+  "questions_frequentes": [
+    "Quel déguisement d'Halloween choisir quand on manque de temps ?",
+    "Comment choisir la bonne taille pour un costume d'Halloween ?",
+    "Quel déguisement d'Halloween pour un enfant qui n'aime pas se faire peur ?",
+    "Comment se déguiser pour Halloween sans rien acheter ?",
+    "Quel costume d'Halloween tient chaud pour la tournée des bonbons ?",
+    "Comment faire un maquillage d'Halloween simple qui tient toute la soirée ?",
+    "Quel déguisement d'Halloween choisir en couple ?",
+    "Comment habiller tout un groupe pour Halloween sans se ruiner ?",
+    "Les lentilles de contact fantaisie d'Halloween sont-elles sans danger ?",
+    "Comment enlever le maquillage et le faux sang d'Halloween ?",
+    "Quel déguisement d'Halloween pour un bébé sans prendre de risque ?",
+    "Comment rendre un costume d'Halloween visible la nuit pour les enfants ?",
+    "Peut-on déguiser son chien pour Halloween sans le gêner ?",
+    "Quel déguisement d'Halloween pour un adulte qui va au travail ?",
+    "Comment réutiliser un déguisement d'Halloween d'une année sur l'autre ?",
+    "Costume acheté ou fait maison : que choisir pour Halloween ?",
+    "Quel déguisement d'Halloween pour une soirée entre adultes ?",
+    "Comment éviter les erreurs les plus fréquentes en achetant un costume ?",
+    "Quel déguisement d'Halloween original quand tout le monde se déguise pareil ?",
+    "Comment ranger et conserver un costume d'Halloween après la fête ?"
+  ]
+}
