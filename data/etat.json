@@ -569,8 +569,14 @@
       "slug": "coiffeuse-pas-chere-5",
       "date": "2026-10-10",
       "mots": 3046
+    },
+    {
+      "id": "amenagement-pas-chere",
+      "slug": "coiffeuse-pas-chere-6",
+      "date": "2026-10-11",
+      "mots": 2895
     }
   ],
-  "compteur": 95,
-  "derniere_publication": "2026-10-10"
+  "compteur": 96,
+  "derniere_publication": "2026-10-11"
 }
