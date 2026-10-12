@@ -575,8 +575,14 @@
       "slug": "coiffeuse-pas-chere-6",
       "date": "2026-10-11",
       "mots": 2895
+    },
+    {
+      "id": "comparatif-haut-de-gamme",
+      "slug": "coiffeuse-haut-de-gamme",
+      "date": "2026-10-12",
+      "mots": 3090
     }
   ],
-  "compteur": 96,
-  "derniere_publication": "2026-10-11"
+  "compteur": 97,
+  "derniere_publication": "2026-10-12"
 }
