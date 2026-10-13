@@ -581,8 +581,14 @@
       "slug": "coiffeuse-haut-de-gamme",
       "date": "2026-10-12",
       "mots": 3090
+    },
+    {
+      "id": "guide-d-achat-haut-de-gamme",
+      "slug": "coiffeuse-haut-de-gamme-2",
+      "date": "2026-10-13",
+      "mots": 3153
     }
   ],
-  "compteur": 97,
-  "derniere_publication": "2026-10-12"
+  "compteur": 98,
+  "derniere_publication": "2026-10-13"
 }
