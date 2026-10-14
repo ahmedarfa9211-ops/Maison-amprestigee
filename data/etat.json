@@ -587,8 +587,14 @@
       "slug": "coiffeuse-haut-de-gamme-2",
       "date": "2026-10-13",
       "mots": 3153
+    },
+    {
+      "id": "top-haut-de-gamme",
+      "slug": "coiffeuse-haut-de-gamme-3",
+      "date": "2026-10-14",
+      "mots": 2936
     }
   ],
-  "compteur": 98,
-  "derniere_publication": "2026-10-13"
+  "compteur": 99,
+  "derniere_publication": "2026-10-14"
 }
