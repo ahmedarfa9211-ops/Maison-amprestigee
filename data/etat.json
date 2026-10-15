@@ -593,8 +593,14 @@
       "slug": "coiffeuse-haut-de-gamme-3",
       "date": "2026-10-14",
       "mots": 2936
+    },
+    {
+      "id": "guide-complet-haut-de-gamme",
+      "slug": "coiffeuse-haut-de-gamme-4",
+      "date": "2026-10-15",
+      "mots": 3122
     }
   ],
-  "compteur": 99,
-  "derniere_publication": "2026-10-14"
+  "compteur": 100,
+  "derniere_publication": "2026-10-15"
 }
