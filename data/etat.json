@@ -599,8 +599,14 @@
       "slug": "coiffeuse-haut-de-gamme-4",
       "date": "2026-10-15",
       "mots": 3122
+    },
+    {
+      "id": "choisir-haut-de-gamme",
+      "slug": "coiffeuse-haut-de-gamme-5",
+      "date": "2026-10-16",
+      "mots": 3216
     }
   ],
-  "compteur": 100,
-  "derniere_publication": "2026-10-15"
+  "compteur": 101,
+  "derniere_publication": "2026-10-16"
 }
