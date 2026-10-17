@@ -605,8 +605,14 @@
       "slug": "coiffeuse-haut-de-gamme-5",
       "date": "2026-10-16",
       "mots": 3216
+    },
+    {
+      "id": "amenagement-haut-de-gamme",
+      "slug": "coiffeuse-haut-de-gamme-6",
+      "date": "2026-10-17",
+      "mots": 2965
     }
   ],
-  "compteur": 101,
-  "derniere_publication": "2026-10-16"
+  "compteur": 102,
+  "derniere_publication": "2026-10-17"
 }
