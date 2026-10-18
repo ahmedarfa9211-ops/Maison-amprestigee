@@ -611,8 +611,14 @@
       "slug": "coiffeuse-haut-de-gamme-6",
       "date": "2026-10-17",
       "mots": 2965
+    },
+    {
+      "id": "comparatif-compacte",
+      "slug": "coiffeuse-compacte",
+      "date": "2026-10-18",
+      "mots": 2912
     }
   ],
-  "compteur": 102,
-  "derniere_publication": "2026-10-17"
+  "compteur": 103,
+  "derniere_publication": "2026-10-18"
 }
