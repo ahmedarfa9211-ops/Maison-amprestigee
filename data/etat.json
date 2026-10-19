@@ -617,8 +617,14 @@
       "slug": "coiffeuse-compacte",
       "date": "2026-10-18",
       "mots": 2912
+    },
+    {
+      "id": "guide-d-achat-compacte",
+      "slug": "coiffeuse-compacte-2",
+      "date": "2026-10-19",
+      "mots": 3119
     }
   ],
-  "compteur": 103,
-  "derniere_publication": "2026-10-18"
+  "compteur": 104,
+  "derniere_publication": "2026-10-19"
 }
