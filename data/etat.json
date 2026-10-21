@@ -629,8 +629,14 @@
       "slug": "coiffeuse-compacte-3",
       "date": "2026-10-20",
       "mots": 2978
+    },
+    {
+      "id": "guide-complet-compacte",
+      "slug": "coiffeuse-compacte-4",
+      "date": "2026-10-21",
+      "mots": 2904
     }
   ],
-  "compteur": 105,
-  "derniere_publication": "2026-10-20"
+  "compteur": 106,
+  "derniere_publication": "2026-10-21"
 }
