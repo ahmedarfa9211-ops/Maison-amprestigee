@@ -635,8 +635,14 @@
       "slug": "coiffeuse-compacte-4",
       "date": "2026-10-21",
       "mots": 2904
+    },
+    {
+      "id": "choisir-compacte",
+      "slug": "coiffeuse-compacte-5",
+      "date": "2026-10-22",
+      "mots": 3103
     }
   ],
-  "compteur": 106,
-  "derniere_publication": "2026-10-21"
+  "compteur": 107,
+  "derniere_publication": "2026-10-22"
 }
