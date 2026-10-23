@@ -641,8 +641,14 @@
       "slug": "coiffeuse-compacte-5",
       "date": "2026-10-22",
       "mots": 3103
+    },
+    {
+      "id": "amenagement-compacte",
+      "slug": "coiffeuse-compacte-6",
+      "date": "2026-10-23",
+      "mots": 2964
     }
   ],
-  "compteur": 107,
-  "derniere_publication": "2026-10-22"
+  "compteur": 108,
+  "derniere_publication": "2026-10-23"
 }
