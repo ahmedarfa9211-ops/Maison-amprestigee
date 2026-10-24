@@ -647,8 +647,14 @@
       "slug": "coiffeuse-compacte-6",
       "date": "2026-10-23",
       "mots": 2964
+    },
+    {
+      "id": "comparatif-scandinave",
+      "slug": "coiffeuse-scandinave-2",
+      "date": "2026-10-24",
+      "mots": 3055
     }
   ],
-  "compteur": 108,
-  "derniere_publication": "2026-10-23"
+  "compteur": 109,
+  "derniere_publication": "2026-10-24"
 }
