@@ -653,8 +653,14 @@
       "slug": "coiffeuse-scandinave-2",
       "date": "2026-10-24",
       "mots": 3055
+    },
+    {
+      "id": "guide-d-achat-scandinave",
+      "slug": "coiffeuse-scandinave-3",
+      "date": "2026-10-25",
+      "mots": 2953
     }
   ],
-  "compteur": 109,
-  "derniere_publication": "2026-10-24"
+  "compteur": 110,
+  "derniere_publication": "2026-10-25"
 }
