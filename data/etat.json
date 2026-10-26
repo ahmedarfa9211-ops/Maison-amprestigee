@@ -659,8 +659,14 @@
       "slug": "coiffeuse-scandinave-3",
       "date": "2026-10-25",
       "mots": 2953
+    },
+    {
+      "id": "top-scandinave",
+      "slug": "coiffeuse-scandinave-4",
+      "date": "2026-10-26",
+      "mots": 2937
     }
   ],
-  "compteur": 110,
-  "derniere_publication": "2026-10-25"
+  "compteur": 111,
+  "derniere_publication": "2026-10-26"
 }
