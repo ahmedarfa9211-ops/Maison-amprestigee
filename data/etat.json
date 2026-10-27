@@ -665,8 +665,14 @@
       "slug": "coiffeuse-scandinave-4",
       "date": "2026-10-26",
       "mots": 2937
+    },
+    {
+      "id": "guide-complet-scandinave",
+      "slug": "coiffeuse-scandinave-5",
+      "date": "2026-10-27",
+      "mots": 3177
     }
   ],
-  "compteur": 111,
-  "derniere_publication": "2026-10-26"
+  "compteur": 112,
+  "derniere_publication": "2026-10-27"
 }
