@@ -671,8 +671,14 @@
       "slug": "coiffeuse-scandinave-5",
       "date": "2026-10-27",
       "mots": 3177
+    },
+    {
+      "id": "choisir-scandinave",
+      "slug": "coiffeuse-scandinave-6",
+      "date": "2026-10-28",
+      "mots": 3021
     }
   ],
-  "compteur": 112,
-  "derniere_publication": "2026-10-27"
+  "compteur": 113,
+  "derniere_publication": "2026-10-28"
 }
