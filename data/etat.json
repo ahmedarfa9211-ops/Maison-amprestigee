@@ -677,8 +677,14 @@
       "slug": "coiffeuse-scandinave-6",
       "date": "2026-10-28",
       "mots": 3021
+    },
+    {
+      "id": "amenagement-scandinave",
+      "slug": "coiffeuse-scandinave-7",
+      "date": "2026-10-29",
+      "mots": 3122
     }
   ],
-  "compteur": 113,
-  "derniere_publication": "2026-10-28"
+  "compteur": 114,
+  "derniere_publication": "2026-10-29"
 }
