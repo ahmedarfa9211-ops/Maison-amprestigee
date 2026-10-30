@@ -683,8 +683,14 @@
       "slug": "coiffeuse-scandinave-7",
       "date": "2026-10-29",
       "mots": 3122
+    },
+    {
+      "id": "comparatif-industrielle",
+      "slug": "coiffeuse-industrielle",
+      "date": "2026-10-30",
+      "mots": 3289
     }
   ],
-  "compteur": 114,
-  "derniere_publication": "2026-10-29"
+  "compteur": 115,
+  "derniere_publication": "2026-10-30"
 }
