@@ -689,8 +689,14 @@
       "slug": "coiffeuse-industrielle",
       "date": "2026-10-30",
       "mots": 3289
+    },
+    {
+      "id": "guide-d-achat-industrielle",
+      "slug": "coiffeuse-industrielle-2",
+      "date": "2026-10-31",
+      "mots": 2981
     }
   ],
-  "compteur": 115,
-  "derniere_publication": "2026-10-30"
+  "compteur": 116,
+  "derniere_publication": "2026-10-31"
 }
