@@ -695,8 +695,14 @@
       "slug": "coiffeuse-industrielle-2",
       "date": "2026-10-31",
       "mots": 2981
+    },
+    {
+      "id": "top-industrielle",
+      "slug": "coiffeuse-industrielle-3",
+      "date": "2026-11-01",
+      "mots": 3213
     }
   ],
-  "compteur": 116,
-  "derniere_publication": "2026-10-31"
+  "compteur": 117,
+  "derniere_publication": "2026-11-01"
 }
