@@ -701,8 +701,14 @@
       "slug": "coiffeuse-industrielle-3",
       "date": "2026-11-01",
       "mots": 3213
+    },
+    {
+      "id": "guide-complet-industrielle",
+      "slug": "coiffeuse-industrielle-4",
+      "date": "2026-11-02",
+      "mots": 3122
     }
   ],
-  "compteur": 117,
-  "derniere_publication": "2026-11-01"
+  "compteur": 118,
+  "derniere_publication": "2026-11-02"
 }
