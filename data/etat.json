@@ -707,8 +707,14 @@
       "slug": "coiffeuse-industrielle-4",
       "date": "2026-11-02",
       "mots": 3122
+    },
+    {
+      "id": "choisir-industrielle",
+      "slug": "coiffeuse-industrielle-5",
+      "date": "2026-11-03",
+      "mots": 3231
     }
   ],
-  "compteur": 118,
-  "derniere_publication": "2026-11-02"
+  "compteur": 119,
+  "derniere_publication": "2026-11-03"
 }
