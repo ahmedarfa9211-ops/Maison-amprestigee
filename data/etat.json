@@ -713,8 +713,14 @@
       "slug": "coiffeuse-industrielle-5",
       "date": "2026-11-03",
       "mots": 3231
+    },
+    {
+      "id": "amenagement-industrielle",
+      "slug": "coiffeuse-industrielle-6",
+      "date": "2026-11-04",
+      "mots": 3150
     }
   ],
-  "compteur": 119,
-  "derniere_publication": "2026-11-03"
+  "compteur": 120,
+  "derniere_publication": "2026-11-04"
 }
