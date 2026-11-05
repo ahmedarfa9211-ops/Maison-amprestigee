@@ -719,8 +719,14 @@
       "slug": "coiffeuse-industrielle-6",
       "date": "2026-11-04",
       "mots": 3150
+    },
+    {
+      "id": "comparatif-vintage",
+      "slug": "coiffeuse-vintage-2",
+      "date": "2026-11-05",
+      "mots": 2998
     }
   ],
-  "compteur": 120,
-  "derniere_publication": "2026-11-04"
+  "compteur": 121,
+  "derniere_publication": "2026-11-05"
 }
