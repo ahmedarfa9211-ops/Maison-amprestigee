@@ -725,8 +725,14 @@
       "slug": "coiffeuse-vintage-2",
       "date": "2026-11-05",
       "mots": 2998
+    },
+    {
+      "id": "guide-d-achat-vintage",
+      "slug": "coiffeuse-vintage-3",
+      "date": "2026-11-06",
+      "mots": 3237
     }
   ],
-  "compteur": 121,
-  "derniere_publication": "2026-11-05"
+  "compteur": 122,
+  "derniere_publication": "2026-11-06"
 }
