@@ -731,8 +731,14 @@
       "slug": "coiffeuse-vintage-3",
       "date": "2026-11-06",
       "mots": 3237
+    },
+    {
+      "id": "top-vintage",
+      "slug": "coiffeuse-vintage-4",
+      "date": "2026-11-07",
+      "mots": 3035
     }
   ],
-  "compteur": 122,
-  "derniere_publication": "2026-11-06"
+  "compteur": 123,
+  "derniere_publication": "2026-11-07"
 }
