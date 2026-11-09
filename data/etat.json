@@ -743,8 +743,14 @@
       "slug": "coiffeuse-vintage-5",
       "date": "2026-11-08",
       "mots": 2994
+    },
+    {
+      "id": "choisir-vintage",
+      "slug": "coiffeuse-vintage-6",
+      "date": "2026-11-09",
+      "mots": 2940
     }
   ],
-  "compteur": 124,
-  "derniere_publication": "2026-11-08"
+  "compteur": 125,
+  "derniere_publication": "2026-11-09"
 }
