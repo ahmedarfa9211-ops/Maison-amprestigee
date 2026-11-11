@@ -755,8 +755,14 @@
       "slug": "coiffeuse-vintage-7",
       "date": "2026-11-10",
       "mots": 3079
+    },
+    {
+      "id": "comparatif-glamour",
+      "slug": "coiffeuse-glamour",
+      "date": "2026-11-11",
+      "mots": 2981
     }
   ],
-  "compteur": 126,
-  "derniere_publication": "2026-11-10"
+  "compteur": 127,
+  "derniere_publication": "2026-11-11"
 }
