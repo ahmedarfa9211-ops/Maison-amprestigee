@@ -761,8 +761,14 @@
       "slug": "coiffeuse-glamour",
       "date": "2026-11-11",
       "mots": 2981
+    },
+    {
+      "id": "guide-d-achat-glamour",
+      "slug": "coiffeuse-glamour-2",
+      "date": "2026-11-12",
+      "mots": 3175
     }
   ],
-  "compteur": 127,
-  "derniere_publication": "2026-11-11"
+  "compteur": 128,
+  "derniere_publication": "2026-11-12"
 }
