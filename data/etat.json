@@ -767,8 +767,14 @@
       "slug": "coiffeuse-glamour-2",
       "date": "2026-11-12",
       "mots": 3175
+    },
+    {
+      "id": "top-glamour",
+      "slug": "coiffeuse-glamour-3",
+      "date": "2026-11-13",
+      "mots": 3193
     }
   ],
-  "compteur": 128,
-  "derniere_publication": "2026-11-12"
+  "compteur": 129,
+  "derniere_publication": "2026-11-13"
 }
