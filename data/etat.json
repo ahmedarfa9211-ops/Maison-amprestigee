@@ -773,8 +773,14 @@
       "slug": "coiffeuse-glamour-3",
       "date": "2026-11-13",
       "mots": 3193
+    },
+    {
+      "id": "guide-complet-glamour",
+      "slug": "coiffeuse-glamour-4",
+      "date": "2026-11-14",
+      "mots": 3191
     }
   ],
-  "compteur": 129,
-  "derniere_publication": "2026-11-13"
+  "compteur": 130,
+  "derniere_publication": "2026-11-14"
 }
