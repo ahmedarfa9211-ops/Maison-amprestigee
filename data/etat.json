@@ -779,8 +779,14 @@
       "slug": "coiffeuse-glamour-4",
       "date": "2026-11-14",
       "mots": 3191
+    },
+    {
+      "id": "choisir-glamour",
+      "slug": "coiffeuse-glamour-5",
+      "date": "2026-11-15",
+      "mots": 3231
     }
   ],
-  "compteur": 130,
-  "derniere_publication": "2026-11-14"
+  "compteur": 131,
+  "derniere_publication": "2026-11-15"
 }
