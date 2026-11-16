@@ -785,8 +785,14 @@
       "slug": "coiffeuse-glamour-5",
       "date": "2026-11-15",
       "mots": 3231
+    },
+    {
+      "id": "amenagement-glamour",
+      "slug": "coiffeuse-glamour-6",
+      "date": "2026-11-16",
+      "mots": 3021
     }
   ],
-  "compteur": 131,
-  "derniere_publication": "2026-11-15"
+  "compteur": 132,
+  "derniere_publication": "2026-11-16"
 }
