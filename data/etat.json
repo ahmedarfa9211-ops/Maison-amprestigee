@@ -791,8 +791,14 @@
       "slug": "coiffeuse-glamour-6",
       "date": "2026-11-16",
       "mots": 3021
+    },
+    {
+      "id": "comparatif-moderne",
+      "slug": "coiffeuse-moderne",
+      "date": "2026-11-17",
+      "mots": 3381
     }
   ],
-  "compteur": 132,
-  "derniere_publication": "2026-11-16"
+  "compteur": 133,
+  "derniere_publication": "2026-11-17"
 }
