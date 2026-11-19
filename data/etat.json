@@ -803,8 +803,14 @@
       "slug": "coiffeuse-moderne-2",
       "date": "2026-11-18",
       "mots": 3178
+    },
+    {
+      "id": "top-moderne",
+      "slug": "coiffeuse-moderne-3",
+      "date": "2026-11-19",
+      "mots": 3191
     }
   ],
-  "compteur": 134,
-  "derniere_publication": "2026-11-18"
+  "compteur": 135,
+  "derniere_publication": "2026-11-19"
 }
