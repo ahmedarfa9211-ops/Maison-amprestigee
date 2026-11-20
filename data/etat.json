@@ -809,8 +809,14 @@
       "slug": "coiffeuse-moderne-3",
       "date": "2026-11-19",
       "mots": 3191
+    },
+    {
+      "id": "guide-complet-moderne",
+      "slug": "coiffeuse-moderne-4",
+      "date": "2026-11-20",
+      "mots": 3184
     }
   ],
-  "compteur": 135,
-  "derniere_publication": "2026-11-19"
+  "compteur": 136,
+  "derniere_publication": "2026-11-20"
 }
