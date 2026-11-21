@@ -815,8 +815,14 @@
       "slug": "coiffeuse-moderne-4",
       "date": "2026-11-20",
       "mots": 3184
+    },
+    {
+      "id": "choisir-moderne",
+      "slug": "coiffeuse-moderne-5",
+      "date": "2026-11-21",
+      "mots": 3380
     }
   ],
-  "compteur": 136,
-  "derniere_publication": "2026-11-20"
+  "compteur": 137,
+  "derniere_publication": "2026-11-21"
 }
