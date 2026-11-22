@@ -821,8 +821,14 @@
       "slug": "coiffeuse-moderne-5",
       "date": "2026-11-21",
       "mots": 3380
+    },
+    {
+      "id": "amenagement-moderne",
+      "slug": "coiffeuse-moderne-6",
+      "date": "2026-11-22",
+      "mots": 3250
     }
   ],
-  "compteur": 137,
-  "derniere_publication": "2026-11-21"
+  "compteur": 138,
+  "derniere_publication": "2026-11-22"
 }
