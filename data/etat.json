@@ -827,8 +827,14 @@
       "slug": "coiffeuse-moderne-6",
       "date": "2026-11-22",
       "mots": 3250
+    },
+    {
+      "id": "comparatif-velours",
+      "slug": "coiffeuse-en-velours",
+      "date": "2026-11-23",
+      "mots": 2989
     }
   ],
-  "compteur": 138,
-  "derniere_publication": "2026-11-22"
+  "compteur": 139,
+  "derniere_publication": "2026-11-23"
 }
