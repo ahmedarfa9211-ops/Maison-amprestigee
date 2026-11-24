@@ -833,8 +833,14 @@
       "slug": "coiffeuse-en-velours",
       "date": "2026-11-23",
       "mots": 2989
+    },
+    {
+      "id": "guide-d-achat-velours",
+      "slug": "coiffeuse-en-velours-2",
+      "date": "2026-11-24",
+      "mots": 3084
     }
   ],
-  "compteur": 139,
-  "derniere_publication": "2026-11-23"
+  "compteur": 140,
+  "derniere_publication": "2026-11-24"
 }
