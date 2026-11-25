@@ -839,8 +839,14 @@
       "slug": "coiffeuse-en-velours-2",
       "date": "2026-11-24",
       "mots": 3084
+    },
+    {
+      "id": "top-velours",
+      "slug": "coiffeuse-en-velours-3",
+      "date": "2026-11-25",
+      "mots": 3086
     }
   ],
-  "compteur": 140,
-  "derniere_publication": "2026-11-24"
+  "compteur": 141,
+  "derniere_publication": "2026-11-25"
 }
