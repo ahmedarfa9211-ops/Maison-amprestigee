@@ -845,8 +845,14 @@
       "slug": "coiffeuse-en-velours-3",
       "date": "2026-11-25",
       "mots": 3086
+    },
+    {
+      "id": "guide-complet-velours",
+      "slug": "coiffeuse-en-velours-4",
+      "date": "2026-11-26",
+      "mots": 3086
     }
   ],
-  "compteur": 141,
-  "derniere_publication": "2026-11-25"
+  "compteur": 142,
+  "derniere_publication": "2026-11-26"
 }
