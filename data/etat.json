@@ -851,8 +851,14 @@
       "slug": "coiffeuse-en-velours-4",
       "date": "2026-11-26",
       "mots": 3086
+    },
+    {
+      "id": "choisir-velours",
+      "slug": "coiffeuse-en-velours-5",
+      "date": "2026-11-27",
+      "mots": 2987
     }
   ],
-  "compteur": 142,
-  "derniere_publication": "2026-11-26"
+  "compteur": 143,
+  "derniere_publication": "2026-11-27"
 }
